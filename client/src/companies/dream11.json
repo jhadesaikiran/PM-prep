@@ -1,0 +1,99 @@
+{
+  "slug": "dream11",
+  "name": "Dream11 (Dream Sports)",
+  "tagline": "India's fantasy sports leader, forced into a free-to-play sports-engagement pivot",
+  "facts": [
+    ["Founded", "2008, Harsh Jain and Bhavit Sheth"],
+    ["HQ", "Mumbai, India"],
+    ["Owner/Listed", "Dream Sports, private; $8B valuation (Nov 2021)"],
+    ["Revenue", "FY25 ₹6,759 cr (-15% YoY), net loss ₹479 cr"],
+    ["Post-ban", "~95% revenue, 100% profit lost after Aug 2025"],
+    ["Users", "250M+ registered users"],
+    ["Market share", "~70% of Indian fantasy sports (2024)"],
+    ["CEO/Head", "Harsh Jain, co-founder and CEO"],
+    ["Status", "Paid contests stopped 22 Aug 2025; free-to-play now"]
+  ],
+  "strategy": [
+    {"label": "Mission", "text": "Make sports better for fans: from paid fantasy contests to a free, AI-personalised second screen for sports."},
+    {"label": "Vision", "text": "Global sports engagement platform: content, live scores, watchalongs, community and social contests across sports and markets."},
+    {"label": "Ban response", "text": "Complied overnight without suing, kept 250M users, no layoffs, cut sponsorships, split group into eight startup-mode units (Dec 2025)."},
+    {"label": "Key bets", "text": "Ad-supported free fantasy in India plus 11 overseas markets; Dream Money for gold, SIPs and broking; FanCode streaming expansion."},
+    {"label": "Moat", "text": "Brand synonymous with fantasy cricket, 250M accounts, deep sports data and a large war chest from 2021 raise."},
+    {"label": "Your view", "text": "Can a 250M-user audience built on cash prizes be monetised through ads and fintech, or was the prize the product?"}
+  ],
+  "customers": [
+    {"segment": "Casual cricket fans", "who": "Tier 1–3 Indian men, 18–35", "pain": "Want stakes and bragging rights during matches without spending money", "why": "Familiar team-building game, social leagues with friends, now free with no deposit risk"},
+    {"segment": "Ex-power players", "who": "High-frequency former cash-contest players", "pain": "Lost cash prizes; free contests feel low-stakes and less thrilling", "why": "Habit, deep stats and player tools; the alternatives are offshore betting apps they distrust"},
+    {"segment": "Global diaspora fans", "who": "Cricket fans in US, UK, UAE, Australia", "pain": "Few fantasy products built around cricket in their country", "why": "Free-to-play Dream11 launched in 11 markets (Oct 2025) with familiar formats"},
+    {"segment": "Advertisers and brands", "who": "Swiggy, Tata Neu, Astrotalk and similar consumer brands", "pain": "Need to reach engaged sports audiences during live matches at scale", "why": "Huge live-match attention, sports-context targeting, sponsorship of free contests and watchalongs"},
+    {"segment": "Creators and leagues", "who": "Cricket creators, leagues, sports bodies", "pain": "Need distribution and monetisation for live sports commentary", "why": "Creator-led watchalongs reach 100K+ viewers in minutes on Dream11 surfaces"}
+  ],
+  "portfolio": [
+    {"group": "Dream11 sports engagement",
+     "products": [
+       {"name": "Free fantasy contests", "desc": "Team-building contests for points, rewards and leaderboards, no cash"},
+       {"name": "Watchalongs", "desc": "Creator-led live match commentary rooms for second-screen viewing"},
+       {"name": "Scores and stats", "desc": "Live scores, player stats, AI-personalised feeds per team"},
+       {"name": "Dream11 Global", "desc": "Free-to-play app in 11 markets incl. US, UK, UAE"}
+     ],
+     "north_star": "Weekly engaged fans per match day (contest joined or watchalong watched)",
+     "key_metrics": "Match-day DAU, contests per user, ad impressions per session, D30 retention",
+     "guardrails": "No cash-like rewards breaching PROGA; ad load vs session time; churn"},
+    {"group": "Sports media and experiences",
+     "products": [
+       {"name": "FanCode", "desc": "Sports streaming and live scores; expanding to South and Southeast Asia"},
+       {"name": "DreamSetGo", "desc": "Sports travel and premium match experiences"},
+       {"name": "Dream Game Studios", "desc": "Casual mobile games such as Dream Cricket"},
+       {"name": "Cricbuzz stake", "desc": "Reported $50M investment in cricket news leader"}
+     ],
+     "north_star": "Paid and ad-supported viewing hours per fan per month",
+     "key_metrics": "Subscribers, streaming hours, rights cost per hour, ARPU",
+     "guardrails": "Rights spend within budget; buffering/QoS; subscriber churn"},
+    {"group": "Fintech (Dream Money)",
+     "products": [
+       {"name": "Digital gold", "desc": "Buy gold from ₹10 via Augmont partnership"},
+       {"name": "SIPs and FDs", "desc": "Mutual fund SIPs and fixed deposits for first-time investors"},
+       {"name": "Stock broking", "desc": "Discount brokerage vs Zerodha, Groww, Angel One"}
+     ],
+     "north_star": "Monthly active investors funded from Dream11 audience",
+     "key_metrics": "Dream11-to-Money conversion, AUM, SIP persistence, cost per funded account",
+     "guardrails": "SEBI/RBI compliance, mis-selling complaints, speculation-like behaviour"}
+  ],
+  "business_model": {
+    "rows": [
+      {"line": "Advertising and sponsorship", "who_uses": "Fans playing free contests and watching watchalongs", "who_pays": "Consumer brands and sponsors", "how": "In-app ads, sponsored contests, branded watchalongs on match days"},
+      {"line": "FanCode streaming", "who_uses": "Fans watching niche leagues and cricket", "who_pays": "Subscribers and advertisers", "how": "Match/tour passes, subscriptions, ads, merch discontinued"},
+      {"line": "Dream Money fintech", "who_uses": "Young retail investors from Dream11 base", "who_pays": "Investors and product partners", "how": "Brokerage, distribution commissions, gold spreads"},
+      {"line": "Former: cash contests (banned)", "who_uses": "Paid fantasy players", "who_pays": "Players via entry fees", "how": "~15–20% platform rake on entry fees; ended 22 Aug 2025"}
+    ],
+    "bullets": [
+      {"label": "Revenue mix", "text": "Pre-ban ~95% from contest rake; now ads, sponsorships, FanCode and early fintech, all sub-scale (est.)."},
+      {"label": "Users vs payers", "text": "250M registered, previously a minority paying entry fees; now users are free, advertisers pay."},
+      {"label": "Unit economics", "text": "Rake gave high take-rate per user; ad ARPU is a small fraction, so costs and sponsorships were slashed."},
+      {"label": "Growth levers", "text": "Global free fantasy, AI personalisation, creator watchalongs, cross-sell to Dream Money, FanCode in new markets."},
+      {"label": "Cash cushion", "text": "Runs on reserves from $840M 2021 raise; GST disputes over ₹28,000 cr remain an overhang."}
+    ]
+  },
+  "friction": [
+    "Free contests lack the thrill that cash stakes provided",
+    "Rewards must avoid anything resembling money under PROGA",
+    "Ad-heavy match screens dilute fast team-building flow",
+    "Fintech cross-sell feels unrelated to sports intent",
+    "Users wary after abrupt wallet shutdown and withdrawals"
+  ],
+  "competitors": [
+    {"label": "Fantasy (pre-ban)", "text": "MPL, My11Circle, MyTeam11; all exited cash contests"},
+    {"label": "Sports media", "text": "JioHotstar, Cricbuzz, ESPNcricinfo, SonyLIV for live-match attention"},
+    {"label": "Fintech", "text": "Zerodha, Groww, Angel One, Jar for investing"},
+    {"label": "Grey market", "text": "Offshore betting apps capturing ex-RMG users illegally"},
+    {"label": "Edge", "text": "Largest fantasy audience and brand, cash reserves, strong sports data"},
+    {"label": "Risk", "text": "Ad ARPU far below rake; Supreme Court outcome; GST liabilities"}
+  ],
+  "news": [
+    {"label": "Aug 2026", "text": "Completes pivot to global sports engagement platform; drops all prizes"},
+    {"label": "Dec 2025", "text": "Dream Sports splits into eight independent units in startup mode"},
+    {"label": "Oct 2025", "text": "Free-to-play Dream11 launches in 11 countries incl. US, UK"},
+    {"label": "Watch", "text": "PROGA constitutional challenge before Supreme Court; Dream Money traction"}
+  ],
+  "sources": "Dream Sports FY25 filings (via Entrackr/Inc42), press coverage 2025–26, MeitY PROGA rules. Metrics are PM estimates for interview prep. Prepared Oct 2026."
+}

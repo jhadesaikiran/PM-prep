@@ -1,0 +1,96 @@
+{
+  "slug": "zepto",
+  "name": "Zepto",
+  "tagline": "Pure-play quick-commerce startup delivering groceries and essentials in minutes",
+  "facts": [
+    ["Founded", "2021, Mumbai; Aadit Palicha, Kaivalya Vohra"],
+    ["Owner/Listed", "Private (public Ltd entity); IPO deferred to 2027"],
+    ["Revenue", "FY26 ₹22,623 cr (~2x YoY, principal model)"],
+    ["Net loss", "FY26 ₹5,905 cr; adj. EBITDA loss ₹5,041 cr"],
+    ["GOV / orders", "FY26 NRV ₹24,815 cr; 640M orders"],
+    ["Users", "4.79 cr annual transacting users, Mar 2026"],
+    ["Dark stores", "1,139 at Mar 2026; plans ~1,900 more"],
+    ["AOV", "~₹390, flat over three years"],
+    ["CEO/Head", "Aadit Palicha (Co-founder, CEO)"]
+  ],
+  "strategy": [
+    {"label": "Mission", "text": "Make quick commerce the default way India shops for daily needs, with speed and selection."},
+    {"label": "Vision", "text": "Become India's largest consumer platform for everyday purchases, then layer ads, cafe and fintech on top."},
+    {"label": "Core strategy", "text": "Out-execute on store density and speed in top metros; own inventory after shifting to principal model in Jan 2025."},
+    {"label": "Key bet", "text": "Zepto Cafe, Zepto Atom data and ads business raise contribution per order while EBITDA loss per order falls (₹136 to ₹79)."},
+    {"label": "Lesson", "text": "Public investors priced Zepto at ~$2.3B vs $7B private mark; growth without profit path no longer clears IPO."},
+    {"label": "Your view", "text": "Should Zepto cut burn to list at a lower valuation, or keep funding share gains privately until 2027?"}
+  ],
+  "customers": [
+    {"segment": "Gen Z/young professionals", "who": "18-30 urban renters, often living alone", "pain": "No time to cook or shop; want snacks, essentials instantly", "why": "Fast delivery, snacks, Zepto Cafe coffee and meals in one app"},
+    {"segment": "Value-seeking households", "who": "Metro families topping up groceries weekly", "pain": "Quick commerce prices and fees feel higher than DMart", "why": "Zepto Pass free delivery, Super Saver pricing and frequent discounts"},
+    {"segment": "Brands/advertisers", "who": "FMCG, D2C brands and new launches", "pain": "Need visibility and fast sell-through data by pin code", "why": "Sponsored listings, sampling and Zepto Atom analytics on demand"},
+    {"segment": "Sellers/suppliers", "who": "Distributors and brands supplying dark stores", "pain": "Payment terms, margin pressure, data opacity", "why": "High-velocity offtake across 1,100+ stores in top cities"},
+    {"segment": "Delivery partners", "who": "Gig riders near dark stores", "pain": "Speed pressure, safety, income stability", "why": "Short trips within ~2-3 km, dense order flow, weekly payouts"}
+  ],
+  "portfolio": [
+    {"group": "Quick commerce",
+     "products": [
+       {"name": "Zepto app", "desc": "Groceries, fresh, personal care, electronics in minutes"},
+       {"name": "Super Saver", "desc": "Value mode with lower prices for price-sensitive users"},
+       {"name": "Zepto Pass", "desc": "Membership with free delivery and extra discounts"},
+       {"name": "Private labels", "desc": "Own brands in staples and household for margin"}
+     ],
+     "north_star": "Weekly ordering households with contribution-positive baskets",
+     "key_metrics": "Orders/store/day, AOV, retention, EBITDA loss per order",
+     "guardrails": "Delivery SLA, fill rate, wastage, rider safety, fee complaints"},
+    {"group": "Food & cafe",
+     "products": [
+       {"name": "Zepto Cafe", "desc": "In-store kitchens serving coffee, snacks and quick meals"},
+       {"name": "Cafe standalone app", "desc": "Separate app to scale food beyond grocery users"}
+     ],
+     "north_star": "Cafe orders per active user per week",
+     "key_metrics": "Cafe attach rate, gross margin, kitchen throughput",
+     "guardrails": "Food safety incidents, prep time, quality ratings"},
+    {"group": "Monetisation platforms",
+     "products": [
+       {"name": "Zepto Ads", "desc": "Search, display and sampling for brands"},
+       {"name": "Zepto Atom", "desc": "Paid demand and sales analytics for brands"},
+       {"name": "Customer fees", "desc": "Handling, small-cart, rain and late-night fees"}
+     ],
+     "north_star": "Non-product revenue per order",
+     "key_metrics": "Ad revenue % of NRV, advertiser count, Atom subscribers",
+     "guardrails": "Search relevance, fee-driven churn, brand ROI"}
+  ],
+  "business_model": {
+    "rows": [
+      {"line": "Product sales (principal)", "who_uses": "Consumers ordering groceries and essentials", "who_pays": "Consumers", "how": "Buy-sell margin on owned inventory via Indian-owned entity"},
+      {"line": "Advertising & data", "who_uses": "Brands and D2C sellers", "who_pays": "Brands", "how": "Ads, sampling, Zepto Atom analytics subscriptions"},
+      {"line": "Customer fees", "who_uses": "All shoppers", "who_pays": "Consumers", "how": "Delivery, handling, small-cart, surge fees per order"},
+      {"line": "Zepto Cafe", "who_uses": "Snack and coffee buyers", "who_pays": "Consumers", "how": "Prepared food margin from in-store kitchens"}
+    ],
+    "bullets": [
+      {"label": "Revenue mix", "text": "Inventory sales dominate reported revenue after Jan 2025 principal shift; ads and fees drive most margin."},
+      {"label": "Users vs payers", "text": "Consumers pay for goods and fees; brands pay for ads and data; investors fund the losses."},
+      {"label": "Unit economics", "text": "Adj. EBITDA loss per order improved ₹136 to ₹79 in FY26, but AOV stuck near ₹390."},
+      {"label": "Growth levers", "text": "Raise AOV via electronics and Cafe, mature stores, ads, densify top 10 cities, cut CAC."},
+      {"label": "Funding", "text": "~$1.8B raised; $7B valuation Oct 2025; 2026 pre-IPO round at ~$4-4.6B led by domestic investors."}
+    ]
+  },
+  "friction": [
+    "Many add-on fees inflate small-basket checkout price",
+    "Delivery promise slips during rain and peak hours",
+    "Fresh produce quality inconsistent across stores",
+    "Hard to reach a human for refund disputes",
+    "Aggressive notifications and dark-pattern upsells irritate users"
+  ],
+  "competitors": [
+    {"label": "Quick commerce", "text": "Blinkit (leader, ~50% share), Swiggy Instamart, BigBasket BB Now"},
+    {"label": "E-commerce entrants", "text": "Amazon Now, Flipkart Minutes, JioMart"},
+    {"label": "Cafe/food", "text": "Swiggy Bolt/Snacc, Blinkit Bistro, Starbucks, local cafes"},
+    {"label": "Edge", "text": "Fastest execution culture; #2 by orders (640M FY26) ahead of Instamart"},
+    {"label": "Risk", "text": "Cash burn plus IPO valuation reset; Blinkit profitable, Amazon subsidising entry"}
+  ],
+  "news": [
+    {"label": "Aug 2026", "text": "IPO deferred after anchors offered ~$2.3B; listing now targeted Feb-May 2027"},
+    {"label": "Jun 2026", "text": "Updated DRHP: ₹8,010 cr fresh issue; FY26 revenue ₹22,623 cr, loss ₹5,905 cr"},
+    {"label": "Jan 2026", "text": "Dropped 10-minute delivery branding after Labour Ministry rider-safety push"},
+    {"label": "Watch", "text": "EBITDA breakeven timeline, unlisted share price, 2027 IPO pricing"}
+  ],
+  "sources": "Zepto UDRHP (Jun 2026), Bloomberg, Inc42, Outlook Business, The Ken coverage. Metrics are PM estimates for interview prep. Prepared Oct 2026."
+}

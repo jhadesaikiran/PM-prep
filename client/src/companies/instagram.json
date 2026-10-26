@@ -1,0 +1,98 @@
+{
+  "slug": "instagram",
+  "name": "Instagram",
+  "tagline": "Meta's visual social network for photos, Reels, Stories and DMs",
+  "facts": [
+    ["Founded", "2010 by Kevin Systrom, Mike Krieger"],
+    ["Owner", "Meta Platforms (acquired 2012 for $1B)"],
+    ["HQ", "Menlo Park, California"],
+    ["Head", "Adam Mosseri (Head of Instagram)"],
+    ["Users", "~3B MAU (Zuckerberg, late 2025)"],
+    ["Revenue", "Not disclosed; est. ~half of Meta ads"],
+    ["Parent rev", "Meta FY25 $201B (+22%); Q2'26 $60.8B"],
+    ["India", "Largest market, ~480M users (2025 est.)"]
+  ],
+  "strategy": [
+    {"label": "Mission", "text": "Bring you closer to the people and things you love."},
+    {"label": "Vision", "text": "The default place to share with close friends and discover creators, from DMs to Reels."},
+    {"label": "Core strategy", "text": "AI-ranked Reels for discovery, DMs for sharing; recommendations lifted IG time spent ~6% YoY in 2025."},
+    {"label": "Moat", "text": "Social graph plus creator supply plus Meta ads stack (Advantage+) and shared infra across 3.6B daily people."},
+    {"label": "Key bet", "text": "New surfaces (iPad, Instagram for TV, Edits) and AI ranking to win time from TikTok and YouTube."},
+    {"label": "Your view", "text": "Has Instagram traded friends for strangers' Reels too far, and is DMs-first the right fix?"}
+  ],
+  "customers": [
+    {"segment": "Gen Z / young adults", "who": "16-34, mobile-first, India, US, Brazil", "pain": "Want entertainment and private sharing without public pressure", "why": "Reels discovery, Close Friends, Notes and DMs where their friends already are"},
+    {"segment": "Creators", "who": "Influencers, artists, micro-creators", "pain": "Need reach, audience ownership and steady income", "why": "Huge distribution, Edits app, subscriptions, brand-deal marketplace, cross-post to Facebook"},
+    {"segment": "Advertisers / SMBs", "who": "D2C brands, local shops, agencies", "pain": "Need measurable, efficient reach to buyers", "why": "Advantage+ AI targeting, Reels and Stories ads, Shopping, click-to-message ads"},
+    {"segment": "Teens and parents", "who": "Under-18 users and guardians", "pain": "Safety, harmful content, screen-time worries", "why": "Teen Accounts with PG-13 defaults, time limits, parental supervision"}
+  ],
+  "portfolio": [
+    {"group": "Core sharing",
+     "products": [
+       {"name": "Feed", "desc": "Photos and carousels from follows plus recommendations"},
+       {"name": "Stories", "desc": "24-hour ephemeral posts; Close Friends lists"},
+       {"name": "Direct (DMs)", "desc": "Messaging, Notes, reshares; primary sharing loop"},
+       {"name": "Instagram Map", "desc": "Opt-in location sharing and place-based content"}
+     ],
+     "north_star": "Daily users who send or receive a share with friends",
+     "key_metrics": "DAU, DM sends per user, Stories posted, Close Friends usage",
+     "guardrails": "Teen safety reports, privacy complaints, notification opt-outs"},
+    {"group": "Video and discovery",
+     "products": [
+       {"name": "Reels", "desc": "Short-form vertical video ranked by AI"},
+       {"name": "Explore / Search", "desc": "Interest-based discovery and keyword search"},
+       {"name": "Instagram for TV", "desc": "Reels channels on TV; launched Dec 2025"},
+       {"name": "Instagram for iPad", "desc": "Native tablet app, Reels-first, 2025"}
+     ],
+     "north_star": "Time spent on satisfying video sessions per daily user",
+     "key_metrics": "Reels watch time, reshares, original content share, session length",
+     "guardrails": "Regretted time, unoriginal or AI-slop share, creator churn"},
+    {"group": "Creators and commerce",
+     "products": [
+       {"name": "Edits", "desc": "Standalone video editing app for creators"},
+       {"name": "Subscriptions", "desc": "Paid fan subscriptions for exclusive content"},
+       {"name": "Creator Marketplace", "desc": "Brand-creator deal matching and partnership ads"},
+       {"name": "Ads (Feed/Reels/Stories)", "desc": "Auction ads via Meta Advantage+"}
+     ],
+     "north_star": "Advertiser conversions per ad dollar spent",
+     "key_metrics": "Ad impressions, price per ad, ROAS, creator earnings",
+     "guardrails": "Ad load per session, user sentiment, policy violations in ads"}
+  ],
+  "business_model": {
+    "rows": [
+      {"line": "Feed and Stories ads", "who_uses": "All users scrolling feed and Stories", "who_pays": "Brands, SMBs, agencies", "how": "CPM/CPC auction, AI-targeted via Advantage+"},
+      {"line": "Reels ads", "who_uses": "Video viewers", "who_pays": "Performance and brand advertisers", "how": "Interstitial video ads in Reels feed, auction priced"},
+      {"line": "Click-to-message ads", "who_uses": "Users DMing businesses", "who_pays": "SMBs, D2C sellers", "how": "Ads open DM or WhatsApp chat, pay per result"},
+      {"line": "Creator monetisation", "who_uses": "Fans of creators", "who_pays": "Fans (subs), brands (partnership ads)", "how": "Subscriptions with Meta/app-store cut; boosted creator content"}
+    ],
+    "bullets": [
+      {"label": "Revenue mix", "text": "Almost entirely advertising; Meta FoA ad revenue $59.4B in Q2'26 (+27%), Instagram est. roughly half."},
+      {"label": "Users vs payers", "text": "~3B users pay nothing; millions of advertisers pay, with SMBs the long tail."},
+      {"label": "Unit economics", "text": "Q2'26 Meta ad impressions +14%, price per ad +12%; AI ranking lifts both time and conversions."},
+      {"label": "Growth levers", "text": "Reels ad load, DMs/business messaging, India and emerging-market ARPU, new surfaces like TV."},
+      {"label": "Cost side", "text": "Shares Meta's 2026 capex of $115-135B for AI infra and ranking models."}
+    ]
+  },
+  "friction": [
+    "Feed full of strangers' Reels, fewer friends' posts",
+    "Ad load and sponsored posts feel heavier every year",
+    "Creators complain reach is unpredictable after algorithm changes",
+    "Teen safety and mental-health concerns drive regulatory pressure",
+    "Unoriginal reposts and AI slop crowd out originals"
+  ],
+  "competitors": [
+    {"label": "Short video", "text": "TikTok, YouTube Shorts, Snapchat Spotlight"},
+    {"label": "Messaging", "text": "Snapchat, WhatsApp (sibling), iMessage, Telegram"},
+    {"label": "Creators", "text": "YouTube, TikTok, Substack, Patreon for monetisation"},
+    {"label": "India", "text": "YouTube Shorts, Moj, Josh, ShareChat after TikTok ban"},
+    {"label": "Edge", "text": "Social graph plus Meta AI ranking and ads machine at 3B scale"},
+    {"label": "Risk", "text": "Teen-safety laws and lawsuits, EU DMA, TikTok winning Gen Z attention"}
+  ],
+  "news": [
+    {"label": "Sep 2026", "text": "Tagged posts can appear on main profile grid, launched with Ayra Starr"},
+    {"label": "Jul 2026", "text": "Meta Q2: FoA revenue $60.4B (+28%), daily people 3.6B"},
+    {"label": "Dec 2025", "text": "Instagram for TV launches, Reels as interest channels on big screen"},
+    {"label": "Watch", "text": "Reels vs US TikTok JV, teen social-media laws, AI-generated content labelling"}
+  ],
+  "sources": "Meta 10-K FY25 and Q2 2026 earnings, Meta newsroom, Statista/SocialPilot user estimates, press coverage. Instagram revenue is an estimate. Prepared Oct 2026."
+}

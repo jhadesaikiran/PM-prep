@@ -1,0 +1,102 @@
+{
+  "slug": "amazon",
+  "name": "Amazon",
+  "tagline": "World's largest online marketplace, logistics network and retail-media engine",
+  "facts": [
+    ["Founded", "1994, Seattle, by Jeff Bezos"],
+    ["Listed", "NASDAQ: AMZN; AWS is separate sheet"],
+    ["Group revenue", "CY2025 $716.9B net sales"],
+    ["Latest quarter", "Q2 2026 $200.6B (+20% YoY), op inc $27.5B"],
+    ["Online stores", "Q2 2026 $70.4B (+15%); 3P services +16%"],
+    ["Advertising", "CY2025 $68.6B; Q2 2026 $19.8B (+26%)"],
+    ["Prime", "~220M+ members globally (est.)"],
+    ["CEO", "Andy Jassy; Stores led by Doug Herrington"],
+    ["India", "FY26 ASSPL rev ₹34,967 cr; group loss ₹2,793 cr"]
+  ],
+  "strategy": [
+    {"label": "Mission", "text": "Be Earth's most customer-centric company, where people can find and discover anything they want to buy online."},
+    {"label": "Vision", "text": "Lowest prices, vast selection, fastest delivery: the flywheel where more selection drives traffic, sellers and lower cost structure."},
+    {"label": "Core strategy", "text": "Regionalised fulfilment and same-day network cut cost-to-serve; paid units growth (+17% Q2 2026) funds price investment."},
+    {"label": "Moat", "text": "Prime bundle plus owned logistics plus first-party shopper data feeding a $68B+ high-margin ads business."},
+    {"label": "Key bet", "text": "AI shopping (Rufus, Alexa+), rural same-day, and quick commerce: Amazon Now in India with $3B committed by 2030."},
+    {"label": "Your view", "text": "Is Amazon now an ad company that sells goods? Does rising ad load erode the customer-obsession promise?"}
+  ],
+  "customers": [
+    {"segment": "Prime shoppers", "who": "Urban households buying frequently, value speed", "pain": "Need trusted fast delivery and easy returns across everything", "why": "Free fast shipping, Prime Video, deals and Prime Day lock in habit"},
+    {"segment": "Value shoppers", "who": "Price-sensitive buyers, India tier-2/3, deal hunters", "pain": "Want lowest price without fake products or delivery uncertainty", "why": "Huge selection, A-to-z guarantee, low-price stores like Haul and Bazaar"},
+    {"segment": "Third-party sellers", "who": "SMBs, D2C brands, Indian MSMEs, exporters", "pain": "Need demand, logistics and payments without building own infrastructure", "why": "Largest buyer base, FBA fulfilment, Global Selling to 18+ marketplaces"},
+    {"segment": "Advertisers", "who": "Brands, sellers, agencies, non-endemic marketers", "pain": "Need closed-loop measurement proving ad spend drives sales", "why": "Sponsored ads at point of purchase plus Prime Video and DSP reach"},
+    {"segment": "Delivery partners", "who": "DSP owners, Flex drivers, Indian kirana partners", "pain": "Want steady earnings and volume with flexible work", "why": "Massive daily package volume and Amazon-supplied tech, routing and vans"}
+  ],
+  "portfolio": [
+    {"group": "Shopping and marketplace",
+     "products": [
+       {"name": "Amazon.com / .in", "desc": "1P retail plus 3P marketplace across ~20 country stores"},
+       {"name": "Rufus", "desc": "Generative-AI shopping assistant inside the app"},
+       {"name": "Haul / Amazon Bazaar", "desc": "Ultra-low-price store fighting Temu, Shein and Meesho"},
+       {"name": "Amazon Now", "desc": "10-30 minute quick commerce in India via dark stores"},
+       {"name": "Amazon Fresh / Whole Foods", "desc": "Online and physical grocery"}
+     ],
+     "north_star": "Weekly purchasing customers receiving orders within promised delivery time",
+     "key_metrics": "Paid units, conversion, delivery speed, selection in stock, repeat rate",
+     "guardrails": "Return rate, counterfeit complaints, contribution margin per unit, CSAT"},
+    {"group": "Prime and subscriptions",
+     "products": [
+       {"name": "Prime membership", "desc": "Fast free delivery, Video, Music, deals; Lite tier in India"},
+       {"name": "Prime Video", "desc": "Streaming with ad tier by default, live sports"},
+       {"name": "Alexa+", "desc": "Agentic voice assistant bundled with Prime"},
+       {"name": "Prime Day / GIF", "desc": "Tentpole sales events incl. Great Indian Festival"}
+     ],
+     "north_star": "Engaged Prime members using 2+ benefits monthly",
+     "key_metrics": "Members, renewal rate, spend per member vs non-member",
+     "guardrails": "Cancellation complaints, FTC dark-pattern exposure, delivery cost per member"},
+    {"group": "Seller and advertiser services",
+     "products": [
+       {"name": "Fulfilment by Amazon", "desc": "Storage, pick, pack, ship and returns for sellers"},
+       {"name": "Sponsored Products/Brands", "desc": "Search-result ads bought by auction"},
+       {"name": "Amazon DSP", "desc": "Programmatic ads across Prime Video, Twitch, partners"},
+       {"name": "Amazon Pay", "desc": "Wallet and UPI payments; loss-making in India"}
+     ],
+     "north_star": "Seller sales growth attributable to Amazon services",
+     "key_metrics": "3P share of units, ad ROAS, FBA adoption, active sellers",
+     "guardrails": "Seller fee burden, organic result quality, ad load per search page"}
+  ],
+  "business_model": {
+    "rows": [
+      {"line": "Online stores (1P)", "who_uses": "Shoppers buying Amazon-owned inventory", "who_pays": "Shoppers", "how": "Retail margin on goods; low margin, high volume"},
+      {"line": "Third-party seller services", "who_uses": "Sellers and shoppers", "who_pays": "Sellers", "how": "Referral commission, FBA fulfilment and storage fees"},
+      {"line": "Advertising", "who_uses": "Shoppers and viewers see ads", "who_pays": "Brands, sellers, agencies", "how": "CPC sponsored ads, DSP impressions, Prime Video ads"},
+      {"line": "Subscriptions", "who_uses": "Prime members", "who_pays": "Members", "how": "Annual or monthly Prime fee; Video add-ons"},
+      {"line": "Physical stores", "who_uses": "Grocery shoppers", "who_pays": "Shoppers", "how": "Whole Foods and Fresh store margins"}
+    ],
+    "bullets": [
+      {"label": "Revenue mix", "text": "Online stores ~37% of sales, 3P services ~24%, ads ~10%, subscriptions ~7%; AWS ~18% (separate sheet)."},
+      {"label": "Users vs payers", "text": "Shoppers pay for goods and Prime; sellers and brands pay fees and ads, which carry most profit."},
+      {"label": "Unit economics", "text": "Retail near break-even per unit; ads and 3P fees fund free shipping. Regionalisation lowered cost-to-serve."},
+      {"label": "Growth levers", "text": "Ads on Prime Video, AI shopping, rural same-day, low-price stores, India quick commerce."},
+      {"label": "India note", "text": "Amazon India FY26 losses grew 48% to ₹2,793 cr as Now and Pay burn cash."}
+    ]
+  },
+  "friction": [
+    "Search pages crowded with sponsored listings",
+    "Fake reviews and counterfeit risk on 3P listings",
+    "Rising seller fees push prices up",
+    "Prime cancellation flow drew FTC action",
+    "India: slower than quick commerce for daily needs"
+  ],
+  "competitors": [
+    {"label": "Global retail", "text": "Walmart, Temu, Shein, TikTok Shop, Alibaba"},
+    {"label": "India", "text": "Flipkart, Meesho, Reliance JioMart/Ajio, Myntra"},
+    {"label": "Quick commerce", "text": "Blinkit, Swiggy Instamart, Zepto, Flipkart Minutes"},
+    {"label": "Retail media", "text": "Google, Meta, Walmart Connect, Flipkart Ads"},
+    {"label": "Edge", "text": "Logistics scale, Prime habit and shopper data no rival matches globally"},
+    {"label": "Risk", "text": "Antitrust (FTC), India FDI rules, losing Indian MAUs to Flipkart"}
+  ],
+  "news": [
+    {"label": "Sep 2026", "text": "Commits $3B to India quick commerce by 2030; Amazon Now to 300+ cities"},
+    {"label": "Jul 2026", "text": "Q2 2026 sales $200.6B (+20%); ads +26% to $19.8B"},
+    {"label": "Jan 2026", "text": "Further corporate layoffs (~16,000) after 30,000 cuts begun in 2025"},
+    {"label": "Watch", "text": "Q3 2026 results, festive Great Indian Festival share, Rufus monetisation"}
+  ],
+  "sources": "Amazon 10-K FY2025 and Q2 2026 release, RoC filings via Inc42/Entrackr, press coverage. Mix and metrics are PM estimates for interview prep. Prepared Oct 2026."
+}

@@ -1,0 +1,98 @@
+{
+  "slug": "netflix",
+  "name": "Netflix",
+  "tagline": "World's largest subscription streamer, now adding ads, live events and games",
+  "facts": [
+    ["Founded", "1997 (DVD rental), streaming since 2007"],
+    ["HQ", "Los Gatos, California, USA"],
+    ["Owner/Listed", "Public, NASDAQ: NFLX"],
+    ["Revenue", "2025 $45.2B (+16% YoY); 2026 guide ~$51B"],
+    ["Members", "325M+ paid (Q4 2025, last disclosed)"],
+    ["Ads", "Ad tier 250M+ MAV; 2026 ad revenue target ~$3B"],
+    ["Margin", "2025 op. margin 29.5%; 2026 target 31.5%"],
+    ["CEO/Head", "Co-CEOs Ted Sarandos and Greg Peters"],
+    ["India", "FY25 ₹3,769 cr (+32%); ~20M subs est."]
+  ],
+  "strategy": [
+    {"label": "Mission", "text": "Entertain the world: whatever your taste, wherever you live, give you stories and joy on demand."},
+    {"label": "Vision", "text": "Become the default home for TV time, the first app opened on every screen, globally."},
+    {"label": "Core strategy", "text": "Global originals plus local-language hits that travel; scale spreads content cost thinner than any rival can."},
+    {"label": "Moat", "text": "Recommendation data, brand, 190-country distribution, and a self-funding $18B+ content engine with no legacy TV to protect."},
+    {"label": "Key bet", "text": "Ads and live events (NFL Christmas, WWE Raw, boxing) to lift ARM; walked from WBD, took $2.8B fee."},
+    {"label": "Your view", "text": "Having stopped reporting subscribers, should Netflix chase reach in India with a cheaper ad tier or protect premium pricing?"}
+  ],
+  "customers": [
+    {"segment": "Binge viewers", "who": "Global households, 18-45, multi-screen", "pain": "Scattered content across many apps; too much time choosing what to watch", "why": "Deep originals slate, best-in-class recommendations, reliable streaming quality worldwide"},
+    {"segment": "Price-sensitive", "who": "Emerging markets, mobile-first, students", "pain": "Premium price unaffordable; password sharing crackdown removed free access", "why": "Mobile plan, ad tier, telco bundles (Jio, Airtel) lower entry price"},
+    {"segment": "Live/event fans", "who": "Sports, WWE and event viewers", "pain": "Live sports locked in pay-TV bundles and many apps", "why": "Marquee live events included in existing subscription, no extra fee"},
+    {"segment": "Advertisers", "who": "Brands and agencies buying premium video", "pain": "Linear TV reach declining; CTV inventory fragmented and poorly measured", "why": "Engaged, hard-to-reach audiences, in-house ad tech suite, programmatic buying"},
+    {"segment": "Creators/studios", "who": "Producers, local-language studios, talent", "pain": "Limited global distribution for local stories", "why": "Upfront funding plus instant reach across 190 countries"}
+  ],
+  "portfolio": [
+    {"group": "Subscription streaming",
+     "products": [
+       {"name": "Standard with ads", "desc": "Low-cost ad tier, now ~12 markets"},
+       {"name": "Standard/Premium", "desc": "Ad-free tiers, 4K and extra screens on Premium"},
+       {"name": "Mobile plan (India etc.)", "desc": "Single phone, SD, cheapest ad-free entry"},
+       {"name": "Extra member", "desc": "Paid sharing add-on after password crackdown"}
+     ],
+     "north_star": "Monthly hours viewed per paying household",
+     "key_metrics": "Net adds, churn, ARM, engagement share of TV time",
+     "guardrails": "Churn after price hikes, content spend per hour viewed"},
+    {"group": "Advertising and live",
+     "products": [
+       {"name": "Netflix Ads Suite", "desc": "In-house ad server, measurement and programmatic"},
+       {"name": "Live events", "desc": "NFL Christmas games, WWE Raw, boxing, specials"},
+       {"name": "Interactive ads", "desc": "New formats, pause and AI-generated creative"}
+     ],
+     "north_star": "Ad revenue per ad-tier monthly active viewer",
+     "key_metrics": "MAV, fill rate, CPMs, ad load, live concurrency",
+     "guardrails": "Ad-tier engagement and churn vs ad-free, stream failures"},
+    {"group": "Games and consumer products",
+     "products": [
+       {"name": "Netflix Games", "desc": "TV party games and mobile games, no ads"},
+       {"name": "Netflix House", "desc": "Physical fan experiences in US malls"},
+       {"name": "Licensing/merch", "desc": "Franchise merchandise from Stranger Things, Squid Game"}
+     ],
+     "north_star": "Members engaging with an IP beyond the show",
+     "key_metrics": "Game DAU, retention lift, merch revenue",
+     "guardrails": "Distraction from core video investment, brand fit"}
+  ],
+  "business_model": {
+    "rows": [
+      {"line": "Subscriptions", "who_uses": "Paid households in 190 countries", "who_pays": "Members monthly; telcos via bundles", "how": "Tiered monthly plans, regular price increases, paid sharing"},
+      {"line": "Advertising", "who_uses": "Ad-tier members", "who_pays": "Brands and agencies", "how": "CPM-based upfronts and programmatic via own ad stack"},
+      {"line": "Live events", "who_uses": "All members", "who_pays": "Members plus premium sponsors", "how": "Drives acquisition, retention and high-CPM ad inventory"},
+      {"line": "Licensing/consumer products", "who_uses": "Fans, partners", "who_pays": "Licensees, visitors", "how": "Royalties, experiences, merchandise"}
+    ],
+    "bullets": [
+      {"label": "Revenue mix", "text": "~94% subscription; ads ~6% of 2026 revenue (~$3B) but roughly doubling yearly."},
+      {"label": "Users vs payers", "text": "One payer per household, several viewers; ad tier 250M+ monthly active viewers in mid-2026."},
+      {"label": "Unit economics", "text": "Content is largely fixed cost; each new member is near-pure margin, lifting op. margin toward 31.5%."},
+      {"label": "Growth levers", "text": "Price hikes, ad monetisation, live events, paid sharing, emerging-market bundles."},
+      {"label": "Capital", "text": "~$12.5B 2026 FCF; $25B buyback; $2.8B WBD break fee banked."}
+    ]
+  },
+  "friction": [
+    "Endless scrolling; choice paralysis at home screen",
+    "Repeated price hikes push serial churners to cancel",
+    "Password-sharing crackdown felt punitive to families",
+    "Shows cancelled after one season erode trust",
+    "Ad tier lacks some titles and downloads"
+  ],
+  "competitors": [
+    {"label": "Global SVOD", "text": "Prime Video, Disney+, Paramount+ with HBO Max, Apple TV"},
+    {"label": "Free/attention", "text": "YouTube (top US TV share), TikTok, FAST channels"},
+    {"label": "India", "text": "JioHotstar, Prime Video, ZEE5, SonyLIV, microdrama apps"},
+    {"label": "Advertising", "text": "YouTube CTV, Amazon Prime Video ads, Roku, Hulu"},
+    {"label": "Edge", "text": "Scale, global hit factory, recommendation engine, profitability rivals cannot match"},
+    {"label": "Risk", "text": "YouTube winning TV time; ad ramp slower than promised; Paramount-WBD scale"}
+  ],
+  "news": [
+    {"label": "Jul 2026", "text": "Q2 revenue $12.6B (+13%); ads $618M missed; $25B buyback authorised"},
+    {"label": "May 2026", "text": "Upfront: ad tier reaches 250M+ global monthly active viewers"},
+    {"label": "Feb 2026", "text": "Walks away from $83B WBD deal; Paramount pays $2.8B break fee"},
+    {"label": "Watch", "text": "Q3 2026 results mid-Oct; can ads hit $3B and live sports scale?"}
+  ],
+  "sources": "Netflix shareholder letters Q4 2025 and Q2 2026, Netflix India RoC filings FY25, S&P Global, press coverage. Metrics are PM estimates for interview prep. Prepared Oct 2026."
+}

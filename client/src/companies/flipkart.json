@@ -1,0 +1,100 @@
+{
+  "slug": "flipkart",
+  "name": "Flipkart",
+  "tagline": "India's largest homegrown e-commerce marketplace, majority-owned by Walmart",
+  "facts": [
+    ["Founded", "2007, Bengaluru, Sachin and Binny Bansal"],
+    ["Owner", "Walmart ~80%+ since 2018; unlisted"],
+    ["Valuation", "~$38B (2025 ESOP buyback; est.)"],
+    ["Revenue", "FY25 Flipkart India ₹82,787 cr (+17%)"],
+    ["Marketplace arm", "FY25 Flipkart Internet ₹20,807 cr; loss ₹1,494 cr"],
+    ["Loss", "FY25 Flipkart India net loss ₹5,189 cr"],
+    ["Users", "~35% of India e-com MAUs incl. Myntra (2026)"],
+    ["CEO", "Kalyan Krishnamurthy (Group CEO)"],
+    ["IPO", "Redomiciled to India Dec 2025; IPO deferred to ~2028"]
+  ],
+  "strategy": [
+    {"label": "Mission", "text": "Transform commerce in India through technology, making quality goods accessible and affordable for every Indian."},
+    {"label": "Vision", "text": "Be the default commerce, payments and quick-delivery platform for India's next 500 million online shoppers."},
+    {"label": "Core strategy", "text": "Value-first marketplace for Bharat: tier-2/3 depth, vernacular UX, affordability via EMI, Pay Later and bank offers."},
+    {"label": "Moat", "text": "Ekart logistics reach, Big Billion Days brand, smartphone and fashion category leadership, Myntra in the family."},
+    {"label": "Key bet", "text": "Flipkart Minutes quick commerce: ~800 dark stores early 2026, targeting 2,000 by mid-2027; EBITDA breakeven by FY27."},
+    {"label": "Your view", "text": "Should Flipkart burn cash on Minutes before IPO, or protect the profitability story Walmart now demands?"}
+  ],
+  "customers": [
+    {"segment": "Bharat value shoppers", "who": "Tier-2/3 first-time online buyers", "pain": "Low trust, limited cards, need affordable branded goods and COD", "why": "Vernacular app, COD, EMI and Pay Later, deep festive discounts"},
+    {"segment": "Metro power users", "who": "Urban Plus/Black members, electronics buyers", "pain": "Want fast delivery and best price on high-ticket items", "why": "Exclusive phone launches, bank offers, Minutes for 10-minute delivery"},
+    {"segment": "Sellers and brands", "who": "1.4M+ sellers, MSMEs, D2C and OEM brands", "pain": "Need national reach, logistics and working capital", "why": "Largest Indian buyer base, Ekart fulfilment, seller loans, lower-commission programs"},
+    {"segment": "Advertisers", "who": "Brands and sellers buying Flipkart Ads", "pain": "Need measurable sales lift at point of purchase", "why": "Closed-loop retail media; ads revenue ₹6,317 cr FY25 (+27%)"},
+    {"segment": "Delivery workforce", "who": "Ekart riders, dark-store staff, kirana partners", "pain": "Need steady income and festive-season work", "why": "Large hiring during BBD, predictable volumes, gig flexibility"}
+  ],
+  "portfolio": [
+    {"group": "Core marketplace",
+     "products": [
+       {"name": "Flipkart app", "desc": "Electronics, fashion, home, grocery marketplace"},
+       {"name": "Shopsy", "desc": "Zero-commission value marketplace fighting Meesho"},
+       {"name": "Flipkart Plus / Black", "desc": "Loyalty tiers with early sale access and perks"},
+       {"name": "Big Billion Days", "desc": "Annual festive sale; 2026 edition from 9 Oct"}
+     ],
+     "north_star": "Monthly transacting users completing a delivered, non-returned order",
+     "key_metrics": "GMV, MAU to buyer conversion, AOV, tier-2/3 share, repeat rate",
+     "guardrails": "Return/RTO rate, delivery promise breach, contribution margin per order"},
+    {"group": "Quick and adjacent commerce",
+     "products": [
+       {"name": "Flipkart Minutes", "desc": "10-15 minute delivery from ~800-1,200 dark stores"},
+       {"name": "Myntra", "desc": "Fashion and beauty arm; profitable, M-Now quick fashion"},
+       {"name": "Cleartrip", "desc": "Travel booking for flights and hotels"},
+       {"name": "Flipkart Wholesale", "desc": "B2B supply to kiranas and retailers"}
+     ],
+     "north_star": "Weekly Minutes orders per active user in live pin codes",
+     "key_metrics": "Daily orders (1M+), dark-store throughput, delivery time, basket size",
+     "guardrails": "Burn per order, stockouts, rider safety, cannibalisation of core"},
+    {"group": "Monetisation and fintech",
+     "products": [
+       {"name": "Flipkart Ads", "desc": "Sponsored listings, brand display and video ads"},
+       {"name": "super.money", "desc": "UPI and credit app launched 2024"},
+       {"name": "Flipkart Pay Later / EMI", "desc": "Partner-financed BNPL and card EMIs"},
+       {"name": "Ekart", "desc": "Logistics arm also serving third-party shippers"}
+     ],
+     "north_star": "Take rate on GMV from fees, ads and fintech",
+     "key_metrics": "Ad revenue per seller, ROAS, credit approvals, Ekart external volume",
+     "guardrails": "Ad load on search, credit defaults, seller fee churn"}
+  ],
+  "business_model": {
+    "rows": [
+      {"line": "Marketplace fees", "who_uses": "Sellers listing to Flipkart shoppers", "who_pays": "Sellers", "how": "Commission, collection, shipping fees; FY25 ₹7,751 cr, doubled"},
+      {"line": "Advertising", "who_uses": "Shoppers see sponsored products", "who_pays": "Brands and sellers", "how": "CPC and display ads; FY25 ₹6,317 cr (+27%)"},
+      {"line": "Logistics", "who_uses": "Sellers and external shippers", "who_pays": "Sellers, D2C brands", "how": "Ekart delivery fees; FY25 ₹4,224 cr, down from ₹6,838 cr"},
+      {"line": "Wholesale / 1P-like trading", "who_uses": "Retailers and seller entities", "who_pays": "Retailers", "how": "Flipkart India buys and resells goods; thin margin, most revenue"},
+      {"line": "Fintech and fees", "who_uses": "Shoppers paying by UPI or credit", "who_pays": "Lenders, banks, shoppers", "how": "Lending referral fees, bank-offer co-funding, platform fees"}
+    ],
+    "bullets": [
+      {"label": "Revenue mix", "text": "Marketplace arm: fees and ads are two-thirds of ₹20,807 cr FY25. Group revenue dominated by wholesale trading."},
+      {"label": "Users vs payers", "text": "Shoppers rarely pay directly; sellers fund the platform via commission, ads and logistics fees."},
+      {"label": "Unit economics", "text": "Marketplace loss narrowed 37% in FY25, but group loss widened to ₹5,189 cr on Minutes and discounts."},
+      {"label": "Growth levers", "text": "Minutes in 250+ cities, ads take rate, Shopsy for value, super.money credit cross-sell."}
+    ]
+  },
+  "friction": [
+    "Fake or poor-quality items on some 3P listings",
+    "Returns and refunds slow, often disputed",
+    "Platform and handling fees add surprise costs",
+    "Bank-offer pricing confusing; best price hard to find",
+    "Minutes coverage patchy outside metros"
+  ],
+  "competitors": [
+    {"label": "Horizontal", "text": "Amazon India, Reliance JioMart, Tata Neu"},
+    {"label": "Value", "text": "Meesho, Shopsy rivals, Amazon Bazaar"},
+    {"label": "Quick commerce", "text": "Blinkit, Swiggy Instamart, Zepto, Amazon Now, BigBasket"},
+    {"label": "Fashion", "text": "Ajio, Nykaa Fashion, Meesho (vs Myntra)"},
+    {"label": "Edge", "text": "Indian MAU lead, Bharat reach, smartphone category leadership, Walmart backing"},
+    {"label": "Risk", "text": "Losses, FDI inventory rules, CCI probes, quick-commerce cash burn"}
+  ],
+  "news": [
+    {"label": "Oct 2026", "text": "Big Billion Days 2026 live from 9 Oct; Plus/Black early access 8 Oct"},
+    {"label": "May 2026", "text": "IPO put on hold; listing deferred to ~2028 pending EBITDA breakeven"},
+    {"label": "Dec 2025", "text": "NCLT approves redomicile from Singapore to India, a pre-IPO step"},
+    {"label": "Watch", "text": "FY26 filings, Minutes losses, DRHP timing, Amazon Now's $3B challenge"}
+  ],
+  "sources": "RoC filings via Inc42/Entrackr/Business Standard, Walmart disclosures, press coverage. MAU share and metrics are estimates for PM interview prep. Prepared Oct 2026."
+}

@@ -1,0 +1,98 @@
+{
+  "slug": "amazon-prime-video",
+  "name": "Amazon Prime Video",
+  "tagline": "Amazon's streaming service, bundled with Prime, now ad-led with live sports",
+  "facts": [
+    ["Launched", "2006 (Amazon Unbox); Prime Video 2011, global 2016"],
+    ["HQ", "Culver City / Seattle, USA (Amazon)"],
+    ["Owner/Listed", "Amazon.com Inc., NASDAQ: AMZN"],
+    ["Revenue", "Not disclosed; Amazon ads Q2 2026 $19.8B (+26%)"],
+    ["Reach", "315M+ monthly ad-supported viewers globally (2026)"],
+    ["US ads", "115M+ Americans see Prime Video ads monthly"],
+    ["Sports", "TNF, NBA (11-yr deal from 2025-26), NASCAR, WNBA"],
+    ["CEO/Head", "Mike Hopkins, SVP Prime Video and MGM Studios"],
+    ["India", "Prime ₹1,499/yr; ads since Jun 2025; MX Player merged"]
+  ],
+  "strategy": [
+    {"label": "Mission", "text": "Make Prime irresistible: give members premium entertainment that raises Prime retention and shopping frequency."},
+    {"label": "Vision", "text": "Be the one-stop TV destination: originals, live sports, and third-party channels in a single app."},
+    {"label": "Core strategy", "text": "Video as Prime flywheel loss-leader; ads-on-by-default monetises the huge bundled base without new subscriptions."},
+    {"label": "Moat", "text": "Prime bundle distribution, Amazon shopping data for closed-loop ad attribution, deep pockets for sports rights."},
+    {"label": "Key bet", "text": "Live sports (NBA, TNF) and Amazon MGM IP like James Bond to win premium ad dollars."},
+    {"label": "Your view", "text": "Should Prime Video be judged on its own P&L, or only on Prime retention and ad revenue it drives?"}
+  ],
+  "customers": [
+    {"segment": "Prime shoppers", "who": "Households already paying for Prime delivery", "pain": "Paying separately for many streaming apps", "why": "Video included free with Prime; no extra subscription decision needed"},
+    {"segment": "Sports fans", "who": "NFL, NBA, NASCAR viewers in US", "pain": "Games scattered across cable and multiple streamers", "why": "Exclusive TNF and NBA package within existing Prime membership"},
+    {"segment": "India value seekers", "who": "Mobile-first, regional-language viewers", "pain": "Expensive premium OTT; wants free regional content", "why": "Prime Lite, free MX Player content now inside Prime Video, Indian originals"},
+    {"segment": "Advertisers", "who": "Brands, especially Amazon sellers and CPG", "pain": "Cannot link TV ad spend to actual sales", "why": "Amazon purchase data enables closed-loop measurement and shoppable ads"},
+    {"segment": "Channel partners", "who": "Apple TV, HBO Max, Paramount+, local apps", "pain": "High customer acquisition cost for standalone apps", "why": "Prime Video Channels gives instant distribution and billing"}
+  ],
+  "portfolio": [
+    {"group": "Prime Video core",
+     "products": [
+       {"name": "Prime Video (with ads)", "desc": "Default tier bundled with Prime membership"},
+       {"name": "Ad-free add-on", "desc": "US $2.99/mo; India ₹129/mo or ₹699/yr"},
+       {"name": "Amazon MGM originals", "desc": "Reacher, The Boys, Bond franchise, Indian originals"},
+       {"name": "Prime Lite (India)", "desc": "₹799/yr cheaper Prime with ad-supported video"}
+     ],
+     "north_star": "Weekly active Prime members streaming",
+     "key_metrics": "Hours per member, Prime renewal lift, original title reach",
+     "guardrails": "Churn after ads introduced, content cost per viewing hour"},
+    {"group": "Live sports and free streaming",
+     "products": [
+       {"name": "Thursday Night Football", "desc": "Exclusive NFL package, top ad inventory"},
+       {"name": "NBA on Prime", "desc": "11-year rights including playoff games"},
+       {"name": "Amazon MX Player", "desc": "Free AVOD unified into Prime Video India, May 2026"},
+       {"name": "FAST channels", "desc": "Free linear channels inside the app"}
+     ],
+     "north_star": "Ad-supported monthly reach",
+     "key_metrics": "Avg minute audience, sell-through, CPM, new Prime sign-ups",
+     "guardrails": "Stream latency and outages, ad load complaints"},
+    {"group": "Marketplace and transactions",
+     "products": [
+       {"name": "Prime Video Channels", "desc": "Resold add-on subscriptions like HBO Max, Apple TV"},
+       {"name": "Rent/Buy store", "desc": "Transactional new movies, TVOD"},
+       {"name": "Amazon DSP / ads", "desc": "Self-serve and programmatic CTV buying"}
+     ],
+     "north_star": "Paid add-on subscriptions per Prime household",
+     "key_metrics": "Channel attach rate, TVOD revenue, revenue share",
+     "guardrails": "Confusing paywalls inside app, partner churn"}
+  ],
+  "business_model": {
+    "rows": [
+      {"line": "Prime membership", "who_uses": "Prime members worldwide", "who_pays": "Members (bundled fee)", "how": "Video raises renewal and shopping spend; cost absorbed by Prime"},
+      {"line": "Advertising", "who_uses": "Ad-tier viewers, sports audiences", "who_pays": "Brands, Amazon sellers", "how": "CPM ads, sports sponsorship, shoppable and interactive formats"},
+      {"line": "Ad-free add-on", "who_uses": "Ad-averse members", "who_pays": "Members", "how": "Monthly or annual upcharge to remove ads"},
+      {"line": "Channels and TVOD", "who_uses": "Members and non-members", "who_pays": "Viewers", "how": "Revenue share on resold subscriptions; rentals and purchases"}
+    ],
+    "bullets": [
+      {"label": "Revenue mix", "text": "Not reported; ads plus subscriptions inside Amazon segments. Live sport sold out in Q2 2026."},
+      {"label": "Users vs payers", "text": "Viewers pay via Prime, often not for video; advertisers pay for 315M+ monthly ad reach."},
+      {"label": "Unit economics", "text": "Content cost justified by Prime retention and higher basket; ads turned video into a margin line."},
+      {"label": "Growth levers", "text": "NBA and sports, ads in more markets, India free tier via MX, channel add-ons."}
+    ]
+  },
+  "friction": [
+    "Ads switched on without lowering Prime price",
+    "Cluttered UI mixes free, rent and channel content",
+    "Paywall surprises: title needs extra purchase or channel",
+    "Sports scattered across Prime, apps and blackouts",
+    "India viewers confused by Prime vs Lite vs MX"
+  ],
+  "competitors": [
+    {"label": "Global SVOD", "text": "Netflix, Disney+, Paramount+ with HBO Max, Apple TV"},
+    {"label": "Sports/AVOD", "text": "YouTube, Peacock, ESPN DTC, FAST services"},
+    {"label": "India", "text": "JioHotstar, Netflix, ZEE5, SonyLIV, YouTube"},
+    {"label": "Retail media", "text": "Walmart Connect plus Vizio, Roku, Google"},
+    {"label": "Edge", "text": "Free-with-Prime distribution and shopping data for ad attribution"},
+    {"label": "Risk", "text": "Seen as afterthought; ad fatigue; sports rights cost escalation"}
+  ],
+  "news": [
+    {"label": "Jul 2026", "text": "Amazon ads $19.8B (+26%); TNF, NBA, NASCAR inventory sold out"},
+    {"label": "Jun 2026", "text": "First NBA season on Prime ends; global NBA viewing up 28%"},
+    {"label": "May 2026", "text": "Amazon MX Player unified into Prime Video in India"},
+    {"label": "Watch", "text": "TNF season ad yields, first Amazon-made Bond film progress"}
+  ],
+  "sources": "Amazon earnings Q2 2026, Amazon Ads 2026 upfront, aboutamazon.in, press coverage. Prime Video revenue undisclosed; metrics are PM estimates for interview prep. Prepared Oct 2026."
+}

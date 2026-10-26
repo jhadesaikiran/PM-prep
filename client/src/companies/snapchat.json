@@ -1,0 +1,97 @@
+{
+  "slug": "snapchat",
+  "name": "Snapchat (Snap Inc.)",
+  "tagline": "Camera-first messaging app for close friends, with AR and Specs",
+  "facts": [
+    ["Founded", "2011 by Evan Spiegel, Bobby Murphy"],
+    ["HQ / Listed", "Santa Monica; NYSE: SNAP (IPO 2017)"],
+    ["CEO", "Evan Spiegel (co-founder)"],
+    ["Revenue", "Q2'26 $1.60B (+19% YoY)"],
+    ["Users", "Q2'26 493M DAU (+5%), 971M MAU"],
+    ["ARPU", "Q2'26 $3.25 per DAU (vs $2.87)"],
+    ["Snapchat+", "~25M subs; subs run-rate >$1B"],
+    ["India", "Large DAU market (~200M+ est.), low ARPU"]
+  ],
+  "strategy": [
+    {"label": "Mission", "text": "Snap is a camera company; we contribute to human progress by empowering people to express themselves."},
+    {"label": "Vision", "text": "Computing overlaid on the world through AR glasses (Specs), built on Snapchat's camera and Lens ecosystem."},
+    {"label": "Core strategy", "text": "Own close-friend communication, grow content (Spotlight, Stories), and diversify revenue via subscriptions."},
+    {"label": "Moat", "text": "Opens to camera, ephemeral close-friend culture, Gen Z habit, Lens Studio AR developer ecosystem."},
+    {"label": "Key bet", "text": "Specs consumer AR glasses at $2,195 shipping fall 2026; plus AI Lenses and Snapchat+ tiers."},
+    {"label": "Your view", "text": "Should Snap spend on $2,195 AR glasses while ad ARPU still trails Meta by 10x?"}
+  ],
+  "customers": [
+    {"segment": "Gen Z / teens", "who": "13-24, US, Europe, India", "pain": "Want private, low-pressure sharing with close friends", "why": "Disappearing Snaps, streaks, Bitmoji, no public likes on chats"},
+    {"segment": "Snapchat+ subscribers", "who": "Power users, streak and Memories savers", "pain": "Want exclusive features and Memories storage", "why": "Early features, streak restores, 250GB-5TB storage, Platinum ad-free"},
+    {"segment": "Creators", "who": "Spotlight and Stories creators", "pain": "Need payouts and reach with young audience", "why": "Unified creator monetisation program, Spotlight distribution"},
+    {"segment": "Advertisers", "who": "SMBs, D2C, entertainment, app installs", "pain": "Need to reach Gen Z who skip Facebook", "why": "Sponsored Snaps in chat, AR Lens ads, improved performance ad stack"},
+    {"segment": "AR developers", "who": "Lens creators and Specs developers", "pain": "Need distribution and tools for AR", "why": "Lens Studio, Snap OS, 300M+ daily AR users"}
+  ],
+  "portfolio": [
+    {"group": "Communication",
+     "products": [
+       {"name": "Camera and Snaps", "desc": "Disappearing photo and video messages with Lenses"},
+       {"name": "Chat", "desc": "Messaging, calls, group chats, streaks"},
+       {"name": "Snap Map", "desc": "Friend location sharing and local discovery"},
+       {"name": "My AI", "desc": "Built-in AI chatbot companion"}
+     ],
+     "north_star": "Daily users sending Snaps to close friends",
+     "key_metrics": "DAU, Snaps sent per user, streak count, D30 retention",
+     "guardrails": "Teen safety reports, unwanted contact, location privacy complaints"},
+    {"group": "Content",
+     "products": [
+       {"name": "Spotlight", "desc": "Short-form vertical video feed"},
+       {"name": "Stories / Discover", "desc": "Friends' and publishers' stories"},
+       {"name": "Memories", "desc": "Saved Snaps; paid storage above 5GB"}
+     ],
+     "north_star": "Time spent watching content per DAU",
+     "key_metrics": "Spotlight watch time, creator posts, Stories views",
+     "guardrails": "Content policy violations, creator churn"},
+    {"group": "Monetisation and AR",
+     "products": [
+       {"name": "Snapchat+ / Platinum", "desc": "Subscription tiers with features, storage, ad-free"},
+       {"name": "Sponsored Snaps and Lens ads", "desc": "Ads in chat inbox and AR try-ons"},
+       {"name": "Specs", "desc": "Standalone AR glasses, $2,195, fall 2026"},
+       {"name": "Lens Studio", "desc": "AR creation tools for developers"}
+     ],
+     "north_star": "Revenue per DAU (ads plus subscriptions)",
+     "key_metrics": "ARPU, sub count and churn, ad CPM, Specs units",
+     "guardrails": "Ad load in chat, DAU growth, user sentiment"}
+  ],
+  "business_model": {
+    "rows": [
+      {"line": "Advertising", "who_uses": "Free users in Stories, Spotlight, Chat", "who_pays": "Brands, SMBs, app developers", "how": "Auction CPM/CPC; Sponsored Snaps, AR Lens ads"},
+      {"line": "Snapchat+ subscriptions", "who_uses": "~25M paying power users", "who_pays": "Users monthly or annually", "how": "Tiered: Lite, Snapchat+, Platinum ad-free"},
+      {"line": "Memories storage", "who_uses": "Users over 5GB of saved Snaps", "who_pays": "Users", "how": "Paid 100GB storage plan or bundle in Plus tiers"},
+      {"line": "Hardware (Specs)", "who_uses": "Early AR adopters and developers", "who_pays": "Consumers", "how": "Device sales at $2,195; future app ecosystem"}
+    ],
+    "bullets": [
+      {"label": "Revenue mix", "text": "Q2'26: ads $1.28B (+9%), other revenue $316M (+85%), mostly subscriptions."},
+      {"label": "Users vs payers", "text": "493M DAU vs ~25M Snapchat+ subs (~5%); NA ARPU far above Rest of World."},
+      {"label": "Unit economics", "text": "Q2'26 adj. EBITDA $250M, net loss $164M; Apr 2026 16% layoffs save ~$500M/yr."},
+      {"label": "Growth levers", "text": "Subscriptions, Sponsored Snaps, SMB performance ads, India monetisation, Specs."}
+    ]
+  },
+  "friction": [
+    "Confusing UI; hard for new or older users",
+    "Streak pressure and anxiety among teens",
+    "Paid Memories storage angered long-time users",
+    "Ads appearing inside private Chat inbox",
+    "Weak search and content discovery vs TikTok"
+  ],
+  "competitors": [
+    {"label": "Messaging", "text": "Instagram DMs, WhatsApp, iMessage, Discord"},
+    {"label": "Short video", "text": "TikTok, Instagram Reels, YouTube Shorts"},
+    {"label": "AR glasses", "text": "Meta Ray-Ban Display ($799), Apple Vision Pro, Android XR"},
+    {"label": "Ads", "text": "Meta, TikTok, Google for Gen Z budgets"},
+    {"label": "Edge", "text": "Camera-first close-friend habit plus Snapchat+ proving users will pay"},
+    {"label": "Risk", "text": "Meta copying features, teen-safety laws, Specs cash burn, low ARPU"}
+  ],
+  "news": [
+    {"label": "Aug 2026", "text": "Q2: revenue $1.6B (+19%), DAU 493M, subscriptions past $1B run-rate"},
+    {"label": "Jun 2026", "text": "Specs AR glasses unveiled at AWE: $2,195, shipping fall 2026"},
+    {"label": "Apr 2026", "text": "Cuts ~1,000 jobs (16%), citing AI; $400M Perplexity deal ended"},
+    {"label": "Watch", "text": "Specs sales, Snapchat+ growth, North America DAU, profitability"}
+  ],
+  "sources": "Snap Q2 2026 8-K and 10-Q, TechCrunch, UploadVR/9to5Google, press coverage. India figures are estimates. Prepared Oct 2026."
+}

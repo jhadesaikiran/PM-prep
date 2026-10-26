@@ -1,0 +1,99 @@
+{
+  "slug": "zynga",
+  "name": "Zynga (Take-Two)",
+  "tagline": "Free-to-play mobile games label powering half of Take-Two's bookings",
+  "facts": [
+    ["Founded", "2007, Mark Pincus, San Francisco"],
+    ["HQ", "San Francisco, USA"],
+    ["Owner/Listed", "Take-Two (NASDAQ: TTWO), acquired 2022 for $12.7B"],
+    ["Revenue", "FY26 Take-Two mobile $3.3B (+15%), mostly Zynga"],
+    ["Group", "Take-Two FY26 net bookings $6.72B (+19%)"],
+    ["Mix", "Mobile 53% of Take-Two bookings (Q1 FY27)"],
+    ["Users", "Not disclosed; tens of millions MAU (est.)"],
+    ["CEO/Head", "Frank Gibeau, President of Zynga"],
+    ["India", "Bengaluru studio; no real-money games"]
+  ],
+  "strategy": [
+    {"label": "Mission", "text": "Connect the world through games: free-to-play titles monetised by in-app purchases and ads, never cash payouts."},
+    {"label": "Core strategy", "text": "Multi-studio portfolio (Peak, Rollic, Small Giant, StarLark, NaturalMotion) with relentless live ops on evergreen puzzle and casual hits."},
+    {"label": "Contrast to RMG", "text": "Players pay for fun (boosters, lives, virtual chips) but can never cash out, so not a money game under PROGA."},
+    {"label": "Moat", "text": "Live-ops expertise, Take-Two cross-promotion and ad network, data-driven UA at scale, Rollic hyper-casual funnel."},
+    {"label": "Key bet", "text": "Grow casual hits (Toon Blast, Match Factory!, Color Block Jam) and new launches like Top Goal, CSR 3."},
+    {"label": "Your view", "text": "Is Zynga Poker's virtual-chip social casino one regulator decision away from being treated like real-money gaming?"}
+  ],
+  "customers": [
+    {"segment": "Casual puzzle players", "who": "Adults 25–55, often women, global", "pain": "Want short relaxing sessions with a sense of progress", "why": "Polished match/puzzle loops, daily events, fair free play, optional boosters"},
+    {"segment": "Social casino players", "who": "Zynga Poker and slots fans", "pain": "Want poker thrills without gambling money or legal risk", "why": "Virtual chips, social tables, no cash-out keeps it entertainment"},
+    {"segment": "Word and social players", "who": "Friends and families on Words With Friends", "pain": "Want asynchronous play to stay connected", "why": "Turn-based social play, long-lived friend graphs, brand familiarity"},
+    {"segment": "Spenders (whales)", "who": "Top ~2–5% paying players (est.)", "pain": "Want to progress faster and keep streaks", "why": "Bundles, battle passes, events; fair value and limited-time offers"},
+    {"segment": "Advertisers", "who": "App marketers and brands buying in-game ads", "pain": "Need scaled mobile reach with measurable installs", "why": "Huge casual audience, rewarded video, Take-Two/Zynga ad stack"}
+  ],
+  "portfolio": [
+    {"group": "Casual and puzzle",
+     "products": [
+       {"name": "Toon Blast / Toy Blast", "desc": "Peak's cube-blast puzzle franchises, top revenue drivers"},
+       {"name": "Match Factory!", "desc": "Triple-match puzzle hit with strong live-service events"},
+       {"name": "Color Block Jam", "desc": "Rollic puzzle, now a top-five Zynga title"},
+       {"name": "Empires & Puzzles", "desc": "Small Giant match-3 RPG hybrid"}
+     ],
+     "north_star": "Daily active players completing at least one session",
+     "key_metrics": "DAU, D1/D7/D30 retention, ARPDAU, payer conversion, event participation",
+     "guardrails": "Difficulty spikes, ad fatigue, refund and complaint rates"},
+    {"group": "Social and casino",
+     "products": [
+       {"name": "Zynga Poker", "desc": "Social Texas Hold'em with virtual chips, no cash-out"},
+       {"name": "Words With Friends", "desc": "Asynchronous social word game"},
+       {"name": "FarmVille 3", "desc": "Farm sim continuing Zynga's original social franchise"}
+     ],
+     "north_star": "Weekly socially connected players (played with or against a friend)",
+     "key_metrics": "Friend invites, sessions per day, chip purchase conversion, ARPPU",
+     "guardrails": "Problem-play signals, spend limits, regulator complaints on social casino"},
+    {"group": "Sports, racing and hyper-casual",
+     "products": [
+       {"name": "CSR Racing / CSR 3", "desc": "NaturalMotion drag racing; CSR 3 upcoming"},
+       {"name": "Golf Rival", "desc": "StarLark competitive mobile golf"},
+       {"name": "Top Goal", "desc": "Upcoming mobile football title"},
+       {"name": "Rollic hyper-casual", "desc": "Ad-funded quick games feeding UA funnel"}
+     ],
+     "north_star": "Monthly players graduating from hyper-casual to core titles",
+     "key_metrics": "CPI vs LTV, ad revenue per DAU, cross-promo installs",
+     "guardrails": "UA payback period, store rating, launch kill-rate discipline"}
+  ],
+  "business_model": {
+    "rows": [
+      {"line": "In-app purchases", "who_uses": "All players of free titles", "who_pays": "Small share of spenders", "how": "Boosters, lives, virtual chips, passes; items have no cash value"},
+      {"line": "In-game advertising", "who_uses": "Non-paying casual and hyper-casual players", "who_pays": "Advertisers and app marketers", "how": "Rewarded video, interstitials, offerwalls via ad network"},
+      {"line": "Social casino", "who_uses": "Zynga Poker and slots players", "who_pays": "Chip buyers", "how": "Virtual chip packs; winnings cannot be redeemed for money"},
+      {"line": "Licensed IP games", "who_uses": "Fans of licensed franchises", "who_pays": "Players via IAP", "how": "Revenue share with IP owners; Star Wars Hunters shut Oct 2025"}
+    ],
+    "bullets": [
+      {"label": "Revenue mix", "text": "Mostly IAP, with meaningful advertising; mobile was 49% of Take-Two FY26 bookings ($3.3B)."},
+      {"label": "Users vs payers", "text": "Typically 2–5% of players pay (est.); whales fund free play for the rest."},
+      {"label": "Unit economics", "text": "LTV must beat CPI; long-lived live-ops titles amortise development, new launches carry high kill risk."},
+      {"label": "Growth levers", "text": "Live ops on evergreen hits, new launches, Rollic funnel, GTA VI (19 Nov 2026) halo for cross-promotion."},
+      {"label": "RMG lesson", "text": "No cash-out means no gambling classification: Zynga avoided India's ban that erased Dream11 and WinZO revenue."}
+    ]
+  },
+  "friction": [
+    "Paywalled difficulty spikes frustrate non-paying players",
+    "Frequent ads interrupt short casual sessions",
+    "Social casino can feel like gambling to regulators",
+    "Shutdowns like Star Wars Hunters strand paid purchases",
+    "Notification and offer overload drives uninstalls"
+  ],
+  "competitors": [
+    {"label": "Casual puzzle", "text": "King (Candy Crush), Playrix, Dream Games (Royal Match)"},
+    {"label": "Social casino", "text": "Playtika, Aristocrat/Product Madness, SciPlay"},
+    {"label": "Hyper-casual", "text": "Voodoo, Supersonic, Homa"},
+    {"label": "India casual", "text": "Ludo King, Nazara titles, ex-RMG firms going free-to-play"},
+    {"label": "Edge", "text": "Live-ops depth, diversified studio portfolio, Take-Two balance sheet"},
+    {"label": "Risk", "text": "UA cost inflation, platform fee/privacy changes, social casino regulation"}
+  ],
+  "news": [
+    {"label": "Aug 2026", "text": "Take-Two Q1 FY27: mobile 53% of $1.39B bookings, Zynga steady"},
+    {"label": "May 2026", "text": "FY26: Zynga best-ever quarter; mobile bookings $3.3B, up 15%"},
+    {"label": "Oct 2025", "text": "Star Wars Hunters servers shut less than 18 months after launch"},
+    {"label": "Watch", "text": "Top Goal and CSR 3 launches; GTA VI cross-promo; social-casino rules"}
+  ],
+  "sources": "Take-Two 8-K earnings releases FY26 and Q1 FY27, press coverage 2025–26. Metrics are PM estimates for interview prep. Prepared Oct 2026."
+}

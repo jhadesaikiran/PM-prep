@@ -1,0 +1,96 @@
+{
+  "slug": "swiggy-instamart",
+  "name": "Swiggy Instamart",
+  "tagline": "Swiggy's quick-commerce arm delivering groceries and essentials in minutes",
+  "facts": [
+    ["Founded", "Aug 2020, Bengaluru, inside Swiggy"],
+    ["Owner/Listed", "Swiggy Ltd (listed Nov 2024); Swiggy Instamart Pvt Ltd"],
+    ["GOV", "Q1 FY27 ₹7,907 cr (+40% YoY)"],
+    ["Users", "13.5M monthly transacting users, Q1 FY27"],
+    ["Dark stores", "1,171 across 131 cities, Jun 2026"],
+    ["AOV", "₹508 net AOV, Q1 FY27 (+12% YoY)"],
+    ["Profitability", "CM -0.2% of GOV Q1 FY27; breakeven May 2026"],
+    ["Market share", "~21% of top-3 orders FY26 (34% FY24)"],
+    ["CEO/Head", "Amitesh Jha (Instamart CEO); Sriharsha Majety (Swiggy)"]
+  ],
+  "strategy": [
+    {"label": "Mission", "text": "Elevate the quality of life of urban consumers by offering unparalleled convenience (Swiggy group mission)."},
+    {"label": "Vision", "text": "Be the default app for anything a household needs in minutes, from milk to electronics."},
+    {"label": "Core strategy", "text": "Pause blitz-scaling; densify stores, lift AOV via Maxxsaver and bigger megapods, chase contribution and then EBITDA breakeven."},
+    {"label": "Moat", "text": "Swiggy's shared fleet, One membership and food-delivery traffic cut CAC; cross-sell from food users."},
+    {"label": "Key bet", "text": "IOCC status (foreign holding capped 49.5%) to own inventory, raising margins; ₹10,000 cr QIP war chest (Dec 2025)."},
+    {"label": "Your view", "text": "Instamart's order share fell from 34% to 21%. Was slowing store expansion for margins the right call versus Blinkit?"}
+  ],
+  "customers": [
+    {"segment": "Urban top-up shopper", "who": "Metro households, 22-40, ordering daily essentials", "pain": "Forgot milk, bread or veggies; no time for kirana trips", "why": "Fast delivery, wide assortment, and same app as Swiggy food orders"},
+    {"segment": "Stock-up family", "who": "Families buying monthly grocery baskets", "pain": "Quick commerce felt expensive and limited for big baskets", "why": "Maxxsaver discounts on larger carts (28% order penetration) plus Swiggy One free delivery"},
+    {"segment": "Impulse/gifting buyer", "who": "Young professionals buying gifts, gadgets, beauty", "pain": "Last-minute needs; e-commerce takes days", "why": "Electronics, toys, beauty and gifting categories delivered within minutes"},
+    {"segment": "Brands/advertisers", "who": "FMCG, D2C and electronics brands", "pain": "Need fast-growing digital shelf and measurable performance ads", "why": "Search and display ads, sampling, and city-level demand data on 13.5M users"},
+    {"segment": "Delivery partners", "who": "Gig riders shared across Swiggy food and Instamart", "pain": "Income volatility, safety pressure from speed promises", "why": "Batching across food and grocery raises utilisation and per-hour earnings"}
+  ],
+  "portfolio": [
+    {"group": "Quick commerce core",
+     "products": [
+       {"name": "Instamart app/tab", "desc": "Groceries, fresh, household essentials in minutes"},
+       {"name": "Maxxsaver", "desc": "Extra discounts unlocked on larger baskets"},
+       {"name": "Megapods", "desc": "Larger dark stores carrying 50,000+ SKUs"},
+       {"name": "Electronics & gifting", "desc": "Phones, gadgets, toys, flowers delivered fast"}
+     ],
+     "north_star": "Weekly contribution-positive orders per active household",
+     "key_metrics": "GOV, AOV, order frequency, store throughput, % stores CM-positive",
+     "guardrails": "Delivery-time SLA, stock-outs, wastage, rider safety incidents"},
+    {"group": "Monetisation & membership",
+     "products": [
+       {"name": "Swiggy One", "desc": "Cross-category membership with free delivery perks"},
+       {"name": "Instamart Ads", "desc": "Sponsored listings, banners and sampling for brands"},
+       {"name": "Fees", "desc": "Delivery, handling, small-cart and surge fees"}
+     ],
+     "north_star": "Take rate per order without hurting repeat rate",
+     "key_metrics": "Ad revenue % of GOV, member penetration, revenue per order",
+     "guardrails": "Fee-driven churn, ad clutter in search, price perception"},
+    {"group": "Adjacent bets",
+     "products": [
+       {"name": "Snacc / Bolt", "desc": "Fast snacks and meals via shared Swiggy fleet"},
+       {"name": "Private labels", "desc": "Own-brand staples to lift gross margin"},
+       {"name": "Fresh & meat", "desc": "Fruits, vegetables, dairy and meat with freshness promise"}
+     ],
+     "north_star": "Incremental orders per user from new categories",
+     "key_metrics": "Category attach rate, gross margin, repeat purchase",
+     "guardrails": "Cannibalising core, ops complexity, quality complaints"}
+  ],
+  "business_model": {
+    "rows": [
+      {"line": "Commissions/margin on sales", "who_uses": "Consumers buying groceries and essentials", "who_pays": "Sellers and brands (inventory-led after IOCC)", "how": "Commission now; buy-sell margin once Instamart owns inventory"},
+      {"line": "Customer fees", "who_uses": "All Instamart shoppers", "who_pays": "Consumers", "how": "Delivery, handling, small-cart and late-night fees per order"},
+      {"line": "Advertising", "who_uses": "FMCG, D2C, electronics brands", "who_pays": "Brands", "how": "CPC search ads, display, sampling and data insights"},
+      {"line": "Membership", "who_uses": "Frequent Swiggy users", "who_pays": "Consumers", "how": "Swiggy One subscription bundling food and grocery benefits"}
+    ],
+    "bullets": [
+      {"label": "Revenue mix", "text": "Est. mostly commissions plus customer fees; ads a fast-rising high-margin slice; revenue per order ₹108 in Q1 FY27."},
+      {"label": "Users vs payers", "text": "Consumers pay fees; brands pay commissions and ads; riders paid per trip by Swiggy."},
+      {"label": "Unit economics", "text": "CM moved from about -4.6% to -0.2% of GOV in a year; 45%+ stores CM-positive; guided EBITDA breakeven ~Jun 2027."},
+      {"label": "Growth levers", "text": "Higher AOV categories, ads, owned inventory margin, tier-2 cities, Swiggy One cross-sell from food users."}
+    ]
+  },
+  "friction": [
+    "Stock-outs and substitutions on fresh produce",
+    "Hidden handling, surge and small-cart fees at checkout",
+    "Delivery slower than Blinkit in many pin codes",
+    "Separate app and tab confuse first-time users",
+    "Refunds for damaged or expired items feel slow"
+  ],
+  "competitors": [
+    {"label": "Quick commerce", "text": "Blinkit (leader, 2,443 stores), Zepto, BigBasket BB Now"},
+    {"label": "E-commerce entrants", "text": "Amazon Now, Flipkart Minutes, JioMart quick delivery"},
+    {"label": "Offline", "text": "Kiranas, DMart, Reliance Smart, local fruit sellers"},
+    {"label": "Edge", "text": "Shared Swiggy fleet and Swiggy One bundle lower cost per order"},
+    {"label": "Risk", "text": "Losing scale race to Blinkit; Amazon/Flipkart deep pockets compress margins"}
+  ],
+  "news": [
+    {"label": "Jul 2026", "text": "Q1 FY27: GOV ₹7,907 cr, CM breakeven reached in May, 1,171 stores"},
+    {"label": "Jan 2026", "text": "Dropped 10-minute delivery claims after Labour Ministry nudge on rider safety"},
+    {"label": "Dec 2025", "text": "Swiggy raised ₹10,000 cr via QIP, mostly for Instamart network and marketing"},
+    {"label": "Watch", "text": "IOCC inventory model, EBITDA breakeven by Jun 2027, share vs Blinkit"}
+  ],
+  "sources": "Swiggy Q1 FY27 shareholder letter, Inc42, Business Standard, Outlook Business coverage. Metrics are PM estimates for interview prep. Prepared Oct 2026."
+}

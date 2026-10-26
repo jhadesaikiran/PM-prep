@@ -1,0 +1,97 @@
+{
+  "slug": "moj",
+  "name": "Moj (ShareChat / Mohalla Tech)",
+  "tagline": "Indian vernacular short-video app, pivoting to micro-dramas",
+  "facts": [
+    ["Founded", "Moj launched Jun 2020 after TikTok ban; parent 2015"],
+    ["HQ", "Bengaluru, India"],
+    ["Owner/Listed", "Mohalla Tech (private); IPO up to $400M planned"],
+    ["Revenue", "FY25 ₹723 cr (~$85M), flat vs ₹718 cr"],
+    ["Losses", "FY25 adj. EBITDA loss ₹219 cr (-72% YoY)"],
+    ["Run-rate", "2026 annualised ~₹1,400 cr, 30%+ growth (company)"],
+    ["Users", "ShareChat + Moj ~150M MAU; QuickTV 3M subs"],
+    ["CEO/Head", "Ankush Sachdeva, co-founder and CEO"],
+    ["Merger", "Absorbed MX TakaTak in 2022"]
+  ],
+  "strategy": [
+    {"label": "Mission", "text": "Give Bharat's next billion a social platform in their own language."},
+    {"label": "Vision", "text": "Be India's vernacular entertainment layer: short video, live and micro-dramas for tier-2+ audiences."},
+    {"label": "Core strategy", "text": "Pivot from chasing Reels on scale to owning profitable niches: micro-dramas, live gifting, regional creators."},
+    {"label": "Moat", "text": "15+ Indian languages, regional creator network, low-cost AI content production, Bharat user insight."},
+    {"label": "Key bet", "text": "Micro-dramas: 65M monthly viewers, 700M episodes daily, QuickTV paywall, ₹100 cr AI content push."},
+    {"label": "Your view", "text": "Moj won the TikTok-ban land grab then lost to Reels and Shorts; was retreat to niches inevitable?"}
+  ],
+  "customers": [
+    {"segment": "Viewers", "who": "Tier-2+ Indians, vernacular-first, mobile-only", "pain": "English-heavy apps, want entertainment in own language", "why": "Regional language feeds, local creators, micro-dramas, works on low-end phones"},
+    {"segment": "Creators", "who": "Regional influencers, actors, dancers", "pain": "Hard to stand out on Instagram or YouTube", "why": "Less competition, language communities, live gifting income, creator fund"},
+    {"segment": "Advertisers", "who": "FMCG, D2C, gaming, BFSI brands", "pain": "Reach Bharat audiences cost-effectively", "why": "Vernacular targeting, cheaper CPMs than Meta, influencer brand integrations"},
+    {"segment": "Paying micro-drama fans", "who": "Binge viewers of serialised short dramas", "pain": "Want cliffhanger stories in Hindi and regional languages", "why": "QuickTV episodic paywall, cheap coin packs, TV-actor led stories"},
+    {"segment": "Live gifters", "who": "Engaged users supporting hosts", "pain": "Want recognition and interaction with creators", "why": "Virtual gifts in audio and video chatrooms"}
+  ],
+  "portfolio": [
+    {"group": "Social and short video",
+     "products": [
+       {"name": "Moj", "desc": "Vernacular short-video feed, merged with MX TakaTak"},
+       {"name": "ShareChat", "desc": "Regional-language social feed of posts, memes and video"},
+       {"name": "Live and chatrooms", "desc": "Audio/video live rooms monetised through virtual gifts"}
+     ],
+     "north_star": "Daily time spent per active user in vernacular feeds",
+     "key_metrics": "MAU, DAU/MAU, minutes per user, creator uploads, gifting ARPPU",
+     "guardrails": "Content moderation incidents, adult content, creator churn to Reels"},
+    {"group": "Micro-dramas",
+     "products": [
+       {"name": "QuickTV", "desc": "Paid micro-drama app with 3M subscribers"},
+       {"name": "Moj micro-dramas", "desc": "Free ad-supported episodes; 30M+ monthly viewers"},
+       {"name": "AI content studio", "desc": "AI tools to produce dramas cheaply at scale"}
+     ],
+     "north_star": "Episodes completed per viewer per week",
+     "key_metrics": "Paid conversion, episodes/day, cost per episode, series completion",
+     "guardrails": "Payback period per show, refund rate, content quality complaints"},
+    {"group": "Monetisation",
+     "products": [
+       {"name": "Moj/ShareChat Ads", "desc": "Self-serve and direct video ads for brands"},
+       {"name": "Virtual gifting", "desc": "Coins and gifts in live rooms"},
+       {"name": "Subscriptions", "desc": "QuickTV memberships and episode unlocks"}
+     ],
+     "north_star": "Contribution margin per MAU",
+     "key_metrics": "Ad revenue, CPM, gifting revenue, subscription ARPU",
+     "guardrails": "Ad load per session, payment failures, fraud"}
+  ],
+  "business_model": {
+    "rows": [
+      {"line": "Advertising", "who_uses": "Free users of Moj and ShareChat", "who_pays": "Brands, agencies, app advertisers", "how": "In-feed video ads, brand challenges, influencer integrations"},
+      {"line": "Live gifting", "who_uses": "Engaged fans in live rooms", "who_pays": "Users buying virtual coins", "how": "Platform keeps share of gifts sent to hosts"},
+      {"line": "Micro-drama subscriptions", "who_uses": "Binge viewers on QuickTV", "who_pays": "Subscribers and episode unlockers", "how": "Free first episodes, then paywall or coins"},
+      {"line": "Ad-supported dramas", "who_uses": "Free micro-drama viewers on Moj", "who_pays": "Advertisers", "how": "Ads between episodes; funnel to paid QuickTV"}
+    ],
+    "bullets": [
+      {"label": "Revenue mix", "text": "FY25 mostly ads plus gifting; micro-drama subscriptions now driving 30%+ growth in 2026."},
+      {"label": "Users vs payers", "text": "~150M MAU but only ~3M QuickTV subscribers; low Bharat ARPU forces ad-heavy model."},
+      {"label": "Unit economics", "text": "Losses cut 72% via layoffs and cost controls, not ad growth; cash-flow positive core business."},
+      {"label": "Growth levers", "text": "AI-made micro-dramas, regional languages, paid conversion, IPO capital, brand-funded drama series."},
+      {"label": "Lesson", "text": "TikTok-ban windfall was rented demand; once Reels and Shorts arrived, scale without moat collapsed."}
+    ]
+  },
+  "friction": [
+    "Feed full of repetitive, low-quality reposted clips",
+    "Top creators migrated to Reels and Shorts",
+    "Heavy ad load on low-end devices",
+    "Micro-drama paywalls hit mid-cliffhanger",
+    "App bloat and battery drain on budget phones"
+  ],
+  "competitors": [
+    {"label": "Short video", "text": "Instagram Reels, YouTube Shorts, Josh (VerSe)"},
+    {"label": "Micro-dramas", "text": "Kuku TV, Pocket FM, Stage, ReelShort"},
+    {"label": "Vernacular social", "text": "Koo (shut 2024), Chingari, Facebook groups"},
+    {"label": "Live gifting", "text": "Chamet, Eloelo, Instagram Live"},
+    {"label": "Edge", "text": "Deep vernacular data and ~65M micro-drama viewers, two-thirds of Indian format"},
+    {"label": "Risk", "text": "Meta/Google ad dominance, IT Rules moderation burden, micro-drama copycats"}
+  ],
+  "news": [
+    {"label": "Aug 2026", "text": "Mohalla Tech commits ₹100 cr to AI-driven micro-drama production"},
+    {"label": "Jul 2026", "text": "Turns operationally profitable; plans up to $400M IPO within 4-5 quarters"},
+    {"label": "2025", "text": "FY25 revenue flat at ₹723 cr; adjusted EBITDA loss cut 72%"},
+    {"label": "Watch", "text": "FY26 audited numbers, IPO filing, QuickTV paid conversion, Reels share gains"}
+  ],
+  "sources": "Mohalla Tech FY25 filings via Entrackr/Inc42, Business Standard, Business Today, company statements. Metrics are PM estimates for interview prep. Prepared Oct 2026."
+}

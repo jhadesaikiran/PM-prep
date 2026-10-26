@@ -1,0 +1,283 @@
+{
+  "slug": "whatsapp",
+  "name": "WhatsApp",
+  "tagline": "World's largest private messenger, now monetising businesses, Channels and Status",
+  "facts": [
+    [
+      "Founded",
+      "2009 by Jan Koum, Brian Acton"
+    ],
+    [
+      "Owner/Listed",
+      "Meta (NASDAQ: META), acquired 2014 for $19B"
+    ],
+    [
+      "HQ",
+      "Menlo Park, California (Meta)"
+    ],
+    [
+      "Revenue",
+      "Not split; Meta other rev $1.0B Q2'26 (+73%)"
+    ],
+    [
+      "Users",
+      "3B+ MAU (2025); ~3.3B est. 2026"
+    ],
+    [
+      "Businesses",
+      "200M+ business accounts; 1M+ weekly business-agent users"
+    ],
+    [
+      "Head",
+      "Kunal Shah (CRED founder) since Jun 2026"
+    ],
+    [
+      "India",
+      "Largest market, ~580M users (est.)"
+    ]
+  ],
+  "strategy": [
+    {
+      "label": "Mission",
+      "text": "Simple, reliable, private messaging and calling for everyone, anywhere in the world."
+    },
+    {
+      "label": "Vision",
+      "text": "Become the default way people talk to businesses, creators and AI, not just friends and family."
+    },
+    {
+      "label": "Core strategy",
+      "text": "Keep Chats free, ad-free and encrypted; monetise businesses via paid messaging, Click-to-WhatsApp ads and Updates tab ads."
+    },
+    {
+      "label": "Moat",
+      "text": "Phone-number graph and network effects; default app in India, Brazil, Indonesia; works on low-end phones and weak networks."
+    },
+    {
+      "label": "Key bet",
+      "text": "Business AI agents and Meta AI in chats; India commerce and payments under Kunal Shah after $900M CRED stake."
+    },
+    {
+      "label": "Your view",
+      "text": "Can WhatsApp scale Status ads and AI agents without breaking the private, ad-free promise that built it?"
+    }
+  ],
+  "customers": [
+    {
+      "segment": "Consumers",
+      "who": "3B+ people chatting with family and groups",
+      "pain": "Need free, reliable, private messaging and calls across countries and networks",
+      "why": "Everyone they know is already there; free calls; E2EE; works on cheap phones"
+    },
+    {
+      "segment": "Small businesses",
+      "who": "Shops, tutors, clinics using Business app",
+      "pain": "Need a cheap way to reach customers, share catalogues, take orders",
+      "why": "Free app, customers already on it, catalogues and quick replies replace a website"
+    },
+    {
+      "segment": "Enterprises",
+      "who": "Banks, airlines, D2C brands via Business Platform",
+      "pain": "SMS and email get ignored; need verified, rich, two-way customer channel",
+      "why": "High open rates, green tick trust, APIs via BSPs, AI agents automate support"
+    },
+    {
+      "segment": "Advertisers",
+      "who": "Brands buying CTWA and Status ads",
+      "pain": "Need leads that convert into real conversations, not cheap clicks",
+      "why": "Meta targeting plus chat handoff; Status ads reach 1.5B+ daily Updates-tab users (est.)"
+    },
+    {
+      "segment": "Channel creators",
+      "who": "Publishers, celebrities, brands running Channels",
+      "pain": "Need a broadcast audience and a way to monetise followers",
+      "why": "Massive reach, promoted channels for discovery, paid channel subscriptions"
+    }
+  ],
+  "portfolio": [
+    {
+      "group": "Personal messaging",
+      "products": [
+        {
+          "name": "Chats and Groups",
+          "desc": "End-to-end encrypted 1:1 and group messaging, media, voice notes"
+        },
+        {
+          "name": "Calls",
+          "desc": "Free voice and video calls, group calls up to 32"
+        },
+        {
+          "name": "Communities",
+          "desc": "Umbrella for related groups with admin announcements"
+        },
+        {
+          "name": "Meta AI",
+          "desc": "AI assistant inside chats and search, Llama-powered"
+        },
+        {
+          "name": "Status",
+          "desc": "24-hour Stories-style updates for contacts"
+        }
+      ],
+      "north_star": "Daily active messaging users sending at least one message",
+      "key_metrics": "DAU/MAU, messages and call minutes per user, group creation, retention",
+      "guardrails": "Message delivery latency, spam reports, encryption integrity, battery and data usage"
+    },
+    {
+      "group": "Updates tab (Channels and ads)",
+      "products": [
+        {
+          "name": "Channels",
+          "desc": "One-way broadcast from creators, publishers and brands"
+        },
+        {
+          "name": "Status ads",
+          "desc": "Full-screen ads between Status updates, click to chat"
+        },
+        {
+          "name": "Promoted channels",
+          "desc": "Paid placement in Channels discovery directory"
+        },
+        {
+          "name": "Channel subscriptions",
+          "desc": "Monthly paid tier for exclusive channel content"
+        }
+      ],
+      "north_star": "Daily Updates-tab users engaging with Status or Channels",
+      "key_metrics": "Ad impressions, CPM, ad-to-chat rate, channel follows, paid subscribers",
+      "guardrails": "Ad hide/block rate, Chats engagement unchanged, Status posting rate, uninstalls"
+    },
+    {
+      "group": "Business",
+      "products": [
+        {
+          "name": "WhatsApp Business app",
+          "desc": "Free SMB app with catalogues, labels, quick replies"
+        },
+        {
+          "name": "Business Platform (Cloud API)",
+          "desc": "Paid API for enterprises via BSPs, per-message pricing"
+        },
+        {
+          "name": "Meta Business Agent",
+          "desc": "AI agent that answers, books, sells across Meta apps"
+        },
+        {
+          "name": "Click-to-WhatsApp ads",
+          "desc": "Facebook/Instagram ads that open a WhatsApp chat"
+        },
+        {
+          "name": "Flows and catalogues",
+          "desc": "In-chat forms, product lists and checkout journeys"
+        }
+      ],
+      "north_star": "Weekly business conversations that end in a resolved query or sale",
+      "key_metrics": "Paid messages, revenue per business, CTWA conversations, agent resolution rate",
+      "guardrails": "User block/report rate on businesses, marketing opt-outs, quality rating drops"
+    }
+  ],
+  "business_model": {
+    "rows": [
+      {
+        "line": "Paid messaging",
+        "who_uses": "Enterprises sending OTPs, alerts, marketing via API",
+        "who_pays": "Businesses (through BSPs like Gupshup, Twilio)",
+        "how": "Per delivered template since Jul 2025; India marketing ₹0.86, utility ₹0.13"
+      },
+      {
+        "line": "Click-to-WhatsApp ads",
+        "who_uses": "Users on Facebook and Instagram",
+        "who_pays": "Advertisers",
+        "how": "Auction-priced ads; revenue booked in Meta ads, not WhatsApp"
+      },
+      {
+        "line": "Status ads and promoted channels",
+        "who_uses": "Users browsing the Updates tab",
+        "who_pays": "Advertisers and channel owners",
+        "how": "Ads Manager auction; global rollout from 2025, ad-free option in parts of Europe"
+      },
+      {
+        "line": "Channel subscriptions",
+        "who_uses": "Fans of creators and publishers",
+        "who_pays": "Subscribing users",
+        "how": "Monthly fee to admins; Meta and app stores take a cut (terms evolving)"
+      },
+      {
+        "line": "Business AI subscriptions",
+        "who_uses": "SMBs automating chats with Business Agent",
+        "who_pays": "Businesses",
+        "how": "Free at launch; planned paid tier under Meta One"
+      }
+    ],
+    "bullets": [
+      {
+        "label": "Revenue mix",
+        "text": "Meta 'other revenue' hit $1.0B in Q2'26 (+73%), mostly WhatsApp paid messaging and subscriptions; CTWA sits inside the $59B ads line."
+      },
+      {
+        "label": "Users vs payers",
+        "text": "3B+ users pay nothing; businesses and advertisers pay. Chats stay ad-free and encrypted, so ads live only in Updates."
+      },
+      {
+        "label": "Unit economics",
+        "text": "Near-zero marginal cost per message; service replies free within 24 hours; utility rates tiered by volume to drive adoption."
+      },
+      {
+        "label": "Growth levers",
+        "text": "Scale Status ads, paid AI agents, payments and commerce in India and Brazil, more enterprise utility traffic moving off SMS."
+      },
+      {
+        "label": "Lesson",
+        "text": "Monetise the side of the network that gets ROI (businesses) and protect the side that creates the network effect."
+      }
+    ]
+  },
+  "friction": [
+    "Marketing message overload from brands feels like spam",
+    "Status ads clutter a previously ad-free Updates tab",
+    "Forwarded misinformation spreads fast in large groups",
+    "Phone number exposure until usernames fully roll out",
+    "Old Android phones dropped in Sep 2026"
+  ],
+  "competitors": [
+    {
+      "label": "Messaging",
+      "text": "Telegram, Signal, iMessage, Google Messages (RCS), WeChat, LINE"
+    },
+    {
+      "label": "Business messaging",
+      "text": "SMS/CPaaS, RCS Business Messaging, Apple Messages for Business"
+    },
+    {
+      "label": "Broadcast/creators",
+      "text": "Telegram channels, Instagram broadcast channels, YouTube, X"
+    },
+    {
+      "label": "Edge",
+      "text": "3B+ users, default in emerging markets, Meta ads feed CTWA demand"
+    },
+    {
+      "label": "Risk",
+      "text": "Ads and AI erode trust; EU DMA interoperability; India traceability demands"
+    }
+  ],
+  "news": [
+    {
+      "label": "Sep 2026",
+      "text": "Stopped supporting phones below Android 6.0 from 8 Sep; hits India, Africa"
+    },
+    {
+      "label": "Jul 2026",
+      "text": "Meta other revenue crossed $1B, up 73%, led by WhatsApp paid messaging"
+    },
+    {
+      "label": "Jun 2026",
+      "text": "Kunal Shah replaces Will Cathcart; Meta buys 20% of CRED for $900M"
+    },
+    {
+      "label": "Watch",
+      "text": "Status ads scale, paid Business Agent pricing, Shah's India payments and commerce push"
+    }
+  ],
+  "sources": "Meta Q2 2026 results, Meta and WhatsApp announcements, Conversations 2026, press coverage. Metrics are PM estimates for interview prep. Prepared Oct 2026."
+}

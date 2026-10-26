@@ -1,0 +1,95 @@
+{
+  "slug": "amazon-fresh",
+  "name": "Amazon Fresh & Amazon Now",
+  "tagline": "Amazon's grocery delivery, now racing into India quick commerce",
+  "facts": [
+    ["Founded", "Fresh: 2007 Seattle; India ~2019; Now: Jun 2025"],
+    ["Owner/Listed", "Amazon.com Inc (NASDAQ: AMZN)"],
+    ["Amazon Now GMV", "$1B+ annualised gross sales, Sep 2026"],
+    ["Growth", "Amazon Now orders doubling every quarter"],
+    ["Dark stores", "500+ in India; target 1,000+ by end-2026"],
+    ["Reach", "Target 300+ cities using More Retail stores"],
+    ["Investment", "₹2,800 cr (~$300M) quick-commerce push"],
+    ["Global", "US Fresh stores closing (2026); same-day grocery 2,300+ towns"],
+    ["CEO/Head", "Samir Kumar, Amazon India Country Manager"]
+  ],
+  "strategy": [
+    {"label": "Mission", "text": "Be Earth's most customer-centric company, where people find anything they want to buy online."},
+    {"label": "Vision", "text": "Make Amazon the default for every grocery mission: minutes (Now), hours (Fresh), days (Pantry-style bulk)."},
+    {"label": "Core strategy", "text": "Bundle groceries into Prime; reuse logistics, More Retail stores and seller base for asset-light scale."},
+    {"label": "Moat", "text": "Prime base, payments (Amazon Pay), ad stack and deep pockets to subsidise a late entry."},
+    {"label": "Lesson", "text": "Globally Amazon closed Fresh stores; delivery beat physical retail. In India it entered q-comm late but fast."},
+    {"label": "Your view", "text": "Can a late entrant with Prime win quick commerce, or is store density a first-mover moat?"}
+  ],
+  "customers": [
+    {"segment": "Prime households", "who": "Metro and tier-2 Prime members", "pain": "Juggling multiple apps for groceries and shopping", "why": "One app, Prime benefits, trusted returns and Amazon Pay rewards"},
+    {"segment": "Urgent top-up buyer", "who": "Urban users needing essentials in minutes", "pain": "Forgot items; e-commerce takes a day", "why": "Amazon Now tab inside main app, no new download"},
+    {"segment": "Planned grocery shopper", "who": "Families buying weekly baskets", "pain": "Want price value and scheduled slots", "why": "Amazon Fresh slotted delivery, bank offers, Great Indian Festival deals"},
+    {"segment": "Brands/sellers", "who": "FMCG brands, local partners, More Retail", "pain": "Need reach beyond metros and ad ROI", "why": "Amazon Ads, huge traffic, fulfilment network"},
+    {"segment": "Delivery partners", "who": "Riders in Amazon Flex and partner fleets", "pain": "Earnings, safety under speed targets", "why": "Steady volume across Amazon's delivery programs"}
+  ],
+  "portfolio": [
+    {"group": "India grocery",
+     "products": [
+       {"name": "Amazon Now", "desc": "Quick-commerce delivery from dark stores in minutes"},
+       {"name": "Amazon Fresh", "desc": "Scheduled grocery delivery within hours"},
+       {"name": "More Retail stores", "desc": "Supermarkets doubling as fulfilment for smaller cities"},
+       {"name": "Prime grocery perks", "desc": "Free delivery thresholds and member deals"}
+     ],
+     "north_star": "Weekly grocery-active Prime households",
+     "key_metrics": "Orders per store/day, AOV, Prime cross-shop rate, delivery time",
+     "guardrails": "Fresh quality complaints, stock-outs, cost per order, rider safety"},
+    {"group": "Global grocery",
+     "products": [
+       {"name": "Same-Day perishables", "desc": "US same-day grocery delivery in 2,300+ towns"},
+       {"name": "Whole Foods Market", "desc": "Premium stores; 100+ new stores planned"},
+       {"name": "Amazon Fresh online", "desc": "Online grocery delivery in US, UK and others"}
+     ],
+     "north_star": "Grocery share of Prime household wallet",
+     "key_metrics": "Grocery GMV, perishables growth, repeat rate",
+     "guardrails": "Store losses, waste, delivery cost per unit"},
+    {"group": "Monetisation layers",
+     "products": [
+       {"name": "Amazon Ads", "desc": "Sponsored products and brand ads on grocery searches"},
+       {"name": "Amazon Pay", "desc": "Payments, cashback and credit at checkout"}
+     ],
+     "north_star": "Ad and payment revenue per grocery order",
+     "key_metrics": "Ad attach, Amazon Pay share, take rate",
+     "guardrails": "Search relevance, discount dependency"}
+  ],
+  "business_model": {
+    "rows": [
+      {"line": "Grocery marketplace", "who_uses": "Prime and non-Prime shoppers", "who_pays": "Sellers and brands", "how": "Commissions and fees under India's marketplace FDI rules"},
+      {"line": "Customer fees", "who_uses": "Shoppers below free-delivery threshold", "who_pays": "Consumers", "how": "Delivery and handling fees per order"},
+      {"line": "Prime", "who_uses": "Members across shopping, video, music", "who_pays": "Consumers", "how": "Annual or monthly subscription bundling grocery perks"},
+      {"line": "Advertising", "who_uses": "FMCG and D2C brands", "who_pays": "Brands", "how": "CPC sponsored listings, display, retail media"}
+    ],
+    "bullets": [
+      {"label": "Revenue mix", "text": "India: seller commissions, fees and ads; globally grocery is part of Amazon online and physical store revenue."},
+      {"label": "Users vs payers", "text": "Shoppers pay for goods; sellers pay commissions; brands buy ads; Prime subsidises frequency."},
+      {"label": "Unit economics", "text": "Not disclosed; est. deeply negative in India as Amazon funds launch discounts and store build-out."},
+      {"label": "Growth levers", "text": "Prime cross-sell, 300-city rollout via More stores, ads, festival sales, electronics in minutes."}
+    ]
+  },
+  "friction": [
+    "Amazon Now unavailable in many pin codes",
+    "Now vs Fresh vs main app confuses users",
+    "Smaller fresh assortment than Blinkit or BigBasket",
+    "Delivery-time promise varies by city",
+    "Marketplace FDI rules limit owning inventory"
+  ],
+  "competitors": [
+    {"label": "Quick commerce", "text": "Blinkit (2,443 stores, leader), Zepto, Swiggy Instamart, BB Now"},
+    {"label": "E-commerce", "text": "Flipkart Minutes, JioMart, Myntra M-Now"},
+    {"label": "Global", "text": "Walmart, Instacart, Kroger, DoorDash grocery"},
+    {"label": "Edge", "text": "Prime base, logistics reuse and deepest pockets in Indian commerce"},
+    {"label": "Risk", "text": "Late entrant vs Blinkit density; regulatory scrutiny on marketplace discounting"}
+  ],
+  "news": [
+    {"label": "Sep 2026", "text": "Amazon Now crosses $1B annualised gross sales in India"},
+    {"label": "Jun 2026", "text": "Andy Jassy in India: Amazon Now to expand to 300+ cities"},
+    {"label": "Jan 2026", "text": "Amazon closing US Fresh and Go stores, refocusing on Whole Foods, same-day"},
+    {"label": "Watch", "text": "1,000 dark stores by Diwali-end 2026, share vs Blinkit, Flipkart Minutes"}
+  ],
+  "sources": "Amazon announcements, Business Standard, YourStory, Inc42, Retail Insight Network coverage. Metrics are PM estimates for interview prep. Prepared Oct 2026."
+}

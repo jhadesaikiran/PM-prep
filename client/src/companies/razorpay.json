@@ -1,0 +1,101 @@
+{
+  "slug": "razorpay",
+  "name": "Razorpay",
+  "tagline": "Full-stack payments and business banking infrastructure for Indian businesses",
+  "facts": [
+    ["Founded", "2014, Harshil Mathur and Shashank Kumar"],
+    ["HQ", "Bengaluru; reverse-flipped domicile to India 2025"],
+    ["Owner/Listed", "Private; confidential DRHP filed with SEBI Jun 2026"],
+    ["Revenue", "FY25 ₹3,783 cr (+65% YoY)"],
+    ["Profit", "FY25 net loss ₹1,209 cr (one-time ESOP/flip costs)"],
+    ["Scale", "~12M+ merchants; ~$180B annualised TPV (company claim)"],
+    ["Valuation", "$7.5B (2021); IPO target ~$5–6B"],
+    ["CEO", "Harshil Mathur (co-founder)"],
+    ["Global", "Malaysia (Curlec), Singapore since 2025"]
+  ],
+  "strategy": [
+    {"label": "Mission", "text": "Make money movement simple for every business: accept, process and disburse payments, then bank and lend on top."},
+    {"label": "Vision", "text": "Become the operating system for business money in India and emerging Asia, from checkout to payroll to credit."},
+    {"label": "Core strategy", "text": "Land with the payment gateway, expand into RazorpayX banking, POS, payroll and Capital to raise revenue per merchant."},
+    {"label": "Moat", "text": "Developer-first APIs, best-in-class success rates via routing, RBI payment aggregator licence and deep enterprise integrations."},
+    {"label": "Key bet", "text": "Agentic payments: AI Agent Studio (Mar 2026), UPI Reserve Pay pilots with NPCI, OpenAI and Zomato/Swiggy-style merchants."},
+    {"label": "Your view", "text": "With UPI MDR near zero, can Razorpay earn enough beyond gateway fees to justify an IPO valuation below 2021's?"}
+  ],
+  "customers": [
+    {"segment": "Startups and D2C", "who": "Online brands, SaaS, edtech, creators", "pain": "Need fast onboarding, all payment modes, high checkout success", "why": "Plug-and-play APIs, Magic Checkout, payment links; live in hours, not weeks"},
+    {"segment": "Enterprises", "who": "Large e-commerce, BFSI, airlines, food delivery", "pain": "Failed transactions and downtime cost crores at peak volumes", "why": "Optimizer multi-gateway routing, reliability SLAs, custom pricing and dedicated support"},
+    {"segment": "SMBs (offline)", "who": "Retailers using POS and QR", "pain": "Fragmented terminals, settlement delays, no working-capital access", "why": "Razorpay POS (Ezetap) plus instant settlements and Capital loans in one dashboard"},
+    {"segment": "Finance teams", "who": "CFOs and ops teams in mid-market firms", "pain": "Manual payouts, payroll, vendor payments and reconciliation", "why": "RazorpayX current accounts, Payouts and Payroll automate money-out with reconciliation"},
+    {"segment": "Cross-border sellers", "who": "Indian exporters, SEA merchants", "pain": "High FX fees and slow international settlements", "why": "International payments, Curlec Malaysia and Singapore stack cut cross-border cost"}
+  ],
+  "portfolio": [
+    {"group": "Payments (money in)",
+     "products": [
+       {"name": "Payment Gateway", "desc": "Cards, UPI, netbanking, wallets, EMI in one integration"},
+       {"name": "Magic Checkout", "desc": "One-click checkout with saved addresses, COD risk scoring"},
+       {"name": "Optimizer", "desc": "Routes transactions across gateways to maximise success rate"},
+       {"name": "Payment Links and Pages", "desc": "No-code collection for social sellers and SMBs"},
+       {"name": "Subscriptions", "desc": "Recurring billing on UPI Autopay, cards, eMandates"},
+       {"name": "Razorpay POS", "desc": "Offline card and QR terminals from Ezetap acquisition"}
+     ],
+     "north_star": "Successful payment volume (TPV) processed per active merchant",
+     "key_metrics": "Payment success rate, take rate in bps, active merchants, integration time",
+     "guardrails": "Fraud and chargeback rate, downtime minutes, RBI compliance incidents"},
+    {"group": "RazorpayX (money out and banking)",
+     "products": [
+       {"name": "Current Accounts", "desc": "Neo-banking accounts with partner banks for businesses"},
+       {"name": "Payouts", "desc": "Bulk vendor, refund and gig-worker disbursals via API"},
+       {"name": "Payroll", "desc": "Salary, compliance, TDS and PF automation"},
+       {"name": "Corporate Cards", "desc": "Spend management cards for teams"}
+     ],
+     "north_star": "Monthly money-out volume from merchants also using gateway",
+     "key_metrics": "Cross-sell rate, account balances, payout volume, payroll seats",
+     "guardrails": "Failed payouts, partner-bank incidents, support ticket resolution time"},
+    {"group": "Capital and AI",
+     "products": [
+       {"name": "Razorpay Capital", "desc": "Working-capital and cash-advance loans underwritten on payment data"},
+       {"name": "AI Agent Studio", "desc": "Agents for failed-payment recovery, disputes, cash-flow (2026)"},
+       {"name": "Agentic payments", "desc": "UPI Reserve Pay checkouts inside AI assistants, pilot stage"}
+     ],
+     "north_star": "Revenue per merchant from non-gateway products",
+     "key_metrics": "Loan disbursals, NPA rate, agent-recovered GMV, agent adoption",
+     "guardrails": "Credit losses, unauthorised agent transactions, merchant complaints"}
+  ],
+  "business_model": {
+    "rows": [
+      {"line": "Payment gateway MDR", "who_uses": "Online merchants and enterprises", "who_pays": "Merchant", "how": "~2% on cards/wallets; UPI near-zero MDR; negotiated enterprise pricing"},
+      {"line": "Value-added services", "who_uses": "Merchants needing checkout, routing, subscriptions", "who_pays": "Merchant", "how": "Per-transaction or SaaS fees for Magic Checkout, Optimizer, Subscriptions"},
+      {"line": "RazorpayX banking", "who_uses": "Finance teams of SMBs and mid-market", "who_pays": "Merchant plus partner bank float share", "how": "Payout fees, payroll per-seat SaaS, interchange on corporate cards"},
+      {"line": "Lending (Capital)", "who_uses": "Merchants needing working capital", "who_pays": "Borrowing merchant", "how": "Interest and fees, often deducted from settlements"},
+      {"line": "Offline POS", "who_uses": "Retailers and enterprise stores", "who_pays": "Merchant", "how": "Device rental plus MDR on card and QR transactions"}
+    ],
+    "bullets": [
+      {"label": "Revenue mix", "text": "Payment gateway dominates; RazorpayX, POS and international drove FY25's 65% growth to ₹3,783 cr."},
+      {"label": "Users vs payers", "text": "Consumers pay at checkout but never pay Razorpay; merchants are both users and payers (pure B2B)."},
+      {"label": "Unit economics", "text": "Gross profit ₹1,277 cr FY25 (~34% margin); low UPI take rate squeezes gateway margins, cross-sell offsets."},
+      {"label": "Growth levers", "text": "Raise revenue per merchant via banking, lending, POS; SEA expansion; agentic commerce; possible UPI MDR for large merchants."}
+    ]
+  },
+  "friction": [
+    "UPI zero-MDR makes core volume barely profitable",
+    "Settlement holds and KYC re-checks frustrate small merchants",
+    "Chargeback and dispute handling feels opaque to SMBs",
+    "Pricing tiers and add-on fees hard to compare",
+    "Partner-bank dependency for RazorpayX causes outages, limits"
+  ],
+  "competitors": [
+    {"label": "Gateways", "text": "PayU, Cashfree, Juspay (orchestration), CCAvenue, Stripe India"},
+    {"label": "Offline/POS", "text": "Pine Labs (listed 2025), Paytm, PhonePe, bank POS"},
+    {"label": "Business banking", "text": "Open, bank current accounts, Zoho Payroll"},
+    {"label": "Global", "text": "Stripe, Adyen, Checkout.com for cross-border merchants"},
+    {"label": "Edge", "text": "Developer love, product breadth, success-rate routing, early AI/agentic bets"},
+    {"label": "Risk", "text": "Commoditised UPI pricing, RBI regulatory actions, IPO at down-round valuation"}
+  ],
+  "news": [
+    {"label": "Jun 2026", "text": "Filed confidential DRHP with SEBI; targets ₹5,000–6,000 cr IPO."},
+    {"label": "Mar 2026", "text": "Launched AI Agent Studio at FTX 2026; agentic payments push."},
+    {"label": "Jun 2025", "text": "Singapore operations live after Malaysia's Curlec grew ~10x."},
+    {"label": "Watch", "text": "IPO pricing, FY26 profitability, UPI MDR for large merchants decision."}
+  ],
+  "sources": "Company statements and RoC filings FY25 (via Inc42/Entrackr), SEBI DRHP coverage, press coverage 2025–26. Metrics are PM estimates for interview prep. Prepared Oct 2026."
+}

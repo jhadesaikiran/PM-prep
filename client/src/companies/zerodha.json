@@ -1,0 +1,98 @@
+{
+  "slug": "zerodha",
+  "name": "Zerodha",
+  "tagline": "Bootstrapped discount broker that built India's retail trading habit, profitably",
+  "facts": [
+    ["Founded", "2010, Bengaluru; Nithin and Nikhil Kamath"],
+    ["Owner/Listed", "Private, bootstrapped, founder-owned; no IPO plans"],
+    ["Revenue", "FY26 ~₹8,847 cr (flat YoY; FY24 ₹9,993 cr)"],
+    ["Net profit", "FY26 ₹4,283 cr (+1.2% YoY)"],
+    ["Active clients", "67.9 lakh NSE active, Sep 2026 (#2)"],
+    ["Market share", "14.7% of NSE active clients; steadily declining"],
+    ["Client assets", "~₹9.05 lakh cr AUC, FY26"],
+    ["CEO", "Nithin Kamath (founder and CEO)"]
+  ],
+  "strategy": [
+    {"label": "Mission", "text": "Break every barrier traders and investors face in India: cost, support and technology."},
+    {"label": "Values", "text": "No ads, no spam, no dark patterns; discourage overtrading; build for decades; customer trust over short-term growth."},
+    {"label": "Core strategy", "text": "Flat-fee broking plus best-in-class tools (Kite, Console, Coin); grow by word of mouth and Varsity education."},
+    {"label": "Moat", "text": "Trust and pro-trader loyalty, lean team, 45%+ net margins, ecosystem via Rainmatter and Kite APIs."},
+    {"label": "Key bet", "text": "Diversify beyond F&O: Zerodha Fund House, MTF, merchant banking for new-age IPOs, US investing on Kite."},
+    {"label": "Your view", "text": "Is no-marketing still a moat when Groww wins new investors 2x faster? Should Zerodha advertise, list, or stay put?"}
+  ],
+  "customers": [
+    {"segment": "Active traders", "who": "Intraday and F&O traders, mostly metro", "pain": "Need reliable, fast platform with low costs and pro tools", "why": "Kite stability, charts, APIs, flat ₹20 pricing and long track record"},
+    {"segment": "Long-term investors", "who": "Salaried equity and direct-MF investors", "pain": "Hidden fees, mis-selling and spammy upsells at bank brokers", "why": "Free equity delivery, direct mutual funds via Coin, honest no-push brand"},
+    {"segment": "Algo / API developers", "who": "Quant traders and fintech builders", "pain": "Few brokers offer stable, documented trading APIs", "why": "Kite Connect APIs and partner ecosystem (Streak, Sensibull, smallcase)"},
+    {"segment": "Fintech partners (supply)", "who": "Rainmatter startups, smallcase, Sensibull, Tijori", "pain": "Need distribution and broker integration to reach investors", "why": "Access to Zerodha's base via Kite integrations and Rainmatter capital"},
+    {"segment": "Fund investors", "who": "Passive, low-cost index fund seekers", "pain": "High expense ratios and complex active fund choices", "why": "Zerodha Fund House: simple, low-cost passive index funds and ETFs"}
+  ],
+  "portfolio": [
+    {"group": "Trading platforms",
+     "products": [
+       {"name": "Kite", "desc": "Flagship web and mobile trading platform; adding MF, US investing"},
+       {"name": "Kite Connect", "desc": "Paid trading APIs for algo traders and partners"},
+       {"name": "Console", "desc": "Back office: P&L, tax reports, holdings analytics"},
+       {"name": "MTF", "desc": "Margin trading book ~₹9,000 cr; ~10% of revenue"}
+     ],
+     "north_star": "Monthly active traders retained 12+ months",
+     "key_metrics": "Orders per active, F&O and cash ADTO share, MTF book, uptime",
+     "guardrails": "Order latency, outages, retail F&O loss share, MTF risk exposure"},
+    {"group": "Investing and asset management",
+     "products": [
+       {"name": "Coin", "desc": "Direct mutual funds, zero commission, SIPs"},
+       {"name": "Zerodha Fund House", "desc": "Passive index funds JV with smallcase; FY26 revenue ₹17 cr"},
+       {"name": "Zerodha Gold / bonds", "desc": "Sovereign gold bonds, G-secs, T-bills, IPO applications"}
+     ],
+     "north_star": "Long-term investor assets held on Zerodha",
+     "key_metrics": "AUC, SIP count, Fund House AUM, investor-only share",
+     "guardrails": "Churn to rivals, fund tracking error, fee creep"},
+    {"group": "Education and ecosystem",
+     "products": [
+       {"name": "Varsity", "desc": "Free market education modules and app"},
+       {"name": "Rainmatter", "desc": "Fintech, climate and health investments; foundation grants"},
+       {"name": "Nudge / Kill switch", "desc": "Risk nudges and self-imposed trading limits"},
+       {"name": "Zerodha Capital", "desc": "NBFC for loans against securities"}
+     ],
+     "north_star": "Investor trust measured by referral and NPS",
+     "key_metrics": "Varsity users, organic signups, partner app usage",
+     "guardrails": "Complaint ratio, data breaches, regulatory actions"}
+  ],
+  "business_model": {
+    "rows": [
+      {"line": "Brokerage", "who_uses": "F&O and intraday traders", "who_pays": "Traders", "how": "Flat ₹20 or 0.03% per order; equity delivery free; ₹2,738 cr FY26"},
+      {"line": "Interest income", "who_uses": "MTF users, client float", "who_pays": "Borrowing clients; float yield", "how": "Interest on MTF book and margins/float; ~₹2,269 cr FY26"},
+      {"line": "Account maintenance (AMC)", "who_uses": "All demat holders", "who_pays": "Clients with holdings", "how": "Annual demat charge; ~₹180 cr, about 2% of revenue"},
+      {"line": "Fund House and NBFC", "who_uses": "Index fund investors, LAS borrowers", "who_pays": "Investors via TER; borrowers", "how": "Expense ratio on AUM; interest on loans against securities"}
+    ],
+    "bullets": [
+      {"label": "Revenue mix", "text": "Brokerage and interest dominate; F&O-linked income still the profit engine despite SEBI curbs and lost exchange rebates (₹400 cr)."},
+      {"label": "Users vs payers", "text": "Long-term investors pay little; a small cohort of active F&O traders generates most brokerage."},
+      {"label": "Unit economics", "text": "Near-zero CAC (no ads, ~30% referrals historically); ~48% net margin; lean team keeps cost per client tiny."},
+      {"label": "Growth levers", "text": "MTF, Fund House scale, merchant banking, US investing, wealth for affluent; win back share from Groww."},
+      {"label": "Headwinds", "text": "SEBI F&O rules from Nov 2024 cut F&O activity 20-30%; FY26 lost ~10 lakh active clients."}
+    ]
+  },
+  "friction": [
+    "Kite feels intimidating for first-time investors versus Groww",
+    "Separate apps (Kite, Coin, Console) fragment the journey",
+    "Support is ticket-based and slow for urgent issues",
+    "Account opening and re-KYC still clunky for some",
+    "Few hand-holding or advisory features for beginners"
+  ],
+  "competitors": [
+    {"label": "Discount brokers", "text": "Groww, Angel One, Upstox, Dhan, Fyers"},
+    {"label": "Bank brokers", "text": "ICICI Direct, HDFC Sky, Kotak Neo"},
+    {"label": "Wealth / MF", "text": "Groww, PhonePe Wealth, INDmoney, Paytm Money"},
+    {"label": "Pro trader tools", "text": "Dhan, Fyers, Sensibull-style option platforms"},
+    {"label": "Edge", "text": "Trust, pro-grade tech, highest profit margins, no outside investors to please"},
+    {"label": "Risk", "text": "Share loss to Groww, F&O dependence, key-person risk, slow diversification"}
+  ],
+  "news": [
+    {"label": "Sep 2026", "text": "NSE active clients 67.9 lakh, 14.7% share; Angel One close behind"},
+    {"label": "Aug 2026", "text": "FY26: profit ₹4,283 cr (+1%), revenue flat; Kamath flags MTF contagion risk"},
+    {"label": "Apr 2026", "text": "Applies for SEBI merchant banking licence to manage new-age IPOs"},
+    {"label": "Watch", "text": "Third place threat from Angel One, US investing on Kite, Fund House scale"}
+  ],
+  "sources": "Zerodha FY26 financials via Inc42/YourStory, NSE active-client data Sep 2026, SEBI FY26 F&O study, Nithin Kamath posts. Metrics are PM estimates for interview prep. Prepared Oct 2026."
+}

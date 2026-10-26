@@ -1,0 +1,100 @@
+{
+  "slug": "paytm",
+  "name": "Paytm",
+  "tagline": "Listed payments-plus-credit super app rebuilding after its bank's collapse",
+  "facts": [
+    ["Founded", "2010 by Vijay Shekhar Sharma (One97, 2000)"],
+    ["HQ", "Noida, Uttar Pradesh"],
+    ["Owner/Listed", "One97 Communications; NSE/BSE listed Nov 2021"],
+    ["Revenue", "FY26 ₹8,437 cr (+22% YoY)"],
+    ["Profit", "FY26 PAT ₹552 cr, first full-year profit"],
+    ["Latest qtr", "Q1 FY27 rev ₹2,448 cr (+28%), PAT ₹220 cr"],
+    ["UPI share", "~8% by volume (NPCI, mid-2026)"],
+    ["CEO", "Vijay Shekhar Sharma, MD and CEO"],
+    ["Regulatory", "PPBL licence cancelled Apr 2026; PA licence Nov 2025"]
+  ],
+  "strategy": [
+    {"label": "Mission", "text": "Bring half a billion Indians into the mainstream economy through payments and financial services."},
+    {"label": "Vision", "text": "Be India's AI-first financial super app: payments as the hook, merchant devices and credit as the profit engine."},
+    {"label": "Super-app lesson", "text": "Shrank from everything-app (ticketing sold to Zomato 2024, PPBL shut) to a focused payments-plus-finance super app."},
+    {"label": "Moat", "text": "Soundbox and card-machine base with crores of merchants, brand recall, and full PA licences regained 2025."},
+    {"label": "Key bets", "text": "Merchant and personal loan distribution (+45% YoY), Postpaid credit on UPI, AI app with Perplexity, AI soundboxes."},
+    {"label": "Your view", "text": "Is Paytm's future a super app, or a merchant-payments-and-credit company that also has a consumer app?"}
+  ],
+  "customers": [
+    {"segment": "Device merchants", "who": "Kiranas, shops with Soundbox and POS", "pain": "Need instant payment confirmation and working capital", "why": "Soundbox audio alerts, card machines, merchant loans on transaction history"},
+    {"segment": "Online merchants", "who": "E-commerce, apps, utilities", "pain": "Need reliable gateway and high success rates", "why": "Paytm Payment Gateway back after RBI PA licence; bundled with lending"},
+    {"segment": "Consumers", "who": "UPI users, Tier 2+, long-time wallet users", "pain": "Want payments, bills, travel and offers in one place", "why": "Familiar brand, cashback, bills, travel, gold, UPI Lite in one app"},
+    {"segment": "Borrowers", "who": "Thin-file salaried and self-employed", "pain": "Small-ticket credit hard to get from banks", "why": "Personal loans and Postpaid credit on UPI via partner lenders"},
+    {"segment": "Lenders and AMCs", "who": "Banks, NBFCs, insurers, AMCs", "pain": "Need low-cost digital customer acquisition and collections", "why": "Paytm sources, underwrites with data, and supports collections; paid per disbursal"}
+  ],
+  "portfolio": [
+    {"group": "Payments",
+     "products": [
+       {"name": "Paytm UPI", "desc": "Consumer UPI, UPI Lite, RuPay credit on UPI"},
+       {"name": "Soundbox and Card Machine", "desc": "Subscription devices for offline merchants"},
+       {"name": "Payment Gateway", "desc": "Online and offline PA via Paytm Payments Services"},
+       {"name": "Bills and Recharges", "desc": "Utilities, FASTag, credit card bill payments"}
+     ],
+     "north_star": "Monthly transacting merchants on Paytm devices",
+     "key_metrics": "Merchant GMV (₹7.1 lakh cr Q1 FY27), device subscriptions, UPI share",
+     "guardrails": "Payment failure rate, KYC/AML compliance breaches, device churn"},
+    {"group": "Financial services distribution",
+     "products": [
+       {"name": "Merchant loans", "desc": "Working capital loans to device merchants via partners"},
+       {"name": "Personal loans", "desc": "Partner-funded loans to app users"},
+       {"name": "Paytm Postpaid", "desc": "Credit line on UPI, relaunched Sep 2025"},
+       {"name": "Paytm Money and Insurance", "desc": "Stock broking, mutual funds, insurance distribution"}
+     ],
+     "north_star": "Monthly disbursals sourced through Paytm",
+     "key_metrics": "Disbursal value, take rate, repeat borrowers, collection efficiency",
+     "guardrails": "Partner portfolio NPAs, FLDG exposure, RBI digital lending compliance"},
+    {"group": "Super-app and AI",
+     "products": [
+       {"name": "Travel", "desc": "Flights, trains, buses booking"},
+       {"name": "Digital gold and rewards", "desc": "Gold-coin rewards and gold investments"},
+       {"name": "AI assistant", "desc": "Perplexity-powered search and money insights in app"},
+       {"name": "AI Soundbox", "desc": "Merchant insights, translation, business agent features"}
+     ],
+     "north_star": "Weekly active users using two or more services",
+     "key_metrics": "Cross-category usage, AI query engagement, travel GMV",
+     "guardrails": "App clutter, contribution margin per category, marketing spend"}
+  ],
+  "business_model": {
+    "rows": [
+      {"line": "Payment services", "who_uses": "Merchants and consumers", "who_pays": "Merchants (MDR, device fees)", "how": "Soundbox subscriptions, card/PG MDR; Q1 FY27 ₹1,384 cr (+33%)"},
+      {"line": "Financial services", "who_uses": "Borrowers, investors, insurance buyers", "who_pays": "Partner lenders, AMCs, insurers", "how": "Sourcing and collection fees; Q1 FY27 ₹814 cr (+45%)"},
+      {"line": "Marketing services", "who_uses": "Travel bookers, advertisers", "who_pays": "Airlines, brands, advertisers", "how": "Commissions on travel, ads, deals"},
+      {"line": "Consumer fees", "who_uses": "Users paying bills or recharges", "who_pays": "User", "how": "Small platform fees on some recharges and card bills"}
+    ],
+    "bullets": [
+      {"label": "Revenue mix", "text": "Q1 FY27: payments ~57%, financial services ~33%, rest marketing; lending is the fastest-growing line."},
+      {"label": "Users vs payers", "text": "Consumers mostly pay nothing; merchants pay for devices, lenders pay for distribution."},
+      {"label": "Unit economics", "text": "EBITDA margin 8% Q1 FY27 versus FY25 loss of ₹1,506 cr; marketing and ESOP costs cut."},
+      {"label": "Growth levers", "text": "Device merchant base, credit distribution, gateway licence restored, UPI MDR for large merchants, AI upsell."},
+      {"label": "Lesson", "text": "Regulatory trust is a product feature: PPBL compliance failures erased wallet and bank businesses."}
+    ]
+  },
+  "friction": [
+    "Brand trust damaged by Payments Bank shutdown",
+    "Cluttered home screen from super-app legacy",
+    "Wallet and FASTag migration confused existing users",
+    "Aggressive loan and offer pushes in app",
+    "Support slow for failed transactions and refunds"
+  ],
+  "competitors": [
+    {"label": "Consumer UPI", "text": "PhonePe, Google Pay, Navi, super.money, WhatsApp Pay"},
+    {"label": "Merchant devices", "text": "PhonePe SmartSpeaker, BharatPe, Pine Labs, Razorpay POS"},
+    {"label": "Lending", "text": "PhonePe, Bajaj Finserv, Navi, KreditBee, bank apps"},
+    {"label": "Super app", "text": "Tata Neu, Jio Financial, Amazon Pay, MakeMyTrip"},
+    {"label": "Edge", "text": "Profitable, listed, largest device-merchant base, full PA licences"},
+    {"label": "Risk", "text": "RBI scrutiny history, partner-lending credit cycles, UPI share stuck ~8%"}
+  ],
+  "news": [
+    {"label": "Jul 2026", "text": "Q1 FY27: revenue +28% to ₹2,448 cr, record EBITDA ₹203 cr."},
+    {"label": "May 2026", "text": "First full-year profit: FY26 PAT ₹552 cr on ₹8,437 cr revenue."},
+    {"label": "Apr 2026", "text": "RBI cancelled Paytm Payments Bank licence citing governance lapses."},
+    {"label": "Watch", "text": "UPI MDR rules, Postpaid scale-up, 30% cap reshuffling UPI share."}
+  ],
+  "sources": "One97 Communications shareholder letters FY26 and Q1 FY27, RBI and NPCI data, press coverage 2024–26. Metrics are PM estimates for interview prep. Prepared Oct 2026."
+}

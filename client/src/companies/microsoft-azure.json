@@ -1,0 +1,98 @@
+{
+  "slug": "microsoft-azure",
+  "name": "Microsoft Azure",
+  "tagline": "Microsoft's enterprise cloud: infrastructure, OpenAI-powered Foundry and hybrid, sold with Microsoft 365",
+  "facts": [
+    ["Founded", "2010 (Windows Azure), Microsoft"],
+    ["HQ / Listed", "Redmond; Microsoft (NASDAQ: MSFT)"],
+    ["Azure growth", "Q4 FY26 (Jun 2026) +43%; FY26 >$100B"],
+    ["Intelligent Cloud", "Q4 FY26 $39.3B (+32% YoY)"],
+    ["Microsoft Cloud", "Q4 FY26 $59.3B (+27%)"],
+    ["Backlog / Capex", "Commercial RPO $678B (+84%); Q4 capex $41B"],
+    ["Market share", "~20% Q2 2026 (Synergy), flat YoY"],
+    ["Leaders", "Satya Nadella CEO; Scott Guthrie, Cloud + AI"],
+    ["India", "4 regions; Hyderabad live Aug 2026; $20.5B pledged"]
+  ],
+  "strategy": [
+    {"label": "Mission", "text": "Empower every person and every organisation on the planet to achieve more."},
+    {"label": "Vision", "text": "The AI platform for the enterprise: one cloud from silicon to Copilot agents, trusted and compliant."},
+    {"label": "Core strategy", "text": "Bundle Azure with Microsoft 365, Windows Server, SQL licences and Copilot; win via enterprise agreements."},
+    {"label": "Moat", "text": "Deepest enterprise relationships, hybrid heritage, Entra identity, and privileged OpenAI IP rights."},
+    {"label": "Key bet", "text": "Microsoft Foundry multi-model agent platform plus Fairwater AI datacentres and Maia chips to cut OpenAI dependence."},
+    {"label": "Your view", "text": "OpenAI exclusivity ended Apr 2026 yet Azure accelerated: was OpenAI the moat, or the distribution?"}
+  ],
+  "customers": [
+    {"segment": "Microsoft-stack enterprises", "who": "Fortune 500, banks, governments on Windows/M365", "pain": "Migrating legacy Windows, SQL, SAP workloads securely", "why": "Licence portability (Hybrid Benefit), single contract, existing Microsoft trust"},
+    {"segment": "AI app builders", "who": "Enterprise dev teams, ISVs building agents", "pain": "Need frontier models with enterprise security and compliance", "why": "Foundry: OpenAI GPT-5.x first, plus Claude, Llama, Mistral, under Entra controls"},
+    {"segment": "OpenAI and AI labs", "who": "OpenAI, other model labs needing compute", "pain": "Massive training and inference capacity at short notice", "why": "Fairwater supercomputer sites, Nvidia GB300 scale, long-term partnership"},
+    {"segment": "Regulated / sovereign", "who": "Public sector, defence, Indian BFSI", "pain": "Data residency and sovereign control requirements", "why": "Sovereign cloud offerings, Azure Local, four in-country regions in India"},
+    {"segment": "Partners / CSPs", "who": "SIs, resellers, Marketplace ISVs", "pain": "Need a channel into enterprise IT budgets", "why": "Huge partner program; Marketplace purchases count against Azure commits"}
+  ],
+  "portfolio": [
+    {"group": "Infrastructure and hybrid",
+     "products": [
+       {"name": "Azure Virtual Machines", "desc": "Compute incl. Nvidia GPU and Cobalt Arm instances"},
+       {"name": "Azure Kubernetes Service", "desc": "Managed Kubernetes for containerised apps"},
+       {"name": "Azure Arc / Azure Local", "desc": "Manage on-prem and multicloud from Azure"},
+       {"name": "Azure SQL / Cosmos DB", "desc": "Managed relational and global NoSQL databases"}
+     ],
+     "north_star": "Consumed Azure revenue from production workloads under enterprise agreements",
+     "key_metrics": "Azure growth %, consumption vs commit, migration wins, capacity online",
+     "guardrails": "Outage frequency, capacity shortfalls, licence-change backlash"},
+    {"group": "AI platform",
+     "products": [
+       {"name": "Microsoft Foundry", "desc": "Models, Agent Service, Foundry IQ; renamed at Build 2026"},
+       {"name": "Azure OpenAI models", "desc": "GPT-5.5/5.6 with enterprise security and data residency"},
+       {"name": "Maia / Cobalt chips", "desc": "In-house AI accelerator and Arm CPU"},
+       {"name": "GitHub Copilot", "desc": "AI coding agent driving Azure developer pull-through"}
+     ],
+     "north_star": "Enterprise agents in production on Foundry each week",
+     "key_metrics": "Tokens served, Foundry customers, AI revenue contribution to Azure points",
+     "guardrails": "Responsible-AI incidents, inference gross margin, OpenAI dependence share"},
+    {"group": "Data and security",
+     "products": [
+       {"name": "Microsoft Fabric", "desc": "Unified analytics and data lake SaaS"},
+       {"name": "Entra ID", "desc": "Identity and access, the enterprise control plane"},
+       {"name": "Defender / Sentinel", "desc": "Cloud security posture and SIEM"}
+     ],
+     "north_star": "Organisations running data and security estates on Microsoft",
+     "key_metrics": "Fabric paid customers, Sentinel ingestion, cross-sell to Azure",
+     "guardrails": "Security breaches (trust), regulatory bundling complaints"}
+  ],
+  "business_model": {
+    "rows": [
+      {"line": "Azure consumption", "who_uses": "IT and dev teams", "who_pays": "Enterprises via enterprise agreements and MACC commits", "how": "Pay-as-you-go or prepaid commits with discounts"},
+      {"line": "AI services (Foundry)", "who_uses": "App and agent builders", "who_pays": "Enterprises, ISVs", "how": "Per token, provisioned throughput units, agent runtime"},
+      {"line": "OpenAI compute", "who_uses": "OpenAI", "who_pays": "OpenAI (large multi-year commitment)", "how": "Reserved capacity; major share of $678B RPO growth"},
+      {"line": "Server licences in IC", "who_uses": "On-prem and hybrid IT", "who_pays": "Enterprises", "how": "Windows Server, SQL Server licences and subscriptions"}
+    ],
+    "bullets": [
+      {"label": "Revenue mix", "text": "Intelligent Cloud ~$39B/qtr: Azure plus server products, GitHub, Nuance; Azure is the growth engine."},
+      {"label": "Users vs payers", "text": "Developers use; CIOs sign enterprise agreements; OpenAI is a mega-customer inflating backlog."},
+      {"label": "Unit economics", "text": "AI infra lowers cloud gross margin; FY27 guide op margin down under a point; capex ~$175B."},
+      {"label": "Growth levers", "text": "Convert RPO (~30% in 12 months), Foundry agents, capacity adds, Microsoft 365 Copilot pull-through."},
+      {"label": "Disclosure", "text": "Microsoft reports Azure only as growth %; FY26 crossed $100B annual revenue for first time."}
+    ]
+  },
+  "friction": [
+    "Capacity shortages delay customers' AI deployments",
+    "Portal and service naming change often, confusing users",
+    "Licensing rules seen as locking in Microsoft customers",
+    "High-profile security incidents dent trust",
+    "Costs hard to predict across consumption and commits"
+  ],
+  "competitors": [
+    {"label": "Hyperscale", "text": "AWS (~28%), Google Cloud (~15%), Oracle OCI"},
+    {"label": "AI platforms", "text": "Amazon Bedrock (now with OpenAI), Google Vertex, Anthropic direct"},
+    {"label": "India", "text": "AWS, Google Cloud, Yotta, Jio-led and sovereign clouds"},
+    {"label": "Edge", "text": "Enterprise distribution and bundling with Microsoft 365, Entra and GitHub"},
+    {"label": "Risk", "text": "OpenAI multicloud shift, capacity shortfalls, regulatory scrutiny of bundling"}
+  ],
+  "news": [
+    {"label": "Aug 2026", "text": "India South Central region (Hyderabad) goes live; part of $20.5B India pledge"},
+    {"label": "Jul 2026", "text": "Q4 FY26: Azure +43%, Intelligent Cloud $39.3B, RPO $678B"},
+    {"label": "Apr 2026", "text": "OpenAI deal amended; Azure no longer exclusive third-party cloud for OpenAI"},
+    {"label": "Watch", "text": "Q1 FY27 Azure growth, capacity adds, OpenAI share of backlog"}
+  ],
+  "sources": "Microsoft FY26 Q3-Q4 results, Synergy Research Q2 2026, Microsoft India announcements, press coverage. North star/metrics are PM judgement for interview prep. Prepared Oct 2026."
+}

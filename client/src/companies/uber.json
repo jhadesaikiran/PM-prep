@@ -1,0 +1,95 @@
+{
+  "slug": "uber",
+  "name": "Uber",
+  "tagline": "Global platform for rides, food and freight, now betting on robotaxis",
+  "facts": [
+    ["Founded", "2009, San Francisco; Travis Kalanick, Garrett Camp"],
+    ["Listed", "NYSE: UBER (IPO May 2019)"],
+    ["Revenue", "FY25 $52.0B; Q2 2026 $14.2B (+12%)"],
+    ["Gross bookings", "Q2 2026 $58.0B (+22% cc); trips +18%"],
+    ["Profit", "Q2 2026 adj EBITDA $2.8B; TTM FCF >$10B"],
+    ["Users", "208M monthly active platform consumers (Q2 2026)"],
+    ["Leaders", "CEO Dara Khosrowshahi; CFO Balaji Krishnamurthy"],
+    ["India", "FY25 sales ₹3,849 cr; loss ₹1,512 cr; 225 cities"]
+  ],
+  "strategy": [
+    {"label": "Mission", "text": "We reimagine the way the world moves for the better."},
+    {"label": "Vision", "text": "The everyday app for moving people and things, and the world's largest platform for autonomous vehicles."},
+    {"label": "Core strategy", "text": "Cross-platform flywheel: Uber One links Mobility and Delivery, raising frequency while ads and scale lift margins."},
+    {"label": "AV bet", "text": "Aggregator of robotaxis: Waymo, Nuro/Lucid, Baidu, Pony.ai, WeRide, Wayve; $1.25B Rivian deal (Mar 2026)."},
+    {"label": "Delivery M&A", "text": "Takeover offer for Delivery Hero at €41.50/share (Jul 2026); bought Getir food, Trendyol Go."},
+    {"label": "Your view", "text": "In India, should Uber copy Rapido's driver-subscription model across cabs, even at the cost of take rate?"}
+  ],
+  "customers": [
+    {"segment": "Urban riders", "who": "Commuters, travellers, nightlife across 70 countries", "pain": "Surge pricing, cancellations, long pickups at peak", "why": "Global reliability, safety features, consistent experience when travelling"},
+    {"segment": "Uber One members", "who": "Frequent riders and food orderers", "pain": "Fees across rides and delivery add up", "why": "Discounts and $0 delivery fees across Mobility and Delivery"},
+    {"segment": "Drivers and couriers", "who": "~10M earners, often multi-apping", "pain": "Opaque fares, commission cuts, deactivation fears", "why": "Highest demand density, instant pay; India autos keep 100% fare"},
+    {"segment": "Merchants and advertisers", "who": "Restaurants, grocers, CPG brands", "pain": "Commissions and need for incremental orders", "why": "Global demand, Uber Ads, marketing tools"},
+    {"segment": "Businesses and AV partners", "who": "Corporates, shippers, robotaxi makers", "pain": "Need demand and fleet operations at scale", "why": "Uber for Business, Freight, and demand aggregation for AV fleets"}
+  ],
+  "portfolio": [
+    {"group": "Mobility",
+     "products": [
+       {"name": "UberX / Go / Premier", "desc": "Core car rides across price tiers"},
+       {"name": "Moto and Auto", "desc": "Bike taxis and autorickshaws, key in India"},
+       {"name": "Uber Reserve / Intercity", "desc": "Scheduled airport and outstation trips"},
+       {"name": "Autonomous rides", "desc": "Robotaxi trips via Waymo, WeRide, Baidu and others"}],
+     "north_star": "Completed trips per MAPC per month",
+     "key_metrics": "Trips, gross bookings, take rate, ETA, driver supply hours",
+     "guardrails": "Safety incidents, cancellation rate, driver earnings per hour"},
+    {"group": "Delivery",
+     "products": [
+       {"name": "Uber Eats", "desc": "Restaurant delivery in global markets (exited India 2020)"},
+       {"name": "Grocery and retail", "desc": "Supermarket, convenience and retail delivery"},
+       {"name": "Uber Ads", "desc": "Sponsored listings for merchants and CPG brands"},
+       {"name": "Uber Connect / Courier", "desc": "Send packages within a city"}],
+     "north_star": "Weekly delivery orders per active eater",
+     "key_metrics": "Delivery GB growth (+25% cc), basket size, ad revenue, segment margin",
+     "guardrails": "Order accuracy, courier earnings, merchant churn"},
+    {"group": "Platform and other",
+     "products": [
+       {"name": "Uber One", "desc": "Cross-product membership for discounts and free delivery"},
+       {"name": "Uber for Business", "desc": "Corporate rides and meals with central billing"},
+       {"name": "Uber Freight", "desc": "Digital freight brokerage and logistics software"}],
+     "north_star": "Share of gross bookings from cross-platform members",
+     "key_metrics": "Members, retention, cross-sell, Freight bookings",
+     "guardrails": "Membership discount cost, Freight losses"}
+  ],
+  "business_model": {
+    "rows": [
+      {"line": "Mobility take rate", "who_uses": "Riders and drivers", "who_pays": "Riders (fare); driver share retained", "how": "Service fee ~30% of fare; India autos via driver subscription"},
+      {"line": "Delivery fees", "who_uses": "Eaters, merchants, couriers", "who_pays": "Merchants and eaters", "how": "Merchant commission plus consumer delivery and service fees"},
+      {"line": "Advertising", "who_uses": "Merchants and brands", "who_pays": "Merchants, CPG advertisers", "how": "Sponsored listings, in-app and in-car ads"},
+      {"line": "Uber One", "who_uses": "Frequent consumers", "who_pays": "Members", "how": "Monthly or annual subscription fee"},
+      {"line": "Freight", "who_uses": "Shippers and carriers", "who_pays": "Shippers", "how": "Brokerage margin and software fees"}
+    ],
+    "bullets": [
+      {"label": "Revenue mix", "text": "Q2 2026 revenue: Mobility $7.4B, Delivery $5.2B, Freight $1.6B; Delivery fastest growing at +28%."},
+      {"label": "Users vs payers", "text": "208M consumers pay; drivers and merchants are suppliers but also pay fees or subscriptions."},
+      {"label": "Unit economics", "text": "Adj EBITDA 4.9% of gross bookings; Mobility segment profit $2.2B, Delivery $1.1B in Q2 2026."},
+      {"label": "Growth levers", "text": "Uber One, ads, AV partnerships, Delivery Hero scale, low-cost products like Moto in emerging markets."},
+      {"label": "India", "text": "India FY25 loss ₹1,512 cr; Uber infused ₹2,921 cr (Feb 2026) to fight Rapido, now named top rival."}
+    ]
+  },
+  "friction": [
+    "Surge pricing feels unpredictable and unfair",
+    "Driver cancellations after accepting rides, India especially",
+    "AC, cash and destination disputes with drivers",
+    "Support is slow and chatbot-heavy",
+    "Advance tip prompts seen as dark patterns"
+  ],
+  "competitors": [
+    {"label": "US / global rides", "text": "Lyft, Waymo One, Tesla robotaxi, Bolt, Didi, Grab"},
+    {"label": "Delivery", "text": "DoorDash, Instacart, Just Eat Takeaway, Amazon"},
+    {"label": "India", "text": "Rapido (largest by rides), Ola, Namma Yatri, Bharat Taxi, inDrive"},
+    {"label": "Edge", "text": "Global scale, cross-platform membership, AV demand aggregation, $10B+ FCF"},
+    {"label": "Risk", "text": "AV players going direct, gig regulation, India losses, Delivery Hero integration"}
+  ],
+  "news": [
+    {"label": "Sep 2026", "text": "Issued €4.5B euro bonds to help fund Delivery Hero takeover."},
+    {"label": "Aug 2026", "text": "Q2 bookings $58B (+22% cc); India hits 225 cities; Rapido merger talks reportedly failed."},
+    {"label": "Jul 2026", "text": "Agreed €41.50/share takeover offer for Delivery Hero; closed Getir food acquisition."},
+    {"label": "Watch", "text": "Delivery Hero regulatory approvals (H2 2027) and whether India moves to subscription cabs."}
+  ],
+  "sources": "Uber Q2 2026 earnings release and 10-Q (SEC), 8-K filings, Uber India RoC filings via press, Wikipedia. Metrics are PM estimates for interview prep. Prepared Oct 2026."
+}

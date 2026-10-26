@@ -1,0 +1,90 @@
+{
+  "slug": "messenger",
+  "name": "Messenger",
+  "tagline": "Facebook's chat app, being folded back into the Facebook app",
+  "facts": [
+    ["Founded", "2011 standalone app (Facebook Chat 2008)"],
+    ["Owner/Listed", "Meta Platforms (NASDAQ: META)"],
+    ["HQ", "Menlo Park, California"],
+    ["Revenue", "Not split; inside Meta FoA $60.4B Q2'26"],
+    ["Users", "~950M MAU est. (947M ad reach, 2025)"],
+    ["Top markets", "US ~195M users; Philippines, Mexico, Brazil"],
+    ["Org", "Run within the Facebook app org (est.)"],
+    ["Desktop", "Win/Mac apps retired; messenger.com closed Apr 2026"]
+  ],
+  "strategy": [
+    {"label": "Mission", "text": "Meta: build the future of human connection and the technology that makes it possible."},
+    {"label": "Vision", "text": "Messaging as the social layer of Facebook: discover content in feed, discuss it with friends in chat."},
+    {"label": "Core strategy", "text": "Re-merge with Facebook (inbox in app, web via facebook.com/messages), cut standalone surfaces, double down on mobile."},
+    {"label": "Moat", "text": "Facebook identity and friend graph, Marketplace buyer-seller chats, Pages inbox for millions of businesses."},
+    {"label": "Key bet", "text": "Meta AI in chat and Business Agent automating Page and Marketplace conversations; E2EE by default since Dec 2023."},
+    {"label": "Your view", "text": "Should Messenger survive as a standalone app, or is it a feature of Facebook that Meta should fully absorb?"}
+  ],
+  "customers": [
+    {"segment": "Facebook-native users", "who": "25+ users in US, Philippines, LatAm", "pain": "Want to chat with Facebook friends without sharing phone numbers", "why": "Friends already on Facebook; no phone number needed; easy Reels and link sharing"},
+    {"segment": "Marketplace users", "who": "Buyers and sellers of used goods", "pain": "Need quick, trusted negotiation with strangers about listings", "why": "Chat is built into Marketplace with profile identity and listing context"},
+    {"segment": "Groups and Communities", "who": "Admins of hobby, school, local groups", "pain": "Need group coordination beyond feed posts", "why": "Communities up to 5,000 members tied to Facebook groups"},
+    {"segment": "Businesses/Pages", "who": "SMBs answering Page and ad enquiries", "pain": "Too many repetitive customer questions across channels", "why": "Unified Meta inbox, automated replies, Business Agent handles bookings and sales"},
+    {"segment": "Advertisers", "who": "Brands running Click-to-Messenger ads", "pain": "Need leads that turn into conversations", "why": "Meta targeting plus conversational follow-up and sponsored messages to opted-in users"}
+  ],
+  "portfolio": [
+    {"group": "Consumer chat",
+     "products": [
+       {"name": "Chats and Calls", "desc": "E2EE 1:1 and group chat, voice and video calls"},
+       {"name": "Communities", "desc": "Group spaces for up to 5,000 people"},
+       {"name": "Meta AI in Messenger", "desc": "AI assistant, image generation, chat summaries"},
+       {"name": "Messenger Kids", "desc": "Parent-controlled messaging for children"},
+       {"name": "Facebook inbox", "desc": "Messenger inside Facebook app and facebook.com/messages"}
+     ],
+     "north_star": "Weekly users sending messages to Facebook friends",
+     "key_metrics": "DAU, messages per user, Reels shares to chat, call minutes",
+     "guardrails": "Scam message reports, chat-history restore failures, app uninstalls"},
+    {"group": "Business messaging",
+     "products": [
+       {"name": "Click-to-Messenger ads", "desc": "Facebook and Instagram ads that open a Messenger chat"},
+       {"name": "Messenger Platform API", "desc": "APIs for bots and CRM integrations on Pages"},
+       {"name": "Meta Business Agent", "desc": "AI agent answering, booking, selling across Meta apps"},
+       {"name": "Sponsored messages", "desc": "Paid outbound messages to users who chatted before"},
+       {"name": "Marketplace chat", "desc": "Buyer-seller messaging attached to listings"}
+     ],
+     "north_star": "Business conversations resolved or converted per week",
+     "key_metrics": "Ad-initiated conversations, cost per conversation, agent resolution rate",
+     "guardrails": "Block/report rate on businesses, response time, Marketplace scam reports"}
+  ],
+  "business_model": {
+    "rows": [
+      {"line": "Click-to-Messenger ads", "who_uses": "Users on Facebook and Instagram", "who_pays": "Advertisers", "how": "Auction CPC/CPM; optimised for conversations started"},
+      {"line": "Sponsored messages", "who_uses": "Users who previously messaged a Page", "who_pays": "Businesses", "how": "Paid re-engagement messages via Ads Manager"},
+      {"line": "Inbox and Stories ads", "who_uses": "Messenger app users", "who_pays": "Advertisers", "how": "Native ad units sold in Meta's unified ads auction"},
+      {"line": "Business AI subscriptions", "who_uses": "SMBs automating Page chats", "who_pays": "Businesses", "how": "Business Agent free at launch; paid tier planned under Meta One"}
+    ],
+    "bullets": [
+      {"label": "Revenue mix", "text": "No disclosed figure; value is mostly indirect, lifting Facebook ad conversion via chat-based ads and Marketplace."},
+      {"label": "Users vs payers", "text": "~950M users pay nothing; advertisers and businesses pay; monetisation is thin versus Facebook feed."},
+      {"label": "Unit economics", "text": "Shared Meta infrastructure keeps cost low; retiring desktop apps and messenger.com cuts maintenance overhead."},
+      {"label": "Growth levers", "text": "Deeper Facebook integration, content sharing in chat, Meta AI, paid Business Agent, Marketplace growth."},
+      {"label": "Lesson", "text": "Unbundling (2014) built scale; rebundling (2024-26) shows a standalone app needs a unique job to justify itself."}
+    ]
+  },
+  "friction": [
+    "Desktop users forced onto facebook.com after shutdown",
+    "Phone-only users lost web access in 2026",
+    "E2EE chat-history PIN restore confuses users",
+    "Scam and spam message requests from strangers",
+    "Overlaps with WhatsApp and Instagram DMs"
+  ],
+  "competitors": [
+    {"label": "Inside Meta", "text": "WhatsApp and Instagram DMs cannibalise usage, especially under-30s"},
+    {"label": "Messaging", "text": "iMessage, Google Messages (RCS), Snapchat, Telegram, Discord"},
+    {"label": "Business chat", "text": "WhatsApp Business, Intercom/live chat, RCS Business Messaging"},
+    {"label": "Edge", "text": "Facebook graph, Marketplace, no phone number needed, Meta ads engine"},
+    {"label": "Risk", "text": "Slow irrelevance as Facebook ages; becomes a feature rather than a product"}
+  ],
+  "news": [
+    {"label": "Jun 2026", "text": "Meta Business Agent launched for Messenger, WhatsApp and Instagram at Conversations 2026"},
+    {"label": "Apr 2026", "text": "messenger.com shut on 14 Apr; redirects to facebook.com/messages"},
+    {"label": "Dec 2025", "text": "Messenger desktop apps for Windows and Mac retired"},
+    {"label": "Watch", "text": "Full inbox merge into Facebook app, Meta AI usage, Business Agent pricing"}
+  ],
+  "sources": "Meta Q2 2026 results, Meta announcements, DataReportal, press coverage. Metrics are PM estimates for interview prep. Prepared Oct 2026."
+}

@@ -1,0 +1,99 @@
+{
+  "slug": "google-pay",
+  "name": "Google Pay",
+  "tagline": "Google's payments app: UPI leader-challenger in India, Wallet globally",
+  "facts": [
+    ["Founded", "Sep 2017 as Tez (India), Google"],
+    ["HQ", "Mountain View; India product hub Bengaluru"],
+    ["Owner/Listed", "Alphabet (NASDAQ: GOOGL)"],
+    ["Revenue", "FY25 ₹1,547 cr India entity (+4%), PAT ₹50 cr"],
+    ["UPI share", "~33–35% by volume (NPCI, 2026)"],
+    ["Volume", "~7.6B UPI transactions in Jul 2026"],
+    ["India entity", "Google India Digital Services Pvt Ltd"],
+    ["Head", "Sundar Pichai (CEO); Sharath Bulusu leads Pay product"],
+    ["Global", "Google Wallet/Pay in ~80+ countries; NFC cards"]
+  ],
+  "strategy": [
+    {"label": "Mission", "text": "Make paying simple, secure and helpful for everyone, anchored in Google's mission to organise information."},
+    {"label": "Vision", "text": "Be India's default trusted payments and credit layer, and a global wallet for cards, passes and IDs."},
+    {"label": "Core strategy", "text": "Win UPI on simplicity and trust, then layer credit (Credit on UPI, Flex card, loans) via bank partners."},
+    {"label": "Moat", "text": "Android distribution, Google brand trust, fraud ML, and Play/Ads ecosystem integration rather than standalone monetisation."},
+    {"label": "Key bet", "text": "Credit on UPI and partner-led lending; NFC card tap-to-pay testing in India (Feb 2026); UPI Circle for families."},
+    {"label": "Your view", "text": "Google Pay barely earns in India; is it a strategic data and Android asset, or should it monetise harder?"}
+  ],
+  "customers": [
+    {"segment": "Urban consumers", "who": "Android-first, salaried, metro and Tier 1", "pain": "Want clean, fast, safe payments without clutter", "why": "Simple UI, Google trust, strong fraud warnings, rewards and scratch cards"},
+    {"segment": "Families and dependents", "who": "Parents, teens, elderly without bank accounts", "pain": "Dependents cannot pay digitally on their own", "why": "UPI Circle delegation with limits and approvals, Pocket Money controls"},
+    {"segment": "Credit seekers", "who": "Young earners with thin credit files", "pain": "Card approvals slow; small-ticket credit unavailable", "why": "Credit on UPI, Flex co-branded card, partner personal and gold loans"},
+    {"segment": "Merchants", "who": "Kiranas and SMBs via Google Pay for Business", "pain": "Need free acceptance and visibility to nearby customers", "why": "Free QR, SoundPod alerts, integration with Google Maps and Business Profile"},
+    {"segment": "Banks and lenders", "who": "PSP banks, NBFCs, card issuers", "pain": "Need low-cost distribution to digital customers", "why": "Access to a large engaged base with Google-grade underwriting signals"}
+  ],
+  "portfolio": [
+    {"group": "Payments (India)",
+     "products": [
+       {"name": "UPI P2P and P2M", "desc": "Bank transfers, QR and contact payments"},
+       {"name": "Bills and Recharges", "desc": "Utilities, mobile, FASTag, credit card bills"},
+       {"name": "UPI Circle", "desc": "Delegated payments for family members with limits"},
+       {"name": "UPI Lite and Autopay", "desc": "PIN-less small payments; subscriptions incl. Play Store"},
+       {"name": "Tap to pay cards", "desc": "NFC card payments, testing in India 2026"}
+     ],
+     "north_star": "Weekly transacting users with successful payments",
+     "key_metrics": "UPI share, success rate, P2M share of volume, retention",
+     "guardrails": "Fraud rate, NPCI 30% cap, complaint resolution time"},
+    {"group": "Credit and financial services",
+     "products": [
+       {"name": "Credit on UPI", "desc": "RuPay credit cards and credit lines on UPI"},
+       {"name": "Flex card", "desc": "Co-branded card for everyday spends, managed in-app"},
+       {"name": "Personal and gold loans", "desc": "Partner bank and NBFC loans distributed in-app"},
+       {"name": "Google Pay for Business", "desc": "Merchant app, QR, SoundPod, merchant loans"}
+     ],
+     "north_star": "Monthly active credit users on Google Pay",
+     "key_metrics": "Disbursals, card activations, approval rate, partner revenue",
+     "guardrails": "Delinquency rate, RBI digital lending compliance, mis-selling complaints"},
+    {"group": "Global (Google Wallet)",
+     "products": [
+       {"name": "Google Wallet", "desc": "Tap-to-pay cards, passes, tickets, digital IDs"},
+       {"name": "Google Pay checkout", "desc": "One-click payments on web, Android apps, Play"},
+       {"name": "Pix and local rails", "desc": "Local real-time rails support in markets like Brazil"}
+     ],
+     "north_star": "Monthly active wallets with a payment or pass use",
+     "key_metrics": "Cards provisioned, tap volume, checkout conversion lift",
+     "guardrails": "Token fraud, issuer coverage gaps, privacy incidents"}
+  ],
+  "business_model": {
+    "rows": [
+      {"line": "Bills and convenience fees", "who_uses": "Users paying bills by card", "who_pays": "User (0.5–1% + GST since Feb 2025)", "how": "Convenience fee on card bill payments; UPI from bank stays free"},
+      {"line": "Credit distribution", "who_uses": "Borrowers and cardholders", "who_pays": "Partner banks and NBFCs", "how": "Sourcing fees and revenue share on loans and cards"},
+      {"line": "Merchant and biller", "who_uses": "Billers, merchants, brands", "who_pays": "Billers, brands", "how": "Biller commissions, rewards and offers funded by brands"},
+      {"line": "Ecosystem value", "who_uses": "Android, Play, Ads users", "who_pays": "Advertisers, Play developers", "how": "Indirect: payment data improves Ads, Play conversion via UPI"}
+    ],
+    "bullets": [
+      {"label": "Revenue mix", "text": "India entity revenue ₹1,547 cr FY25 is tiny versus Google India gross ads of ~₹34,700 cr."},
+      {"label": "Users vs payers", "text": "Hundreds of millions use free UPI; banks, billers and a few card-bill users actually pay."},
+      {"label": "Unit economics", "text": "Profit halved to ₹50 cr FY25; UPI processing cost unrecovered under zero MDR."},
+      {"label": "Growth levers", "text": "Credit on UPI, UPI MDR for large merchants, NFC cards, ads and Play cross-sell."}
+    ]
+  },
+  "friction": [
+    "Pending transactions and slow refund resolution",
+    "Little human support; chat-bot dead ends",
+    "Scratch-card rewards shrank, reducing delight",
+    "New card-bill convenience fees surprise users",
+    "Bank server failures blamed on the app"
+  ],
+  "competitors": [
+    {"label": "India UPI", "text": "PhonePe (leader), Paytm, Navi, super.money, WhatsApp Pay, BHIM"},
+    {"label": "Credit on UPI", "text": "PhonePe, Paytm Postpaid, CRED, bank apps"},
+    {"label": "Global wallets", "text": "Apple Pay, Samsung Wallet, PayPal, local wallets"},
+    {"label": "Merchant", "text": "Paytm Soundbox, PhonePe SmartSpeaker, BharatPe"},
+    {"label": "Edge", "text": "Android distribution, trust, clean UX, Google ML fraud detection"},
+    {"label": "Risk", "text": "30% NPCI cap, zero MDR economics, antitrust scrutiny of Google"}
+  ],
+  "news": [
+    {"label": "Feb 2026", "text": "Began testing NFC card tap-to-pay in India beyond UPI."},
+    {"label": "May 2026", "text": "PhonePe plus Google Pay UPI share fell below 80% for first time."},
+    {"label": "Feb 2025", "text": "Introduced 0.5–1% convenience fee on card-based bill payments."},
+    {"label": "Watch", "text": "NPCI 30% cap deadline 31 Dec 2026; UPI MDR for large merchants."}
+  ],
+  "sources": "Google India Digital Services RoC filings FY25, NPCI UPI data, press coverage (Storyboard18, Business Today) 2025–26. Metrics are PM estimates for interview prep. Prepared Oct 2026."
+}

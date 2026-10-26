@@ -1,0 +1,89 @@
+{
+  "slug": "winzo",
+  "name": "WinZO",
+  "tagline": "Vernacular real-money casual games app, collapsed after ban and ED action",
+  "facts": [
+    ["Founded", "2018, Saumya Singh Rathore and Paavan Nanda"],
+    ["HQ", "New Delhi (ops in Bengaluru, Gurugram)"],
+    ["Owner/Listed", "Private; backers incl. Griffin, Kalaari, Makers Fund"],
+    ["Revenue", "FY24 ₹1,055 cr (+57%), adj. PAT ₹315 cr"],
+    ["FY25", "Financials not filed as of 2026"],
+    ["Users", "~25 cr registered users claimed (pre-ban)"],
+    ["Status", "RMG shut 22 Aug 2025; ~70% staff gone"],
+    ["Enforcement", "ED froze ₹500–800 cr; founders arrested Nov 2025"],
+    ["Legal", "ED chargesheet Jan 2026; both founders on bail"]
+  ],
+  "strategy": [
+    {"label": "Mission", "text": "Pre-ban: bring Bharat's 'desi' casual games (Ludo, Carrom, Rummy) online with small cash stakes in 12 languages."},
+    {"label": "Old model", "text": "Platform fee on micro-stake peer contests across 100+ games, plus a developer program letting studios list real-money games."},
+    {"label": "Ban response", "text": "Shut cash games, launched ZO TV short video, micro-dramas, digital gold and free games; pushed into US, Brazil, Germany."},
+    {"label": "Enforcement", "text": "ED alleges bots against users, ₹43 cr unrefunded balances, $55M routed to US shell, overseas RMG run from India."},
+    {"label": "Lesson", "text": "Regulatory risk is existential: governance, user-fund segregation and honest matchmaking matter more than growth when rules change."},
+    {"label": "Your view", "text": "Was WinZO's pivot doomed because its audience valued winning money, or because trust collapsed under enforcement?"}
+  ],
+  "customers": [
+    {"segment": "Bharat casual gamers", "who": "Tier 2–4 smartphone users, regional languages", "pain": "Want quick fun and small winnings on low-end phones", "why": "Familiar desi games, ₹1-level stakes, vernacular UI, fast UPI payouts (pre-ban)"},
+    {"segment": "Wallet holders post-ban", "who": "Users with balances on 22 Aug 2025", "pain": "Withdrawals delayed or blocked; ₹43 cr allegedly unrefunded", "why": "Stayed only to recover funds; trust largely gone"},
+    {"segment": "Game developers", "who": "Indian indie studios in WinZO program", "pain": "Hard to monetise casual games and reach Bharat users", "why": "Distribution to crore-scale users and revenue share on contests (pre-ban)"},
+    {"segment": "Overseas players", "who": "Users in US, Brazil, Germany", "pain": "Want social skill games with prizes", "why": "Expansion bet post-ban; ED says these ran from Indian entity"},
+    {"segment": "Advertisers and partners", "who": "Paytm and ad networks, payment gateways", "pain": "Need paying, compliant clients", "why": "Was a top ad spender; Paytm later sued for ₹3.6 cr dues"}
+  ],
+  "portfolio": [
+    {"group": "Real-money games (shut in India)",
+     "products": [
+       {"name": "Ludo, Carrom, Rummy", "desc": "Cash-stake versions of desi classics, withdrawn Aug 2025"},
+       {"name": "Poker, Fantasy", "desc": "Card and fantasy contests, advertised heavily before ban"},
+       {"name": "Developer program", "desc": "Third-party studios listing games on WinZO platform"},
+       {"name": "WinZO US / Brazil", "desc": "International apps; ED alleges post-ban RMG operations"}
+     ],
+     "north_star": "Weekly paying players with healthy repeat play (pre-ban)",
+     "key_metrics": "Entry-fee GMV, take rate, payer conversion, withdrawal SLA",
+     "guardrails": "Bot-free fair matchmaking, user fund segregation, responsible-play limits"},
+    {"group": "Post-ban pivots",
+     "products": [
+       {"name": "ZO TV", "desc": "Short-video and micro-drama app; little progress amid crisis"},
+       {"name": "Free-to-play games", "desc": "Casual games without stakes, ad-monetised"},
+       {"name": "Digital gold", "desc": "Small-ticket gold savings for existing user base"}
+     ],
+     "north_star": "Weekly active viewers/players retained from old base without stakes",
+     "key_metrics": "DAU, watch time per user, ad ARPU, D30 retention",
+     "guardrails": "No prize mechanics breaching PROGA, refund backlog cleared, content safety"}
+  ],
+  "business_model": {
+    "rows": [
+      {"line": "Contest platform fee (banned)", "who_uses": "Players in micro-stake games", "who_pays": "Players via entry fees", "how": "Commission on each pooled contest, ended 22 Aug 2025"},
+      {"line": "Developer revenue share", "who_uses": "Third-party game studios", "who_pays": "Players; WinZO shares rake with studios", "how": "Split of contest fees on partner games, ended with ban"},
+      {"line": "Ads on ZO TV and free games", "who_uses": "Casual viewers and players", "who_pays": "Advertisers", "how": "In-feed and rewarded ads; negligible scale so far (est.)"},
+      {"line": "Digital gold", "who_uses": "Small savers from user base", "who_pays": "Buyers via spread", "how": "Margin on gold buy/sell via partner vault"}
+    ],
+    "bullets": [
+      {"label": "Revenue mix", "text": "Pre-ban almost entirely contest fees; FY24 ₹1,055 cr. Post-ban revenue near zero, accounts unfiled."},
+      {"label": "Users vs payers", "text": "Claimed ~25 cr users; a small paying minority drove rake. Free users monetise far worse."},
+      {"label": "Unit economics", "text": "Profitable pre-ban (adj. PAT ₹315 cr) on cheap Bharat CAC; ED alleges bots inflated house wins."},
+      {"label": "Liquidity", "text": "₹500–800 cr frozen by ED, ~₹15 cr usable cash; vendors and Paytm pursuing dues."},
+      {"label": "Growth levers", "text": "Realistically survival: unfreeze funds, settle refunds, win cases; then ads-led content or overseas apps."}
+    ]
+  },
+  "friction": [
+    "Withdrawals frozen; users cannot access remaining balances",
+    "Bot opponents allegedly undisclosed, destroying fairness trust",
+    "Free games offer no reason to stay without winnings",
+    "ZO TV pivot unrelated to core gaming habit",
+    "Founder arrests and frozen accounts stall product shipping"
+  ],
+  "competitors": [
+    {"label": "Casual RMG (exited)", "text": "MPL, Zupee, Gameskraft, Junglee Rummy, A23"},
+    {"label": "Free casual", "text": "Ludo King, Rush, Indian casual studios, Play Store hits"},
+    {"label": "Short video", "text": "Instagram Reels, YouTube Shorts, Moj, Josh, micro-drama apps"},
+    {"label": "Grey market", "text": "Offshore betting and rummy apps targeting ex-RMG users"},
+    {"label": "Edge", "text": "Vernacular Bharat distribution and multi-game catalogue, now largely eroded"},
+    {"label": "Risk", "text": "PMLA prosecution, insolvency pleas, brand toxicity, no lawful core revenue"}
+  ],
+  "news": [
+    {"label": "Feb 2026", "text": "Paavan Nanda gets bail; ED seeks to cancel Rathore's bail"},
+    {"label": "Jan 2026", "text": "ED chargesheet alleges ₹734 cr users duped via bots"},
+    {"label": "Nov 2025", "text": "ED raids, freezes ~₹505 cr, arrests both co-founders under PMLA"},
+    {"label": "Watch", "text": "PMLA trial, fund defreezing pleas, Paytm NCLT case, PROGA verdict"}
+  ],
+  "sources": "MCA filings FY24 (via Inc42), ED statements, court reports (LiveLaw, Storyboard18) 2025–26. Metrics are PM estimates for interview prep. Prepared Oct 2026."
+}

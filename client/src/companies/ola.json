@@ -1,0 +1,94 @@
+{
+  "slug": "ola",
+  "name": "Ola",
+  "tagline": "Former Indian ride-hailing leader, now shrinking under zero-commission pressure",
+  "facts": [
+    ["Founded", "2010, Mumbai; Bhavish Aggarwal and Ankit Bhati"],
+    ["Owner", "ANI Technologies (Ola Consumer, ex-Ola Cabs), unlisted"],
+    ["Revenue", "FY25 ₹1,171 cr (-42% YoY from ₹2,012 cr)"],
+    ["Loss", "FY25 ₹662 cr standalone, double FY24's ₹329 cr"],
+    ["Valuation", "Vanguard mark ~$70M (Jun 2026) vs $7.3B peak"],
+    ["Drivers", "Zero-commission subscription since Jun 2025; ~₹67/day pass"],
+    ["Head", "Bhavish Aggarwal, Founder and Chairman"],
+    ["Group", "Sister cos: Ola Electric (listed), Krutrim AI"],
+    ["IPO", "Prep began May 2026 despite falling revenue"]
+  ],
+  "strategy": [
+    {"label": "Mission", "text": "Build mobility for a billion Indians: affordable, accessible rides across cabs, autos and bikes."},
+    {"label": "Vision", "text": "Ola Consumer as an India-first super app spanning mobility, payments, food via ONDC and Ola Maps."},
+    {"label": "Core strategy", "text": "Shift to SaaS-style driver subscriptions (0% commission) to win supply back from Rapido and Uber."},
+    {"label": "India-only focus", "text": "Exited UK, Australia, New Zealand in 2024; in-house Ola Maps and Krutrim cloud to cut costs."},
+    {"label": "Lesson", "text": "Founder attention split across Ola Electric and Krutrim let a focused Rapido out-execute Ola on price."},
+    {"label": "Your view", "text": "Is a zero-commission subscription a moat, or a race to the bottom that removes Ola's revenue?"}
+  ],
+  "customers": [
+    {"segment": "Budget commuters", "who": "Office-goers using autos and bikes daily", "pain": "Cancellations, AC and cash disputes, long pickup waits", "why": "Low fares under zero-commission; wide auto and bike coverage"},
+    {"segment": "Cab riders", "who": "Airport, outstation and family travellers", "pain": "Car quality, driver refusals, unpredictable fares", "why": "Price, Ola Rentals and Outstation options, habit from earlier years"},
+    {"segment": "Driver-partners", "who": "1M+ auto, bike and cab drivers", "pain": "High commissions, incentive cuts, low ride volumes", "why": "Keep 100% fare for a flat daily or monthly pass"},
+    {"segment": "Fleet operators", "who": "Small fleet owners leasing cars", "pain": "Low utilisation and EMI pressure", "why": "Demand access without per-ride commission"},
+    {"segment": "Govt / regulators", "who": "State transport departments, MoRTH", "pain": "Fare caps, safety, driver welfare compliance", "why": "Aggregator licences required to operate"}
+  ],
+  "portfolio": [
+    {"group": "Mobility",
+     "products": [
+       {"name": "Ola Mini / Prime", "desc": "App-based cab rides across price tiers"},
+       {"name": "Ola Auto and Bike", "desc": "Autorickshaw and bike-taxi rides for short trips"},
+       {"name": "Rentals / Outstation", "desc": "Hourly packages and intercity cab trips"},
+       {"name": "Ola Parcel", "desc": "Intra-city package delivery by bike"}],
+     "north_star": "Completed rides per week with low cancellation",
+     "key_metrics": "Daily rides, active drivers, subscription renewals, pickup ETA, share vs Rapido",
+     "guardrails": "Cancellation rate, safety incidents, driver net earnings per hour"},
+    {"group": "Platform and services",
+     "products": [
+       {"name": "Driver subscription passes", "desc": "Daily/monthly passes replacing per-ride commission"},
+       {"name": "Ola Maps", "desc": "In-house mapping replacing Google Maps, also sold to developers"},
+       {"name": "Ola Money / Pay", "desc": "Wallet and UPI payments inside the app"},
+       {"name": "Ola Foods (ONDC)", "desc": "Food ordering via ONDC network"}],
+     "north_star": "Paying subscribed drivers active daily",
+     "key_metrics": "Pass revenue, pass renewal rate, Maps API usage, cost per ride",
+     "guardrails": "Driver churn after pass expiry, payment failures"},
+    {"group": "Group context",
+     "products": [
+       {"name": "Ola Electric", "desc": "Listed EV scooter maker; share fell from ~49% to ~6.5%"},
+       {"name": "Krutrim", "desc": "AI and cloud venture; ~90% of revenue from Ola group firms"}],
+     "north_star": "Group synergies without draining Ola Consumer focus",
+     "key_metrics": "EVs on Ola fleet, Krutrim cost savings",
+     "guardrails": "Related-party dependence, founder bandwidth"}
+  ],
+  "business_model": {
+    "rows": [
+      {"line": "Driver subscriptions", "who_uses": "Auto, bike and cab drivers", "who_pays": "Drivers", "how": "Flat passes (~₹67/day) for unlimited rides, no commission"},
+      {"line": "Rider fees", "who_uses": "Riders", "who_pays": "Riders", "how": "Platform or convenience fees on bookings"},
+      {"line": "Ads and partnerships", "who_uses": "Brands targeting riders", "who_pays": "Advertisers", "how": "In-app placements and co-branded offers"},
+      {"line": "Maps and tech", "who_uses": "Developers, group companies", "who_pays": "API customers", "how": "Ola Maps API usage fees"}
+    ],
+    "bullets": [
+      {"label": "Revenue mix", "text": "Shift from commissions to subscriptions cut reported revenue 42% in FY25; most income is service fees."},
+      {"label": "Users vs payers", "text": "Under 0% commission, drivers are the payers; riders pay fares directly to drivers."},
+      {"label": "Unit economics", "text": "Subscription revenue per driver capped and low; losses doubled to ₹662 cr as rides shrank."},
+      {"label": "Growth levers", "text": "Win back supply, EV fleets, Tier-2 autos, Maps monetisation, IPO capital."},
+      {"label": "Valuation lesson", "text": "Vanguard mark of ~$70M (99% below peak) shows investors price Ola as a fading No.3."}
+    ]
+  },
+  "friction": [
+    "Drivers cancel or demand extra cash",
+    "Long waits as active driver pool shrank",
+    "Customer support hard to reach",
+    "Advance tip prompts flagged by government",
+    "Inconsistent car quality and AC refusals"
+  ],
+  "competitors": [
+    {"label": "Leader", "text": "Rapido: largest by rides, $3B valuation, subscription pioneer"},
+    {"label": "Global", "text": "Uber: 225 Indian cities, ₹2,921 cr fresh capital"},
+    {"label": "Open / co-op", "text": "Namma Yatri, Bharat Taxi cooperative (~11% cheaper), inDrive"},
+    {"label": "Edge", "text": "Brand recall, wide auto/bike network, in-house Maps cost advantage"},
+    {"label": "Risk", "text": "Cash burn, state aggregator rules, EV mandates, founder distraction"}
+  ],
+  "news": [
+    {"label": "Sep 2026", "text": "Centre asks Ola, Uber, Rapido to remove advance tipping; Chandigarh bars aggregators."},
+    {"label": "Jun 2026", "text": "Vanguard marks Ola Consumer down to ~$70M, 99% below 2021 peak."},
+    {"label": "May 2026", "text": "Late FY25 filing: revenue -42%, loss doubles; Ola begins IPO preparation."},
+    {"label": "Watch", "text": "Can Ola list, or will it be acquired or merged as Rapido consolidates?"}
+  ],
+  "sources": "RoC filings via Moneycontrol, FE, Mint, Inc42; Vanguard SEC filing coverage; Morning Context; press 2025-26. Metrics are PM estimates for interview prep. Prepared Oct 2026."
+}

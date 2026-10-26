@@ -1,0 +1,188 @@
+body {
+  margin: 0;
+}
+
+.topbar {
+  border-bottom: 1px solid var(--gray-a5);
+  background: var(--color-background);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.topbar .rt-TabNavRoot {
+  box-shadow: none;
+}
+
+.topic-card {
+  cursor: pointer;
+  text-align: left;
+}
+
+.clickable-row {
+  cursor: pointer;
+}
+
+.clickable-row:hover {
+  background: var(--gray-a2);
+}
+
+.turn-candidate {
+  background: var(--gray-a2);
+  border-radius: var(--radius-3);
+}
+
+.pre-wrap {
+  white-space: pre-wrap;
+}
+
+.composer {
+  position: sticky;
+  bottom: 0;
+  background: var(--color-background);
+  border-top: 1px solid var(--gray-a5);
+}
+
+.mic-live {
+  animation: pulse 1.4s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  50% {
+    opacity: 0.6;
+  }
+}
+
+.pdf-view {
+  height: calc(100vh - 170px);
+  overflow: auto;
+  background: var(--gray-a3);
+  border-radius: var(--radius-3);
+  padding: 16px;
+}
+
+.pdf-page {
+  margin: 0 auto;
+  background: white;
+  box-shadow: var(--shadow-3);
+}
+
+/* Softer dark mode: lifted slate-blue surfaces instead of near-black, brighter text. */
+.radix-themes.dark,
+.radix-themes.dark .radix-themes {
+  --slate-1: #1f2430;
+  --slate-2: #252a37;
+  --slate-3: #2d3341;
+  --slate-4: #333a49;
+  --slate-5: #3a4152;
+  --slate-6: #434b5d;
+  --slate-7: #515a6e;
+  --slate-8: #677187;
+  --slate-9: #737d93;
+  --slate-10: #808a9f;
+  --slate-11: #c0c7d4;
+  --slate-12: #eef1f6;
+  --color-background: #1f2430;
+  --color-panel-solid: #262c3a;
+  --color-surface: rgba(255, 255, 255, 0.04);
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #1f2430;
+  }
+}
+
+.cheatsheet ul {
+  margin: 0;
+  padding-left: 20px;
+  max-width: 760px;
+}
+
+.cheatsheet li + li {
+  margin-top: 4px;
+}
+
+.cheatsheet .rt-TableRoot {
+  max-width: 760px;
+}
+
+.countdown {
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+}
+
+.model-say {
+  border-left: 3px solid var(--accent-a6);
+  padding-left: var(--space-3);
+  margin: 0;
+}
+
+.teardown ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.teardown li + li {
+  margin-top: 4px;
+}
+
+.teardown .section-title {
+  border-left: 3px solid var(--accent-9);
+  padding-left: var(--space-2);
+}
+
+.teardown .facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 20px;
+  background: var(--gray-a2);
+  border-left: 3px solid var(--accent-9);
+  border-radius: var(--radius-2);
+  padding: var(--space-2) var(--space-3);
+}
+
+.teardown .two-col ul {
+  columns: 2 320px;
+  column-gap: 32px;
+}
+
+.teardown .two-col li {
+  break-inside: avoid;
+}
+
+.teardown .group-card {
+  border-top: 3px solid var(--group);
+}
+
+.teardown .metric-row {
+  background: var(--gray-a2);
+}
+
+.concept-section {
+  scroll-margin-top: 64px;
+}
+
+.grill-question + .grill-question {
+  border-top: 1px solid var(--gray-a4);
+  padding-top: var(--space-3);
+}
+
+.story-card .clickable {
+  cursor: pointer;
+}
+
+.story-open {
+  box-shadow: inset 0 0 0 2px var(--accent-8);
+}
+
+.story-gaps {
+  margin: var(--space-2) var(--space-1) 0;
+  padding-left: var(--space-3);
+  border-left: 2px solid var(--gray-a5);
+}
+
+.story-gaps ul {
+  margin: 2px 0 0;
+  padding-left: 18px;
+}

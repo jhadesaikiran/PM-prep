@@ -1,0 +1,101 @@
+{
+  "slug": "telegram",
+  "name": "Telegram",
+  "tagline": "Cloud messenger and channel platform with crypto-powered mini-app economy",
+  "facts": [
+    ["Founded", "2013 by Pavel and Nikolai Durov"],
+    ["HQ", "Dubai, UAE"],
+    ["Owner", "Private, Durov-controlled; $1.7B convertible bonds (2025)"],
+    ["Revenue", "H1'25 $870M (+65%), unaudited; FY25 target $2B"],
+    ["Profit", "2024 first profit ~$540M; H1'25 loss $220M+"],
+    ["Users", "1B+ MAU (Mar 2025)"],
+    ["Premium", "15M+ paid subscribers (May 2025)"],
+    ["CEO", "Pavel Durov; French probe, Russian warrant Jul 2026"]
+  ],
+  "strategy": [
+    {"label": "Mission", "text": "Fast, secure, free messaging that no government or advertiser controls."},
+    {"label": "Vision", "text": "An open super-app: chats, channels, bots, mini apps and a TON-based wallet in one platform."},
+    {"label": "Core strategy", "text": "Free core for all; monetise power users (Premium), channel ads, Stars purchases and TON ecosystem deals."},
+    {"label": "Moat", "text": "Cloud sync across devices, 200K-member groups, unlimited channels, open bot and mini-app APIs, neutrality brand."},
+    {"label": "Key bet", "text": "Crypto and mini-apps economy on TON plus AI partnerships (announced xAI Grok deal, unconfirmed by Musk)."},
+    {"label": "Your view", "text": "Is a business relying on Toncoin deals and a founder facing two criminal cases investable or IPO-ready?"}
+  ],
+  "customers": [
+    {"segment": "Power users", "who": "Multi-device, privacy-minded, large-group users", "pain": "Want fast sync, big files, no phone-number exposure", "why": "Cloud sync, usernames, 2–4GB files, rich features, no ads in private chats"},
+    {"segment": "Channel creators", "who": "News, crypto, education, media publishers", "pain": "Need direct reach to millions without algorithmic suppression", "why": "Unlimited subscribers, 50% ad revenue share, paid posts and Stars"},
+    {"segment": "Developers", "who": "Bot, mini-app and Web3 builders", "pain": "Need distribution and payments without app store gatekeepers", "why": "Free Bot API, mini apps reach 1B users, Stars and TON payments"},
+    {"segment": "Advertisers", "who": "Brands, crypto projects, apps buying Telegram Ads", "pain": "Need to reach niche, hard-to-target communities", "why": "Context-targeted sponsored messages in large public channels"},
+    {"segment": "Censored audiences", "who": "Users in Iran, Russia, Ukraine, Middle East", "pain": "Need uncensored news and coordination", "why": "Channels as news source; resistance to government takedown"}
+  ],
+  "portfolio": [
+    {"group": "Messaging",
+     "products": [
+       {"name": "Cloud chats", "desc": "Synced chats across devices, large files, usernames"},
+       {"name": "Secret chats", "desc": "Opt-in end-to-end encrypted 1:1 chats"},
+       {"name": "Groups", "desc": "Up to 200,000 members with admin tools and topics"},
+       {"name": "Calls", "desc": "Voice, video and group calls"}
+     ],
+     "north_star": "Daily active users engaging in chats or groups",
+     "key_metrics": "DAU/MAU, opens per day (~21), time spent, multi-device users",
+     "guardrails": "Spam and scam reports, illegal content takedown time, delivery latency"},
+    {"group": "Channels and creators",
+     "products": [
+       {"name": "Channels", "desc": "Unlimited-subscriber broadcast feeds"},
+       {"name": "Telegram Ads", "desc": "Sponsored messages in channels, revenue shared with owners"},
+       {"name": "Stars and paid content", "desc": "In-app currency for paid posts, reactions, subscriptions"},
+       {"name": "Gifts", "desc": "Collectible digital gifts, tradable as NFTs on TON"},
+       {"name": "Stories", "desc": "Ephemeral updates for users and channels"}
+     ],
+     "north_star": "Monthly creator earnings paid out via ads and Stars",
+     "key_metrics": "Channel views, ad CPM, Stars volume, paying-subscriber count",
+     "guardrails": "Ad relevance complaints, fraud in Stars/gifts, creator churn"},
+    {"group": "Platform and premium",
+     "products": [
+       {"name": "Telegram Premium", "desc": "Subscription for bigger limits, speed, extra features"},
+       {"name": "Bot API", "desc": "Free bots for automation, payments, games"},
+       {"name": "Mini Apps", "desc": "Web apps running inside Telegram, games and commerce"},
+       {"name": "TON wallet", "desc": "Built-in self-custody crypto wallet"},
+       {"name": "Fragment", "desc": "Auction marketplace for usernames and anonymous numbers"}
+     ],
+     "north_star": "Paying users and mini-app transactions per month",
+     "key_metrics": "Premium subs, conversion rate, mini-app MAU, TON transaction volume",
+     "guardrails": "Crypto scam reports, regulator actions, refund and chargeback rates"}
+  ],
+  "business_model": {
+    "rows": [
+      {"line": "Telegram Premium", "who_uses": "Power users wanting higher limits", "who_pays": "Subscribers (~$5/month, varies by country)", "how": "Monthly or annual subscription via app stores or Stars"},
+      {"line": "Telegram Ads", "who_uses": "Readers of large public channels", "who_pays": "Advertisers, often paying in TON", "how": "CPM sponsored messages; 50% shared with channel owners"},
+      {"line": "Stars and digital goods", "who_uses": "Users buying in mini apps, paid posts, gifts", "who_pays": "Users", "how": "Stars bought via app stores; Telegram takes a margin"},
+      {"line": "TON exclusivity deals", "who_uses": "TON ecosystem and wallet users", "who_pays": "TON Foundation and partners", "how": "~$300M of H1'25 revenue from exclusivity agreements"},
+      {"line": "Fragment auctions", "who_uses": "Users wanting rare usernames or numbers", "who_pays": "Bidders in TON", "how": "Auction sales with platform commission"}
+    ],
+    "bullets": [
+      {"label": "Revenue mix", "text": "H1'25 $870M: roughly one-third TON-linked exclusivity deals, rest Premium, ads and Stars; FY25 target $2B, unaudited."},
+      {"label": "Users vs payers", "text": "1B+ users, ~15M Premium payers (~1.5%); advertisers and crypto partners fill the gap."},
+      {"label": "Unit economics", "text": "~30 core engineers and lean ops; profits swing with Toncoin price, causing H1'25 write-down loss."},
+      {"label": "Growth levers", "text": "Premium conversion, ad fill in channels, mini-app commerce, AI partnerships, eventual IPO."},
+      {"label": "Lesson", "text": "Tying revenue to a volatile token boosts topline but makes earnings and governance hard to underwrite."}
+    ]
+  },
+  "friction": [
+    "Default chats are not end-to-end encrypted",
+    "Scams, crypto spam and illicit content in public channels",
+    "Feature overload overwhelms new and casual users",
+    "Government throttling and blocks disrupt access",
+    "Founder legal risk shakes trust and partners"
+  ],
+  "competitors": [
+    {"label": "Messaging", "text": "WhatsApp, Signal, Messenger, iMessage; Russia's state-backed Max"},
+    {"label": "Broadcast", "text": "WhatsApp Channels, X, YouTube, Discord, Substack"},
+    {"label": "Mini apps", "text": "WeChat, LINE, Kakao super-apps; app stores"},
+    {"label": "Edge", "text": "Open APIs, huge groups, cloud sync, neutrality brand, crypto-native economy"},
+    {"label": "Risk", "text": "Durov legal cases, Russian throttling, Toncoin volatility, content-moderation regulation"}
+  ],
+  "news": [
+    {"label": "Jul 2026", "text": "Russia charges Durov with aiding terrorism, issues international arrest warrant"},
+    {"label": "Feb 2026", "text": "Roskomnadzor throttles Telegram in Russia, pushes state messenger Max"},
+    {"label": "Jan 2026", "text": "$500M of Telegram bonds frozen in Russia due to Western sanctions"},
+    {"label": "Watch", "text": "FY25 audited numbers, IPO plans, French case outcome, Russia block escalation"}
+  ],
+  "sources": "FT-reported unaudited financials, Durov posts, Telegram announcements, press coverage. Metrics are PM estimates for interview prep. Prepared Oct 2026."
+}

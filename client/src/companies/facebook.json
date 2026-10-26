@@ -1,0 +1,97 @@
+{
+  "slug": "facebook",
+  "name": "Facebook",
+  "tagline": "The world's largest social network: friends, groups, video, Marketplace",
+  "facts": [
+    ["Founded", "2004 by Mark Zuckerberg and co-founders"],
+    ["Owner", "Meta Platforms (renamed from Facebook Inc., 2021)"],
+    ["HQ", "Menlo Park, California"],
+    ["CEO / Head", "Zuckerberg (Meta CEO); Tom Alison, Head of Facebook"],
+    ["Users", "~3.07B MAU, ~2.1B DAU (2026 est.)"],
+    ["Meta revenue", "FY25 $201B (+22%); Q2'26 $60.8B (+28%)"],
+    ["Family DAP", "3.6B daily people, Jun 2026 (+3%)"],
+    ["India", "Largest market by users (~375M+ est.)"]
+  ],
+  "strategy": [
+    {"label": "Mission", "text": "Give people the power to build community and bring the world closer together."},
+    {"label": "Vision", "text": "Stay the everyday app for friends, communities and local life, while winning back young adults."},
+    {"label": "Core strategy", "text": "Shift from friend feed to AI-recommended video and discovery engine; recommendations lift time spent."},
+    {"label": "Moat", "text": "3B-user graph, Groups and Marketplace network effects, and the deepest ad-targeting data in the world."},
+    {"label": "Key bet", "text": "Young adults: Local tab, Marketplace in nav bar, Dating Matchmaker, Messenger Communities, full-screen video."},
+    {"label": "Your view", "text": "Can Facebook be cool again for 18-29s, or should it optimise for its 35+ core?"}
+  ],
+  "customers": [
+    {"segment": "Everyday users", "who": "25+ adults keeping up with friends, family", "pain": "Want updates, events, birthdays in one place", "why": "Everyone they know is there; Groups, Events, Memories"},
+    {"segment": "Young adults", "who": "18-29 in US and emerging markets", "pain": "Find local things, buy and sell cheaply, meet people", "why": "Marketplace, Local tab, Dating, full-screen video"},
+    {"segment": "Community admins", "who": "Group owners, local organisers, fan groups", "pain": "Need tools to run large communities", "why": "Groups with moderation tools, admin assist, Messenger Communities"},
+    {"segment": "Advertisers / SMBs", "who": "200M+ businesses, D2C, local shops", "pain": "Need customers at low CAC with measurement", "why": "Advantage+ AI campaigns, Pages, click-to-message, Marketplace listings"},
+    {"segment": "Creators / publishers", "who": "Video creators, media pages", "pain": "Need reach and payouts beyond YouTube", "why": "Facebook content monetisation program, Reels reach, cross-post from Instagram"}
+  ],
+  "portfolio": [
+    {"group": "Social core",
+     "products": [
+       {"name": "Feed", "desc": "Friends, Pages and AI-recommended posts"},
+       {"name": "Groups", "desc": "Interest and local communities, public or private"},
+       {"name": "Friends tab / Events", "desc": "Friend requests, birthdays, event discovery"},
+       {"name": "Messenger", "desc": "Chat app, Communities for topic-based group chats"}
+     ],
+     "north_star": "Daily users having meaningful interactions with friends or groups",
+     "key_metrics": "DAU, comments and shares, Group participation, Messenger threads",
+     "guardrails": "Misinformation prevalence, integrity reports, notification fatigue"},
+    {"group": "Video and discovery",
+     "products": [
+       {"name": "Video tab / Reels", "desc": "Full-screen player for short, long and live"},
+       {"name": "Local tab", "desc": "Nearby Reels, Marketplace, Groups and Events in one place"},
+       {"name": "Meta AI", "desc": "Assistant integrated into feed, search and chat"}
+     ],
+     "north_star": "Time spent on satisfying recommended video per DAU",
+     "key_metrics": "Video watch time, recommended content share, young-adult DAU",
+     "guardrails": "Clickbait and unoriginal content share, user satisfaction surveys"},
+    {"group": "Commerce and matching",
+     "products": [
+       {"name": "Marketplace", "desc": "Local and shipped buy-sell listings; used by 1 in 4 young-adult DAUs"},
+       {"name": "Facebook Dating", "desc": "Free dating with Matchmaker friend-swiping"},
+       {"name": "Ads Manager / Pages", "desc": "Business presence and Advantage+ campaigns"}
+     ],
+     "north_star": "Successful transactions or matches per weekly user",
+     "key_metrics": "Listings, buyer messages, sell-through, ad ROAS",
+     "guardrails": "Scam and fraud rate, counterfeit listings, user safety reports"}
+  ],
+  "business_model": {
+    "rows": [
+      {"line": "Feed and video ads", "who_uses": "3B monthly users", "who_pays": "Brands, SMBs, agencies, app developers", "how": "AI-targeted auction ads; CPM/CPC/CPA bidding"},
+      {"line": "Click-to-message ads", "who_uses": "Users chatting with businesses", "who_pays": "SMBs, especially in India, Brazil, SE Asia", "how": "Ads open Messenger or WhatsApp threads"},
+      {"line": "Marketplace ads", "who_uses": "Shoppers browsing local listings", "who_pays": "Retailers, auto and property sellers", "how": "Sponsored listings in Marketplace; partner catalog integrations"},
+      {"line": "Meta Verified", "who_uses": "Creators and businesses", "who_pays": "Subscribers, monthly fee", "how": "Verification badge, impersonation protection, support"}
+    ],
+    "bullets": [
+      {"label": "Revenue mix", "text": "FoA Q2'26 $60.4B, of which $59.4B ads (+27%); Facebook app is a large share, not broken out."},
+      {"label": "Users vs payers", "text": "Billions of free users; millions of advertisers pay; US/Canada ARPU far above Asia-Pacific."},
+      {"label": "Unit economics", "text": "Q2'26 impressions +14%, price per ad +12%; FoA margins fund Reality Labs and AI capex."},
+      {"label": "Growth levers", "text": "AI ranking and ad models, video ad load, business messaging, Marketplace and Meta AI ads."},
+      {"label": "Cost side", "text": "2026 capex guided $115-135B for superintelligence labs and AI infrastructure."}
+    ]
+  },
+  "friction": [
+    "Feed feels cluttered with recommendations, not friends",
+    "Seen as an 'older people' app by Gen Z",
+    "Scams, fake accounts and spam in Marketplace and Groups",
+    "Privacy distrust lingering since Cambridge Analytica",
+    "Too many tabs and features; hard to navigate"
+  ],
+  "competitors": [
+    {"label": "Social / video", "text": "TikTok, YouTube, Snapchat, X; Instagram internally"},
+    {"label": "Commerce", "text": "Craigslist, OLX, eBay, Nextdoor, Quikr in India"},
+    {"label": "Dating", "text": "Tinder, Hinge, Bumble"},
+    {"label": "Ads", "text": "Google, Amazon Ads, TikTok, retail media networks"},
+    {"label": "Edge", "text": "Scale plus targeting data plus AI ad tools no rival matches"},
+    {"label": "Risk", "text": "Ageing user base, regulation (EU DMA, privacy), AI capex eroding margins"}
+  ],
+  "news": [
+    {"label": "Jul 2026", "text": "Meta Q2: revenue $60.8B (+28%), DAP 3.6B, ad prices +12%"},
+    {"label": "Jan 2026", "text": "Meta guides 2026 capex $115-135B for AI and superintelligence labs"},
+    {"label": "2025-26", "text": "Young-adult push: Local tab, Marketplace in nav, Dating Matchmaker"},
+    {"label": "Watch", "text": "Young-adult DAU trend, Meta AI monetisation, EU less-personalised ads"}
+  ],
+  "sources": "Meta 10-K FY25, Q2 2026 earnings release, Meta newsroom, SocialPilot/Buffer user estimates, press coverage. App-level figures are estimates. Prepared Oct 2026."
+}

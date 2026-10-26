@@ -1,0 +1,97 @@
+{
+  "slug": "whatsapp-pay",
+  "name": "WhatsApp Pay",
+  "tagline": "UPI payments and bill pay inside India's most-used messaging app",
+  "facts": [
+    ["Launched", "Nov 2020 in India (pilot 2018), Meta"],
+    ["HQ", "Menlo Park; India ops Gurugram/Mumbai"],
+    ["Owner/Listed", "Meta Platforms (NASDAQ: META)"],
+    ["Revenue", "Not disclosed; no direct payment fees (est.)"],
+    ["Volume", "167.9M UPI txns, ₹12,957 cr (Jul 2026)"],
+    ["UPI share", "<1% by volume; #8 UPI app"],
+    ["Reach", "500M+ WhatsApp users in India; cap lifted Dec 2024"],
+    ["Head", "Kunal Shah, global head of WhatsApp (Jun 2026)"],
+    ["Global", "Brazil (Pix, cards), Singapore business payments"]
+  ],
+  "strategy": [
+    {"label": "Mission", "text": "Make sending money as easy as sending a message, inside the conversations Indians already have."},
+    {"label": "Vision", "text": "Turn WhatsApp into India's commerce and service layer: chat, discover, pay, get support in one thread."},
+    {"label": "Core strategy", "text": "Payments as an enabler of Business Messaging monetisation, not a standalone profit centre."},
+    {"label": "Lesson", "text": "Regulation shapes distribution: NPCI caps (4 cr, then 10 cr users) delayed scale until incumbents locked in habit."},
+    {"label": "Key bets", "text": "Bill pay via Bharat Connect (Sep 2026), in-chat business checkout, Meta's $900M CRED stake, Kunal Shah leadership."},
+    {"label": "Your view", "text": "Should WhatsApp chase UPI share, or own conversational commerce and let any UPI app complete payment?"}
+  ],
+  "customers": [
+    {"segment": "Chat-first users", "who": "Families, friends splitting or sending money", "pain": "Switching apps to pay breaks the conversation", "why": "Pay inside the chat with UPI, no new app needed"},
+    {"segment": "Bill payers", "who": "Households paying utilities, cards, loans", "pain": "Remembering due dates across many biller sites", "why": "22,700+ billers via Bharat Connect, reminders in a familiar app"},
+    {"segment": "Small businesses", "who": "Kiranas, D2C sellers on WhatsApp Business", "pain": "Orders in chat but payments via separate links", "why": "Catalogue, order and UPI checkout in one conversation"},
+    {"segment": "Large enterprises", "who": "Telcos, airlines, banks, e-commerce", "pain": "Low engagement on emails, app notifications ignored", "why": "Business API messages with in-chat payments convert better"},
+    {"segment": "Advertisers", "who": "Brands running click-to-WhatsApp ads", "pain": "Ad clicks drop off before purchase", "why": "Ad to chat to payment closes the loop, measurable on Meta"}
+  ],
+  "portfolio": [
+    {"group": "Consumer payments",
+     "products": [
+       {"name": "UPI P2P in chat", "desc": "Send money to contacts from the chat composer"},
+       {"name": "UPI QR scan", "desc": "Pay any merchant UPI QR"},
+       {"name": "Bill Payments", "desc": "Utilities, FASTag, insurance, cards, loans via Bharat Connect"}
+     ],
+     "north_star": "Monthly transacting users among India WhatsApp users",
+     "key_metrics": "Payment activation rate, repeat payers, txns per user, success rate",
+     "guardrails": "Scam/fraud reports, chat experience clutter, NPCI compliance"},
+    {"group": "Business payments",
+     "products": [
+       {"name": "Payments on WhatsApp Business", "desc": "In-chat checkout via UPI apps, cards, netbanking"},
+       {"name": "Catalogues and Carts", "desc": "Browse and order products within chat"},
+       {"name": "Payment gateway partners", "desc": "Razorpay, PayU integrations for enterprises"},
+       {"name": "Flows", "desc": "Forms and bookings inside conversations"}
+     ],
+     "north_star": "Business conversations ending in a completed payment",
+     "key_metrics": "Checkout conversion, paid message volume, active paying businesses",
+     "guardrails": "Spam complaints, business block rates, refund disputes"},
+    {"group": "Monetisation layer",
+     "products": [
+       {"name": "Business Messaging API", "desc": "Per-message pricing for marketing, utility, auth messages"},
+       {"name": "Click-to-WhatsApp ads", "desc": "Facebook and Instagram ads opening a chat"},
+       {"name": "Meta AI in chat", "desc": "AI assistant for discovery and support"}
+     ],
+     "north_star": "Business messaging revenue per India active business",
+     "key_metrics": "Paid conversations, ad-to-chat conversion, AI-assisted orders",
+     "guardrails": "User opt-outs, message fatigue, privacy and data-localisation issues"}
+  ],
+  "business_model": {
+    "rows": [
+      {"line": "P2P and bill payments", "who_uses": "Consumers", "who_pays": "No one directly (free UPI)", "how": "Engagement and retention play; possible biller commissions"},
+      {"line": "Business messaging", "who_uses": "Enterprises and SMBs", "who_pays": "Businesses", "how": "Per-message fees on WhatsApp Business Platform"},
+      {"line": "Click-to-WhatsApp ads", "who_uses": "Brands and sellers", "who_pays": "Advertisers", "how": "Ad spend on Facebook/Instagram driving chats"},
+      {"line": "Commerce checkout", "who_uses": "Businesses selling in chat", "who_pays": "Merchants via PG partners", "how": "Gateway MDR goes to partners; Meta gains conversion data"}
+    ],
+    "bullets": [
+      {"label": "Revenue mix", "text": "Payments revenue negligible; value flows to Meta's business messaging and ads (Family of Apps)."},
+      {"label": "Users vs payers", "text": "500M+ users pay nothing; businesses and advertisers pay Meta for conversations."},
+      {"label": "Unit economics", "text": "UPI costs absorbed as customer acquisition for messaging; no standalone P&L disclosed."},
+      {"label": "Growth levers", "text": "Bill pay habit, in-chat checkout, Meta AI commerce, CRED partnership, Kunal Shah's fintech playbook."}
+    ]
+  },
+  "friction": [
+    "Payments tucked behind rupee icon, low discoverability",
+    "Users already loyal to PhonePe or Google Pay",
+    "Scams in chats erode trust in payments",
+    "Bank linking and UPI PIN setup feel cumbersome",
+    "Few rewards versus cashback-driven rivals"
+  ],
+  "competitors": [
+    {"label": "UPI apps", "text": "PhonePe, Google Pay, Paytm, Navi, super.money, CRED"},
+    {"label": "Conversational commerce", "text": "Instagram shops, Google Business messages, Telegram"},
+    {"label": "Bill pay", "text": "PhonePe, CRED, Amazon Pay, bank apps"},
+    {"label": "Global", "text": "Pix apps in Brazil, WeChat Pay, Line Pay as models"},
+    {"label": "Edge", "text": "Unmatched daily engagement and social graph; zero acquisition cost"},
+    {"label": "Risk", "text": "Late to habit, privacy/antitrust scrutiny, payments seen as non-core"}
+  ],
+  "news": [
+    {"label": "Sep 2026", "text": "Launched bill payments via Bharat Connect with 22,722 billers."},
+    {"label": "Aug 2026", "text": "July UPI volume up ~125% YoY; overtook CRED and Amazon Pay."},
+    {"label": "Jun 2026", "text": "Meta invests $900M in CRED; Kunal Shah named WhatsApp global head."},
+    {"label": "Watch", "text": "Whether 30% cap redistributes share to WhatsApp; in-chat commerce traction."}
+  ],
+  "sources": "NPCI UPI app data, Meta newsroom, press coverage (Business Today, TechCrunch, Outlook) 2024–26. Metrics are PM estimates for interview prep. Prepared Oct 2026."
+}

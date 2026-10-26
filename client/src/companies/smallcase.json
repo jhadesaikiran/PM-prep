@@ -1,0 +1,249 @@
+{
+  "slug": "smallcase",
+  "name": "smallcase",
+  "tagline": "B2B2C platform for model portfolios of stocks and ETFs via brokers",
+  "facts": [
+    [
+      "Founded",
+      "2015, Bengaluru; Vasanth Kamath, Anugrah Shrivastava, Rohan Gupta"
+    ],
+    [
+      "Owner/Listed",
+      "Private; Peak XV largest external holder (~16%)"
+    ],
+    [
+      "Funding",
+      "~$120M raised; $50M Series D, Mar 2025"
+    ],
+    [
+      "Valuation",
+      "~$285-290M (est., Series D)"
+    ],
+    [
+      "Revenue",
+      "FY25 ₹106 cr (+57%); net loss ₹34 cr"
+    ],
+    [
+      "Users",
+      "10M+ investors; ₹1.2 lakh cr transacted (FY25)"
+    ],
+    [
+      "Partners",
+      "250+ brokers, advisors, managers, wealth platforms"
+    ],
+    [
+      "CEO",
+      "Vasanth Kamath (cofounder and CEO)"
+    ]
+  ],
+  "strategy": [
+    {
+      "label": "Mission",
+      "text": "Make thematic, rules-based portfolio investing simple, transparent and accessible to every Indian investor."
+    },
+    {
+      "label": "Vision",
+      "text": "Become the infrastructure layer for managed portfolios in India across stocks, ETFs, mutual funds and global assets."
+    },
+    {
+      "label": "Core strategy",
+      "text": "B2B2C: plug into brokers via Gateway APIs; investors buy portfolios in their own demat accounts, no new KYC."
+    },
+    {
+      "label": "Moat",
+      "text": "Distribution across most major brokers plus 250+ SEBI-registered managers; two-sided network hard to replicate."
+    },
+    {
+      "label": "Key bet",
+      "text": "Expand product shelf: MF model portfolios, US stocks via GIFT City, loans against mutual funds, fixed income."
+    },
+    {
+      "label": "Your view",
+      "text": "If Zerodha and Groww build in-house baskets, does a broker-dependent B2B2C model keep its distribution?"
+    }
+  ],
+  "customers": [
+    {
+      "segment": "DIY investors",
+      "who": "Salaried investors wanting curated stock baskets",
+      "pain": "Picking and rebalancing stocks is time-consuming and confusing",
+      "why": "Themed portfolios with one-click rebalance, held in their own demat"
+    },
+    {
+      "segment": "Portfolio managers (supply)",
+      "who": "SEBI RIAs and research analysts",
+      "pain": "Hard to distribute research and execute for retail at scale",
+      "why": "Ready distribution, subscription billing, execution via partner brokers"
+    },
+    {
+      "segment": "Brokers (supply)",
+      "who": "Zerodha, Groww-style brokers, banks, wealth apps",
+      "pain": "Need sticky investing products to raise engagement and AUC",
+      "why": "Plug-and-play Gateway API adds managed portfolios without building them"
+    },
+    {
+      "segment": "Borrowers",
+      "who": "MF investors needing short-term liquidity",
+      "pain": "Selling funds breaks compounding and triggers tax",
+      "why": "Digital loans against mutual funds, from ~9.99% interest"
+    },
+    {
+      "segment": "Affluent investors",
+      "who": "Investors wanting global and multi-asset exposure",
+      "pain": "Global investing is fragmented and paperwork-heavy",
+      "why": "US stocks via GIFT City and MF portfolios in one place"
+    }
+  ],
+  "portfolio": [
+    {
+      "group": "Investment and credit products",
+      "products": [
+        {
+          "name": "smallcases",
+          "desc": "Thematic, rules-based stock and ETF model portfolios"
+        },
+        {
+          "name": "Windmill Capital",
+          "desc": "In-house SEBI-registered manager running free and paid smallcases"
+        },
+        {
+          "name": "MF model portfolios",
+          "desc": "Curated mutual fund baskets, launched Jun 2026"
+        },
+        {
+          "name": "Global smallcases",
+          "desc": "US stock investing via GIFT City, Feb 2026"
+        },
+        {
+          "name": "Loan against mutual funds",
+          "desc": "Pledge MFs for ₹25k-₹5 cr credit line, lender partners"
+        }
+      ],
+      "north_star": "Investors holding an active portfolio for 12+ months",
+      "key_metrics": "Subscriptions, AUM in smallcases, rebalance compliance, repeat purchases",
+      "guardrails": "Underperformance vs benchmark, mis-selling complaints, unsubscribe rate"
+    },
+    {
+      "group": "Platform and infrastructure",
+      "products": [
+        {
+          "name": "Gateway",
+          "desc": "APIs letting any app transact via user's broker account"
+        },
+        {
+          "name": "Publisher platform",
+          "desc": "Tools for managers to create, price and manage smallcases"
+        },
+        {
+          "name": "Broker integrations",
+          "desc": "Investing inside major partner broker apps and websites"
+        }
+      ],
+      "north_star": "Transaction value flowing through partner integrations",
+      "key_metrics": "Active partners, transactions per partner, API uptime, revenue per broker",
+      "guardrails": "Partner concentration, order failures, data security incidents"
+    }
+  ],
+  "business_model": {
+    "rows": [
+      {
+        "line": "Broker transaction fees",
+        "who_uses": "Investors buying smallcases on broker apps",
+        "who_pays": "Partner brokers",
+        "how": "Fee per transaction or share of brokerage; bulk of revenue"
+      },
+      {
+        "line": "Manager subscriptions",
+        "who_uses": "Investors in paid smallcases",
+        "who_pays": "Investors; smallcase takes a cut",
+        "how": "Subscription fee split between manager and platform"
+      },
+      {
+        "line": "Windmill and research",
+        "who_uses": "Investors in in-house portfolios",
+        "who_pays": "Investors",
+        "how": "Subscription fees on paid Windmill smallcases"
+      },
+      {
+        "line": "Lending distribution",
+        "who_uses": "LAMF borrowers",
+        "who_pays": "Lending partners",
+        "how": "Distribution commission and processing fees on loans"
+      }
+    ],
+    "bullets": [
+      {
+        "label": "Revenue mix",
+        "text": "Mostly broker transaction fees; subscriptions, research and lending distribution growing. FY26 results not yet public."
+      },
+      {
+        "label": "Users vs payers",
+        "text": "Investors often pay nothing directly; brokers and managers pay to access the investor base."
+      },
+      {
+        "label": "Unit economics",
+        "text": "FY25 EBITDA loss narrowed to ~₹9 cr; asset-light, but revenue depends on market cycle volumes."
+      },
+      {
+        "label": "Growth levers",
+        "text": "New asset classes, more partners, paid manager marketplace, credit, global investing."
+      },
+      {
+        "label": "Market cycle",
+        "text": "SEBI F&O curbs push traders to long-term products; weaker markets since late 2024 hurt volumes."
+      }
+    ]
+  },
+  "friction": [
+    "Users must log in to broker for each order",
+    "Rebalance updates ignored, portfolios drift from model",
+    "Paid manager quality and returns hard to judge",
+    "Minimum investment high for portfolios with pricey stocks",
+    "Fragmented experience across many partner broker apps"
+  ],
+  "competitors": [
+    {
+      "label": "Broker baskets",
+      "text": "Zerodha baskets, Groww, Dhan, Angel One in-house portfolios"
+    },
+    {
+      "label": "Wealth platforms",
+      "text": "INDmoney, Fisdom (Groww), ET Money, Kuvera"
+    },
+    {
+      "label": "Mutual funds / PMS",
+      "text": "Index funds, thematic MFs, PMS houses"
+    },
+    {
+      "label": "Advisory",
+      "text": "SEBI RIAs on direct platforms, Liquide, Sahi"
+    },
+    {
+      "label": "Edge",
+      "text": "Broker-neutral rails plus largest manager network; investors keep own demat"
+    },
+    {
+      "label": "Risk",
+      "text": "Broker disintermediation, prolonged losses, market downturn, SEBI advisory rules"
+    }
+  ],
+  "news": [
+    {
+      "label": "Jun 2026",
+      "text": "Launches mutual fund model portfolios, expanding beyond stocks and ETFs"
+    },
+    {
+      "label": "Feb 2026",
+      "text": "Opens US stock investing via GIFT City; global themes planned"
+    },
+    {
+      "label": "Mar 2025",
+      "text": "Raises $50M Series D led by Elev8; total ~$120M raised"
+    },
+    {
+      "label": "Watch",
+      "text": "FY26 profitability, broker partner retention, IPO readiness, uptake of new asset classes"
+    }
+  ],
+  "sources": "smallcase press releases, Entrackr FY25 financials, Moneycontrol/Business Standard funding coverage, ET and BusinessLine 2026. Metrics are PM estimates for interview prep. Prepared Oct 2026."
+}

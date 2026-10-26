@@ -1,0 +1,86 @@
+{
+  "slug": "dunzo",
+  "name": "Dunzo",
+  "tagline": "Bengaluru hyperlocal 'get anything delivered' app that collapsed despite Reliance backing",
+  "facts": [
+    ["Founded", "2014, Bengaluru; Kabeer Biswas and co-founders"],
+    ["Status", "Defunct: ops stopped 2024; NCLT insolvency admitted Sep 2025"],
+    ["Funding", "~$485M raised; Google's first direct India startup bet (2017)"],
+    ["Reliance", "$200M for 25.8% stake, Jan 2022; written off"],
+    ["Peak valuation", "~$775M (Jan 2022, est.)"],
+    ["FY23", "Revenue ₹227 cr; loss ₹1,802 cr (~8x revenue)"],
+    ["Write-off", "Reliance Retail wrote off ₹1,645 cr in FY25"],
+    ["Founders now", "Biswas, Jha, Suri now run AI and health startups"]
+  ],
+  "strategy": [
+    {"label": "Mission", "text": "Help urban Indians get anything done in their city: pick up, drop and deliver from any local store."},
+    {"label": "Original model", "text": "Task-based 'Dunzo it' concierge: pick-up-drop, medicines, groceries, food; verb-level brand love in Bengaluru."},
+    {"label": "Pivot", "text": "2021 Dunzo Daily: 19-minute grocery from dark stores, entering quick commerce against Blinkit, Zepto and Instamart."},
+    {"label": "Key bet", "text": "Reliance's $200M to become JioMart's hyperlocal delivery arm; synergy never materialised and follow-on funding dried up."},
+    {"label": "Lesson", "text": "Hyperlocal needs density and AOV; burning ₹8 per ₹1 revenue in a funding winter with no moat is fatal."},
+    {"label": "Your view", "text": "Was Dunzo killed by quick-commerce strategy, by capital timing, or by never owning one high-frequency use case?"}
+  ],
+  "customers": [
+    {"segment": "Busy urban users", "who": "Bengaluru professionals, young families", "pain": "No time to run errands across the city", "why": "One app to send packages, fetch keys, buy medicines, any store"},
+    {"segment": "Grocery top-up buyers", "who": "Households needing items within 20 minutes", "pain": "Forgotten essentials, unreliable kirana delivery", "why": "Dunzo Daily dark stores promised 19-minute delivery"},
+    {"segment": "Local merchants", "who": "Kiranas, pharmacies, restaurants, florists", "pain": "No own delivery fleet or online presence", "why": "Plug-in delivery and discovery without building logistics"},
+    {"segment": "Delivery partners", "who": "Gig riders in metro cities", "pain": "Delayed payouts as cash ran out", "why": "Flexible task-based earnings during peak growth years"},
+    {"segment": "Enterprise / B2B", "who": "Reliance, D2C brands needing hyperlocal logistics", "pain": "Last-mile delivery cost and speed", "why": "Dunzo for Business on-demand fleet"}
+  ],
+  "portfolio": [
+    {"group": "Consumer delivery",
+     "products": [
+       {"name": "Pick Up & Drop", "desc": "Send anything across the city by bike courier"},
+       {"name": "Dunzo Daily", "desc": "Dark-store quick commerce for groceries and essentials"},
+       {"name": "Food & stores", "desc": "Delivery from local restaurants, pharmacies and shops"},
+       {"name": "Dunzo Mo", "desc": "Parallel app for items Play Store disallowed"}],
+     "north_star": "Weekly completed tasks per active user (pre-pivot)",
+     "key_metrics": "Orders per day, AOV, delivery time, contribution per order",
+     "guardrails": "Cash burn per order, refund rate, rider payout delays"},
+    {"group": "Business services",
+     "products": [
+       {"name": "Dunzo for Business", "desc": "On-demand hyperlocal logistics for merchants and brands"},
+       {"name": "Merchant partner app", "desc": "Store catalogue, orders and payouts"},
+       {"name": "Reliance/JioMart tie-up", "desc": "Planned last-mile delivery for Reliance retail stores"}],
+     "north_star": "B2B deliveries with positive contribution margin",
+     "key_metrics": "B2B order share, fleet utilisation, cost per delivery",
+     "guardrails": "Client concentration, SLA breaches, receivable days"}
+  ],
+  "business_model": {
+    "rows": [
+      {"line": "Delivery fees", "who_uses": "Consumers sending or ordering items", "who_pays": "Consumers", "how": "Distance and surge-based delivery fees per task"},
+      {"line": "Grocery margin", "who_uses": "Dunzo Daily shoppers", "who_pays": "Consumers, brands", "how": "Retail margin via marketplace sellers plus brand promotions"},
+      {"line": "Merchant commission", "who_uses": "Local stores and restaurants", "who_pays": "Merchants", "how": "Percentage commission on orders fulfilled"},
+      {"line": "B2B logistics", "who_uses": "Brands, Reliance retail", "who_pays": "Enterprise clients", "how": "Per-delivery fees for hyperlocal last-mile"}
+    ],
+    "bullets": [
+      {"label": "Revenue mix", "text": "Mostly delivery fees and grocery margins; FY23 operating revenue only ₹227 cr despite national brand."},
+      {"label": "Users vs payers", "text": "Consumers loved free or cheap delivery; subsidies meant almost nobody paid true cost."},
+      {"label": "Unit economics", "text": "FY23 loss ₹1,802 cr: dark-store rent, rider costs and discounts far exceeded low AOV contribution."},
+      {"label": "Collapse path", "text": "2023 layoffs, salary delays, vendor suits (Google, Meta); co-founders exit; ops halt 2024; insolvency 2025."},
+      {"label": "Lesson", "text": "Strategic investors don't guarantee rescue; Reliance chose JioMart in-house and wrote off ₹1,645 cr."}
+    ]
+  },
+  "friction": [
+    "Delivery times slipped as rider supply shrank",
+    "Dark-store stockouts after vendor payments stalled",
+    "Refunds delayed during the cash crunch",
+    "Too many use cases, no clear habit",
+    "Shrinking city coverage eroded user trust"
+  ],
+  "competitors": [
+    {"label": "Quick commerce", "text": "Blinkit, Zepto, Swiggy Instamart, BigBasket Now, Flipkart Minutes"},
+    {"label": "Pick-up-drop", "text": "Swiggy Genie, Porter, Rapido parcel, Uber Connect"},
+    {"label": "Food", "text": "Zomato, Swiggy"},
+    {"label": "Strategic owner", "text": "Reliance JioMart built its own quick delivery"},
+    {"label": "Edge", "text": "Early first mover; 'Dunzo it' verb-level brand in Bengaluru"},
+    {"label": "Risk", "text": "Realised: out-spent by focused, better-funded rivals; ran out of cash"}
+  ],
+  "news": [
+    {"label": "Apr 2026", "text": "Kabeer Biswas raises $11M from Peak XV, Blume for consumer AI startup."},
+    {"label": "Sep 2025", "text": "NCLT Bengaluru admits Dunzo into insolvency on vendor pleas; IRP appointed."},
+    {"label": "Aug 2025", "text": "Reliance Retail formally writes off entire ₹1,645 cr Dunzo investment in FY25."},
+    {"label": "Watch", "text": "Any asset or brand sale in insolvency; lessons for Zepto and Swiggy Instamart burn."}
+  ],
+  "sources": "Inc42, Mint, YourStory, Reliance FY25 annual report coverage, NCLT reports, Wikipedia. Metrics are PM estimates for interview prep. Prepared Oct 2026."
+}

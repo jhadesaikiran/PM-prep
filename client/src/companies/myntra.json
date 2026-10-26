@@ -1,0 +1,97 @@
+{
+  "slug": "myntra",
+  "name": "Myntra",
+  "tagline": "India's leading online fashion and beauty marketplace, owned by Flipkart",
+  "facts": [
+    ["Founded", "2007, Bengaluru, Mukesh Bansal and co-founders"],
+    ["Owner", "Flipkart Group (acquired 2014), Walmart-controlled"],
+    ["Revenue", "FY25 ₹6,043 cr (+18% YoY)"],
+    ["Profit", "FY25 PAT ₹548 cr, up 18x"],
+    ["Ad revenue", "FY25 ₹914 cr (+28%)"],
+    ["Selection", "~6,000+ brands; M-Now 100K styles, 1,000 brands"],
+    ["CEO", "Sharon Pais since Apr 2026 (ex-Nandita Sinha)"],
+    ["Quick fashion", "M-Now: 30-60 min, 10+ cities, 940+ pin codes"]
+  ],
+  "strategy": [
+    {"label": "Mission", "text": "Make India look good: democratise fashion and beauty with the widest selection and trusted authentic brands."},
+    {"label": "Vision", "text": "Be the default destination for discovering and buying fashion, beauty and lifestyle across India, at any speed."},
+    {"label": "Core strategy", "text": "Brand-led marketplace with owned private labels, logistics and content-led discovery; profitable growth over discount-led GMV."},
+    {"label": "Moat", "text": "Deep brand partnerships, size and fit data, fashion logistics and returns handling built over 15+ years."},
+    {"label": "Key bet", "text": "M-Now quick fashion plus AI styling; Myntra Glam beauty; FWD for Gen Z; international brands partnerships."},
+    {"label": "Your view", "text": "Does 30-minute fashion delivery create new demand or just raise cost-to-serve for already-profitable orders?"}
+  ],
+  "customers": [
+    {"segment": "Gen Z trend-seekers", "who": "18-25, Instagram-native, budget-conscious", "pain": "Want trendy styles fast without overspending or poor fit", "why": "FWD feed, influencer content, deals at End of Reason Sale"},
+    {"segment": "Urban professionals", "who": "Metro 25-40, brand-loyal, time-poor", "pain": "Need authentic branded fashion delivered quickly, easy returns", "why": "Wide brand catalogue, Insider loyalty, M-Now 30-60 min delivery"},
+    {"segment": "Beauty shoppers", "who": "Women 18-40 buying cosmetics, skincare", "pain": "Worry about fake products and shade mismatch", "why": "Authentic brand stores, Myntra Glam, reviews and creator tutorials"},
+    {"segment": "Fashion brands and sellers", "who": "National, D2C and global brands", "pain": "Need targeted reach and fashion-specific logistics, returns", "why": "Largest fashion audience in India, ads, size data, omnichannel tie-ups"},
+    {"segment": "Advertisers", "who": "Brands buying Myntra ad inventory", "pain": "Need proof that spend drives fashion sales", "why": "Closed-loop retail media; ads ₹914 cr FY25 (+28%)"}
+  ],
+  "portfolio": [
+    {"group": "Core fashion marketplace",
+     "products": [
+       {"name": "Myntra app", "desc": "Apparel, footwear, accessories marketplace for 6,000+ brands"},
+       {"name": "Private labels", "desc": "Roadster, HRX, Dressberry and other own brands"},
+       {"name": "End of Reason Sale", "desc": "Biannual flagship fashion sale"},
+       {"name": "Myntra Insider", "desc": "Loyalty program with early access and rewards"}
+     ],
+     "north_star": "Monthly transacting customers keeping their purchase (net of returns)",
+     "key_metrics": "Conversion, AOV, return rate, repeat purchase, brand mix",
+     "guardrails": "Return cost per order, fit complaints, discount depth, delivery TAT"},
+    {"group": "Speed and discovery",
+     "products": [
+       {"name": "M-Now", "desc": "30-60 minute fashion and beauty delivery, 10+ cities"},
+       {"name": "Myntra FWD", "desc": "Gen Z trend feed with creator content"},
+       {"name": "Maya / AI stylist", "desc": "Gen-AI styling and outfit recommendations"},
+       {"name": "Myntra Minis", "desc": "Short-form shoppable video content"}
+     ],
+     "north_star": "Weekly engaged users who buy from discovery surfaces",
+     "key_metrics": "M-Now orders, delivery time, feed-to-cart rate, creator GMV",
+     "guardrails": "M-Now cost per order, cannibalisation of standard delivery, return rate"},
+    {"group": "Beauty and monetisation",
+     "products": [
+       {"name": "Myntra Glam", "desc": "Beauty and personal care store"},
+       {"name": "Myntra Ads", "desc": "Sponsored listings and brand display"},
+       {"name": "Global store", "desc": "International brands sold into India"}
+     ],
+     "north_star": "Beauty share of wallet among existing fashion buyers",
+     "key_metrics": "Beauty GMV, ad ROAS, cross-category buyers",
+     "guardrails": "Ad load on browse, counterfeit complaints, seller fee churn"}
+  ],
+  "business_model": {
+    "rows": [
+      {"line": "Logistics services", "who_uses": "Sellers shipping to Myntra customers", "who_pays": "Sellers", "how": "Delivery and returns fees; ₹2,919 cr, ~48% of FY25 revenue"},
+      {"line": "Marketplace services", "who_uses": "Brands and sellers", "who_pays": "Sellers", "how": "Commission and platform fees; ₹2,052 cr (+16%)"},
+      {"line": "Advertising", "who_uses": "Shoppers browsing feed and search", "who_pays": "Brands", "how": "Sponsored listings and display; ₹914 cr (+28%)"},
+      {"line": "Customer fees", "who_uses": "Shoppers", "who_pays": "Shoppers", "how": "Convenience, platform and M-Now delivery fees"}
+    ],
+    "bullets": [
+      {"label": "Revenue mix", "text": "Logistics 48%, marketplace 34%, ads 15% of FY25 operating revenue; private labels add margin."},
+      {"label": "Users vs payers", "text": "Shoppers pay for goods; brands pay commission, logistics and ads, which form most revenue."},
+      {"label": "Unit economics", "text": "Fashion's high returns are the key cost; PAT ₹548 cr shows scale beat returns cost."},
+      {"label": "Growth levers", "text": "M-Now speed, beauty, ads, Gen Z via FWD, tier-2 cities like Patna, Jaipur, Lucknow."}
+    ]
+  },
+  "friction": [
+    "Size and fit inconsistency drives returns",
+    "Return pickups and refunds can be slow",
+    "Heavy discounting trains users to wait for sales",
+    "Convenience fees feel like hidden charges",
+    "M-Now selection limited versus full catalogue"
+  ],
+  "competitors": [
+    {"label": "Fashion e-com", "text": "Ajio (Reliance), Nykaa Fashion, Tata Cliq, Amazon Fashion"},
+    {"label": "Value fashion", "text": "Meesho, Shein via Reliance, Flipkart Shopsy"},
+    {"label": "Quick fashion", "text": "Slikk, KNOT, Zulu Club, Blinkit and Zepto apparel"},
+    {"label": "Beauty", "text": "Nykaa, Tira (Reliance), Purplle"},
+    {"label": "Edge", "text": "Profitable at scale, deepest brand catalogue, Flipkart logistics and data"},
+    {"label": "Risk", "text": "Leadership churn (4 CEOs in 12 years), M-Now burn, Reliance pricing"}
+  ],
+  "news": [
+    {"label": "May 2026", "text": "M-Now reaches Chennai, adds AI outfit selection with 30-minute delivery"},
+    {"label": "Apr 2026", "text": "Sharon Pais replaces Nandita Sinha as CEO to drive M-Now push"},
+    {"label": "Feb 2026", "text": "M-Now expands to Patna, Jaipur, Lucknow, Ahmedabad; 10 cities"},
+    {"label": "Watch", "text": "FY26 profit, M-Now unit economics, Flipkart IPO bundling Myntra"}
+  ],
+  "sources": "RoC filings via Entrackr/YourStory/Inc42, press coverage. Mix and metrics are PM estimates for interview prep. Prepared Oct 2026."
+}

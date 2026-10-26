@@ -1,0 +1,98 @@
+{
+  "slug": "spotify",
+  "name": "Spotify",
+  "tagline": "Freemium audio platform: music, podcasts, audiobooks and now video",
+  "facts": [
+    ["Founded", "2006, Stockholm, by Daniel Ek and Martin Lorentzon"],
+    ["HQ", "Stockholm, Sweden"],
+    ["Owner/Listed", "Spotify Technology S.A., NYSE: SPOT"],
+    ["Revenue", "FY25 €17.2B (+10%); op. margin ~13%"],
+    ["Latest quarter", "Q2 2026 €4.78B (+14%), op. income €655M"],
+    ["Users", "Q2 2026: 777M MAU, 300M Premium subs"],
+    ["Profit", "FY25 net income ~$1.17B; consistently profitable since 2024"],
+    ["CEO/Head", "Co-CEOs Alex Norström, Gustav Söderström (2026); Ek chairman"],
+    ["India", "Launched 2019; big MAU, low ARPU market"]
+  ],
+  "strategy": [
+    {"label": "Mission", "text": "Unlock the potential of human creativity by giving creators a living and fans enjoyment of their art."},
+    {"label": "Vision", "text": "Be the world's audio and creator platform, ubiquitous on every device, in every country."},
+    {"label": "Core strategy", "text": "Freemium funnel: free ad tier acquires users, personalisation converts them to Premium, price rises lift margin."},
+    {"label": "Moat", "text": "Personalisation data (Discover Weekly, Wrapped, DJ), habit, playlists and device ubiquity across cars, speakers, consoles."},
+    {"label": "Key bet", "text": "Beyond music: video podcasts, audiobooks in Premium, AI DJ; diversify away from label royalties eating ~70% revenue."},
+    {"label": "Your view", "text": "Ad revenue shrank in 2025 while subs grew; should Spotify keep a free tier at all?"}
+  ],
+  "customers": [
+    {"segment": "Free listeners", "who": "Students, emerging-market and casual users", "pain": "Want music free, accept ads, low willingness to pay", "why": "Biggest free catalogue, good recommendations, on every device"},
+    {"segment": "Premium subscribers", "who": "Daily listeners, families, commuters", "pain": "Ads, shuffle limits, no offline listening", "why": "Ad-free, offline, best personalisation, audiobook hours, family and duo plans"},
+    {"segment": "Artists and labels", "who": "Majors, indies, independent artists", "pain": "Discovery and fair royalties in crowded market", "why": "Largest paying audience; Spotify for Artists, Marquee, Discovery Mode promotion"},
+    {"segment": "Podcasters", "who": "Video and audio creators, studios", "pain": "Monetisation and audience beyond YouTube", "why": "Partner Program pays for Premium consumption; video podcasts, built-in ads"},
+    {"segment": "Advertisers", "who": "Brands targeting young, logged-in audiences", "pain": "Reach audio-first users with measurable impact", "why": "Spotify Ad Exchange, streaming audio and podcast ads, first-party data"}
+  ],
+  "portfolio": [
+    {"group": "Music",
+     "products": [
+       {"name": "Spotify Free", "desc": "Ad-supported shuffle listening, the top of funnel"},
+       {"name": "Spotify Premium", "desc": "Individual, Duo, Family, Student ad-free plans"},
+       {"name": "Personalisation", "desc": "Discover Weekly, AI DJ, AI playlists, Daylist, Wrapped"},
+       {"name": "Spotify for Artists", "desc": "Analytics, Marquee and Discovery Mode promotion tools"}
+     ],
+     "north_star": "Weekly listening hours per MAU that drive Premium conversion",
+     "key_metrics": "MAU, free-to-paid conversion, Premium ARPU, churn, streams per user",
+     "guardrails": "Royalty cost per stream, artist sentiment, price-hike churn"},
+    {"group": "Podcasts and video",
+     "products": [
+       {"name": "Video podcasts", "desc": "~500K video shows; 390M+ users have streamed one"},
+       {"name": "Spotify Partner Program", "desc": "Pays creators for Premium video podcast consumption"},
+       {"name": "Spotify for Creators", "desc": "Hosting, recording and analytics, formerly Anchor"}
+     ],
+     "north_star": "Weekly podcast listeners who also stream music",
+     "key_metrics": "Podcast MAU share, video watch time, show count, ad fill",
+     "guardrails": "Content cost per hour, brand safety, music engagement not dropping"},
+    {"group": "Audiobooks and ads",
+     "products": [
+       {"name": "Audiobooks in Premium", "desc": "15 hours monthly included; top-ups and add-on"},
+       {"name": "Spotify Ad Exchange", "desc": "Programmatic audio, video and podcast ad marketplace"},
+       {"name": "Spotify Audience Network", "desc": "Ad network across Spotify and partner podcasts"}
+     ],
+     "north_star": "Ad and audiobook gross profit per user",
+     "key_metrics": "Ad revenue growth, CPMs, audiobook hours, attach rate",
+     "guardrails": "Ads per hour, free-user retention, publisher payout disputes"}
+  ],
+  "business_model": {
+    "rows": [
+      {"line": "Premium subscriptions", "who_uses": "300M paid subscribers worldwide", "who_pays": "Consumers, monthly; US individual $12.99 from 2026", "how": "Flat fee; ~2/3 of revenue paid to rights holders"},
+      {"line": "Ad-supported", "who_uses": "~480M free listeners", "who_pays": "Advertisers and agencies", "how": "Audio, video and podcast ads sold direct and programmatically"},
+      {"line": "Audiobooks", "who_uses": "Premium users and add-on buyers", "who_pays": "Subscribers via plan, top-ups, add-on", "how": "Monthly listening hours bundled; publishers paid per usage"},
+      {"line": "Marketplace", "who_uses": "Artists and labels seeking promotion", "who_pays": "Labels and artists", "how": "Marquee, Showcase, Discovery Mode lower royalty for promotion"}
+    ],
+    "bullets": [
+      {"label": "Revenue mix", "text": "FY25: Premium €15.35B (89%), ad-supported €1.84B (11%, down 1%)."},
+      {"label": "Users vs payers", "text": "777M users, 300M payers (~39%); free tier is the acquisition funnel, not the profit engine."},
+      {"label": "Unit economics", "text": "Gross margin hit record 33.4% Q2 2026; royalties variable, so price hikes and non-music content lift margin."},
+      {"label": "Growth levers", "text": "Price increases, superfan tier, video podcasts, audiobooks, emerging-market subs, ad-tech rebuild."},
+      {"label": "Lesson", "text": "Aggregator without owned supply: profitability came only after cost cuts, pricing power and bundling non-music."}
+    ]
+  },
+  "friction": [
+    "Free tier shuffle and skip limits on mobile",
+    "Home feed cluttered by podcasts, audiobooks and video",
+    "Price hikes across all tiers in 2026",
+    "Artists complain about low per-stream payouts",
+    "Audiobook hour caps confuse Premium users"
+  ],
+  "competitors": [
+    {"label": "Music streaming", "text": "Apple Music, YouTube Music, Amazon Music, JioSaavn"},
+    {"label": "Podcasts and video", "text": "YouTube (biggest podcast platform), Apple Podcasts, Netflix video podcasts"},
+    {"label": "Audiobooks", "text": "Audible, Apple Books, Pocket FM in India"},
+    {"label": "Attention", "text": "TikTok and Shorts as music discovery engines"},
+    {"label": "Edge", "text": "Best-in-class personalisation, platform-agnostic ubiquity, cultural moments like Wrapped"},
+    {"label": "Risk", "text": "Label leverage, Apple/Google platform fees, YouTube bundling music with video"}
+  ],
+  "news": [
+    {"label": "Jul 2026", "text": "Q2: 300M subs, 777M MAU, €655M operating income, record 33.4% gross margin"},
+    {"label": "Jan 2026", "text": "Norström and Söderström become co-CEOs; Daniel Ek moves to executive chairman"},
+    {"label": "Jan 2026", "text": "US price hikes: individual $12.99, Family $21.99, Student $6.99"},
+    {"label": "Watch", "text": "Superfan tier launch, video podcast monetisation, ad business turnaround"}
+  ],
+  "sources": "Spotify 20-F FY25, Q2 2026 6-K, MBW and press coverage. Metrics are PM estimates for interview prep. Prepared Oct 2026."
+}

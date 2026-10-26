@@ -1,0 +1,100 @@
+{
+  "slug": "phonepe",
+  "name": "PhonePe",
+  "tagline": "India's largest UPI app, expanding into lending, insurance and wealth",
+  "facts": [
+    ["Founded", "2015, Sameer Nigam, Rahul Chari, Burzin Engineer"],
+    ["HQ", "Bengaluru; domicile shifted to India 2022"],
+    ["Owner/Listed", "Walmart majority; IPO deferred Mar 2026"],
+    ["Revenue", "FY26 ₹7,920 cr (+11% YoY)"],
+    ["Profit", "FY26 net loss ₹2,792 cr (FY25: ₹1,727 cr)"],
+    ["Users", "70 cr+ registered users (Apr 2026)"],
+    ["Merchants", "5 cr+ registered merchants, 98% pincodes"],
+    ["UPI share", "~45–46% by volume (NPCI, mid-2026)"],
+    ["CEO", "Sameer Nigam (co-founder)"]
+  ],
+  "strategy": [
+    {"label": "Mission", "text": "Unlock the flow of money and access to services for every Indian, starting with free, reliable UPI."},
+    {"label": "Vision", "text": "Become India's financial services platform: payments as distribution, lending, insurance and wealth as the profit pool."},
+    {"label": "Core strategy", "text": "Use UPI ubiquity and SmartSpeaker merchant network as low-cost acquisition, then monetise via credit, insurance, broking."},
+    {"label": "Moat", "text": "Habit and scale: 70 cr users, 5 cr merchants, Bharat reach, reliability at ~11 billion monthly transactions."},
+    {"label": "Key bets", "text": "Lending revenue doubled to ₹945 cr FY26; Share.Market broking; Indus Appstore versus Google Play."},
+    {"label": "Your view", "text": "If NPCI enforces the 30% cap, should PhonePe cede volume gracefully or fight it, and why?"}
+  ],
+  "customers": [
+    {"segment": "Mass consumers", "who": "Smartphone users, Tier 2+ heavy", "pain": "Need free, instant, reliable payments everywhere", "why": "Fast UPI, highest merchant acceptance, recharges and bills in one app"},
+    {"segment": "Kirana merchants", "who": "Small offline shops, street vendors", "pain": "Cash handling, payment confirmation fraud, no credit history", "why": "Free QR, SmartSpeaker audio confirmation, merchant loans from transaction data"},
+    {"segment": "Borrowers", "who": "New-to-credit salaried and self-employed", "pain": "Banks reject thin-file applicants; slow paperwork", "why": "Pre-approved personal, gold, merchant loans via partner lenders in-app"},
+    {"segment": "Insurance and wealth buyers", "who": "First-time investors and insurance buyers", "pain": "Complex products, agent mis-selling, high minimums", "why": "Simple term, health, motor policies; low-ticket SIPs and stock broking via Share.Market"},
+    {"segment": "Online businesses", "who": "Merchants, app developers, advertisers", "pain": "Need checkout, distribution and payments reach", "why": "PhonePe PG, Indus Appstore lower commissions, ads on high-traffic app"}
+  ],
+  "portfolio": [
+    {"group": "Payments",
+     "products": [
+       {"name": "UPI P2P and P2M", "desc": "Free bank-to-bank and merchant payments, market leader"},
+       {"name": "Recharge and Bills", "desc": "Mobile, DTH, utilities, FASTag, credit card bills"},
+       {"name": "SmartSpeaker and POS", "desc": "Audio payment alerts and card terminals for merchants"},
+       {"name": "Payment Gateway", "desc": "Online checkout for merchants and apps"},
+       {"name": "Credit on UPI", "desc": "RuPay credit cards and credit lines linked to UPI"}
+     ],
+     "north_star": "Monthly transacting users completing 4+ payments",
+     "key_metrics": "UPI volume share, success rate, merchant actives, speaker rentals",
+     "guardrails": "Fraud losses, downtime, NPCI 30% share cap compliance"},
+    {"group": "Financial services",
+     "products": [
+       {"name": "Lending", "desc": "Personal, merchant, gold, home loans via NBFC/bank partners"},
+       {"name": "Insurance broking", "desc": "Term, health, motor, travel policies distributed in-app"},
+       {"name": "Share.Market", "desc": "Stock broking and mutual fund platform"},
+       {"name": "Wealth", "desc": "SIPs, digital gold, tax-saving funds"}
+     ],
+     "north_star": "Monthly financial-services revenue per transacting user",
+     "key_metrics": "Disbursals, policies sold, SIP book, cross-sell from payments",
+     "guardrails": "Loan delinquencies, mis-selling complaints, regulator observations"},
+    {"group": "New platforms",
+     "products": [
+       {"name": "Indus Appstore", "desc": "Android app store with low developer commission"},
+       {"name": "Pincode", "desc": "Now B2B ERP/sourcing; B2C hyperlocal wound down Dec 2025"},
+       {"name": "Ads", "desc": "Brand and performance ads on payment surfaces"}
+     ],
+     "north_star": "Monthly active installs via Indus Appstore",
+     "key_metrics": "Developers onboarded, OEM preloads, ad revenue per DAU",
+     "guardrails": "Cash burn, payment-app UX clutter, malware incidents"}
+  ],
+  "business_model": {
+    "rows": [
+      {"line": "Consumer payments", "who_uses": "Consumers paying bills, recharges", "who_pays": "Billers, telcos, some users via platform fees", "how": "Commissions on recharges/bills; small platform fees on some payments"},
+      {"line": "Merchant payments", "who_uses": "Offline and online merchants", "who_pays": "Merchants", "how": "SmartSpeaker rentals, PG MDR on cards; UPI MDR is zero today"},
+      {"line": "Lending distribution", "who_uses": "Borrowers and merchants", "who_pays": "Partner lenders", "how": "Origination and sourcing fees; FY26 revenue ₹945 cr"},
+      {"line": "Insurance and wealth", "who_uses": "Retail investors and policy buyers", "who_pays": "Insurers, AMCs, traders", "how": "Broking commissions, distribution fees, trading brokerage"},
+      {"line": "New platforms", "who_uses": "Developers, advertisers", "who_pays": "Advertisers, developers", "how": "Ads and app-store fees; currently loss-making"}
+    ],
+    "bullets": [
+      {"label": "Revenue mix", "text": "Payments still the majority; financial services fastest growing; real-money gaming revenue collapsed after 2025 RMG ban."},
+      {"label": "Users vs payers", "text": "70 cr users pay almost nothing; lenders, insurers, billers and merchants pay for distribution."},
+      {"label": "Unit economics", "text": "UPI loses money per transaction without MDR; FY26 loss widened to ₹2,792 cr on ads and new bets."},
+      {"label": "Growth levers", "text": "UPI MDR for large merchants, credit cross-sell, insurance, broking scale, Indus Appstore monetisation."}
+    ]
+  },
+  "friction": [
+    "Home screen cluttered with offers, loans and ads",
+    "Failed or pending UPI payments with slow refunds",
+    "Fraud and fake-screenshot scams hurt merchant trust",
+    "Loan and insurance push feels intrusive to users",
+    "Customer support hard to reach for disputes"
+  ],
+  "competitors": [
+    {"label": "UPI apps", "text": "Google Pay, Paytm, Navi, super.money, BHIM, WhatsApp Pay"},
+    {"label": "Merchant QR", "text": "Paytm Soundbox, BharatPe, Google Pay for Business"},
+    {"label": "Lending and wealth", "text": "Paytm, Groww, Zerodha, Bajaj Finserv, Policybazaar"},
+    {"label": "App store", "text": "Google Play, Samsung Galaxy Store"},
+    {"label": "Edge", "text": "Largest UPI user and merchant base; trusted brand in Bharat"},
+    {"label": "Risk", "text": "30% cap from Jan 2027, zero MDR, widening losses, IPO timing"}
+  ],
+  "news": [
+    {"label": "Aug 2026", "text": "FY26 revenue ₹7,920 cr (+11%); loss widened to ₹2,792 cr."},
+    {"label": "Apr 2026", "text": "Crossed 70 cr registered users and 5 cr merchants."},
+    {"label": "Mar 2026", "text": "Deferred ~$1.3B OFS-only IPO citing volatility; SEBI nod valid 18 months."},
+    {"label": "Watch", "text": "NPCI 30% cap at 31 Dec 2026, UPI MDR rules, IPO by Mar 2027."}
+  ],
+  "sources": "PhonePe DRHP and RoC filings FY25–FY26, NPCI UPI data, press coverage (Inc42, Outlook Business) 2025–26. Metrics are PM estimates for interview prep. Prepared Oct 2026."
+}

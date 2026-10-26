@@ -1,0 +1,93 @@
+{
+  "slug": "threads",
+  "name": "Threads",
+  "tagline": "Meta's text-first public conversation app, built on Instagram's graph",
+  "facts": [
+    ["Launched", "July 2023 by Meta (Instagram team)"],
+    ["Owner", "Meta Platforms (NASDAQ: META)"],
+    ["Head", "Connor Hayes (since Sep 2025)"],
+    ["Users", "500M+ MAU (Jun 2026); ~150M DAU"],
+    ["Ads", "Global ad rollout to all markets, 2026"],
+    ["Revenue", "Not disclosed; analyst est. low single-digit $B"],
+    ["DMs", "~350M DMs sent weekly (May 2026)"],
+    ["Fediverse", "ActivityPub interoperability, opt-in"]
+  ],
+  "strategy": [
+    {"label": "Mission", "text": "Be the open, friendly public square for real-time conversation and ideas."},
+    {"label": "Vision", "text": "Replace X as the default text network for news, creators and communities, without the toxicity."},
+    {"label": "Cold start", "text": "Bootstrapped from Instagram's graph: one-tap signup, imported follows; 100M signups in 5 days."},
+    {"label": "Core strategy", "text": "LLM-powered recommendations drive time spent; add DMs, communities, web and fediverse to deepen habit."},
+    {"label": "Monetisation", "text": "Ads only after scale: tested 2025, global rollout 2026 using Meta's existing advertiser base and Advantage+."},
+    {"label": "Your view", "text": "Is Threads a true X replacement, or just Instagram's text tab with weak retention?"}
+  ],
+  "customers": [
+    {"segment": "Instagram users", "who": "Existing IG users curious about text", "pain": "Want conversation without X's toxicity or paywalls", "why": "One-tap signup, same identity and follows, friendlier tone"},
+    {"segment": "Creators / journalists", "who": "Writers, commentators, ex-X power users", "pain": "Lost reach and trust on X after 2022", "why": "Large audience, recommendations surface new voices, cross-post from Instagram"},
+    {"segment": "Communities", "who": "Fans, niche topic groups (sports, books)", "pain": "Hard to find topic conversations in a for-you feed", "why": "Topic tags, Meta-curated communities, custom feeds"},
+    {"segment": "Advertisers", "who": "Brands already on Meta Ads Manager", "pain": "Want brand-safe text inventory and new reach", "why": "Same Advantage+ campaigns extend to Threads, brand-safe environment"}
+  ],
+  "portfolio": [
+    {"group": "Conversation core",
+     "products": [
+       {"name": "For You feed", "desc": "Algorithmic feed of posts, LLM-improved ranking"},
+       {"name": "Following / custom feeds", "desc": "Chronological and topic-based feeds"},
+       {"name": "Topic tags and communities", "desc": "One tag per post; Meta-curated topic communities"},
+       {"name": "Search and trending", "desc": "Keyword search and trending topics for news"}
+     ],
+     "north_star": "Daily users who post or reply in a meaningful conversation",
+     "key_metrics": "DAU/MAU, replies per post, D30 retention, time spent",
+     "guardrails": "Engagement-bait share, harassment reports, political-content complaints"},
+    {"group": "Connection and reach",
+     "products": [
+       {"name": "Threads DMs", "desc": "1:1 and group chats up to 50; web since 2026"},
+       {"name": "Threads web", "desc": "Desktop app with multi-column and messaging"},
+       {"name": "Fediverse sharing", "desc": "ActivityPub posts to Mastodon and other servers"}
+     ],
+     "north_star": "Weekly users with two-way conversations (replies or DMs)",
+     "key_metrics": "DMs per user, web share of sessions, fediverse follows",
+     "guardrails": "Spam DMs, block rate, account takeovers"},
+    {"group": "Monetisation",
+     "products": [
+       {"name": "Feed ads", "desc": "Image, carousel and video ads in Threads feed"},
+       {"name": "Advantage+ placement", "desc": "Threads added as placement in Meta campaigns"},
+       {"name": "Brand safety controls", "desc": "Third-party verification and inventory filters for advertisers"}
+     ],
+     "north_star": "Ad revenue per DAU without hurting retention",
+     "key_metrics": "Ad load, CPM, CTR, advertiser adoption",
+     "guardrails": "Retention change in ad-exposed cohorts, user sentiment"}
+  ],
+  "business_model": {
+    "rows": [
+      {"line": "Feed ads", "who_uses": "All Threads users in supported markets", "who_pays": "Brands and SMBs via Meta Ads Manager", "how": "Auction CPM/CPC; image, carousel, video formats"},
+      {"line": "Cross-app placement", "who_uses": "Users across Instagram, Facebook, Threads", "who_pays": "Advertisers running Advantage+ campaigns", "how": "Meta's AI auto-allocates spend to Threads inventory"},
+      {"line": "Engagement flywheel", "who_uses": "Instagram users posting to Threads", "who_pays": "Indirect: more Meta ad inventory overall", "how": "Raises Meta-wide time spent and data signals"}
+    ],
+    "bullets": [
+      {"label": "Revenue mix", "text": "100% ads, rolled out globally in 2026; not broken out from Meta's $60.4B Q2'26 FoA revenue."},
+      {"label": "Users vs payers", "text": "500M+ MAU pay nothing; payers are Meta's existing millions of advertisers."},
+      {"label": "Unit economics", "text": "Near-zero marginal infra and sales cost: reuses Instagram identity, Meta ads stack and sales force."},
+      {"label": "Growth levers", "text": "Raise DAU/MAU from ~30%, India and Asia growth, ad load ramp, creator incentives."}
+    ]
+  },
+  "friction": [
+    "Feed full of engagement bait and irrelevant strangers",
+    "Weak real-time news versus X during live events",
+    "Many signups never return; low DAU/MAU ratio",
+    "Political content deprioritised, frustrating news creators",
+    "Tied to Instagram identity; separate account deletion historically hard"
+  ],
+  "competitors": [
+    {"label": "Text social", "text": "X, Bluesky, Mastodon, LinkedIn for professionals"},
+    {"label": "Attention", "text": "Instagram (sibling), TikTok, Reddit for discussion"},
+    {"label": "India", "text": "X, Koo (shut 2024), ShareChat"},
+    {"label": "Edge", "text": "Instagram graph distribution and Meta ads stack from day one"},
+    {"label": "Risk", "text": "Cannibalises Instagram time; may never become the real-time news habit"}
+  ],
+  "news": [
+    {"label": "Jun 2026", "text": "Threads crosses 500M monthly users, Meta's fastest app to that scale"},
+    {"label": "May 2026", "text": "DMs launch on web; 350M DMs sent weekly"},
+    {"label": "Apr 2026", "text": "Full ad inventory opened to global advertisers, 450M+ MAU"},
+    {"label": "Watch", "text": "DAU/MAU, Threads ad revenue disclosure, X and Bluesky share in news"}
+  ],
+  "sources": "Meta earnings and newsroom, The Next Web, Storyboard18, analyst estimates and press coverage. Revenue and DAU are estimates. Prepared Oct 2026."
+}

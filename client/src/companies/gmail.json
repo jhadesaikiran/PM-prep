@@ -1,0 +1,99 @@
+{
+  "slug": "gmail",
+  "name": "Gmail",
+  "tagline": "World's largest email service, becoming a Gemini-powered AI inbox",
+  "facts": [
+    ["Launched", "1 April 2004, Google"],
+    ["Owner/Listed", "Alphabet (NASDAQ: GOOGL)"],
+    ["HQ", "Mountain View, California"],
+    ["Revenue", "Not split; in Workspace and Google Cloud ($24.8B Q2'26)"],
+    ["Users", "~1.8B+ est. Gmail users"],
+    ["Workspace", "11M paying customers, 3B+ users (Q4'25)"],
+    ["Market share", "~24% of email client opens (est.)"],
+    ["Leaders", "Sundar Pichai (Alphabet); Thomas Kurian (Google Cloud)"]
+  ],
+  "strategy": [
+    {"label": "Mission", "text": "Google: organise the world's information and make it universally accessible and useful."},
+    {"label": "Vision", "text": "Email as a proactive assistant that summarises, prioritises and acts, not a list to triage."},
+    {"label": "Core strategy", "text": "Free Gmail as identity and data hub; upsell storage and AI (Google One AI Pro/Ultra) and Workspace seats."},
+    {"label": "Moat", "text": "Google Account identity, best-in-class spam filtering, 15GB free storage, deep Calendar, Drive, Meet integration."},
+    {"label": "Key bet", "text": "Gemini 3 in Gmail: AI Overviews, AI Inbox, Help Me Write; Gemini bundled into every Workspace plan."},
+    {"label": "Your view", "text": "Will AI Inbox make users open Gmail less, and if so how does Google measure success?"}
+  ],
+  "customers": [
+    {"segment": "Consumers", "who": "Free users needing personal email and login", "pain": "Overflowing inbox, promotions, missed bills and bookings", "why": "Free, reliable, great spam filter, identity for Android and Google services"},
+    {"segment": "AI subscribers", "who": "Google One AI Pro/Ultra users", "pain": "No time to read long threads or search old emails", "why": "Inbox-wide Q&A, Proofread, AI Inbox, 2TB storage bundled"},
+    {"segment": "SMBs", "who": "Startups and small firms on Workspace", "pain": "Need professional email on own domain without IT team", "why": "$7/user Starter with Gemini included, easy admin, Docs and Meet bundled"},
+    {"segment": "Enterprises and education", "who": "Large firms, universities, schools", "pain": "Need secure, compliant email with AI at scale", "why": "Data not used to train models, admin controls, cheaper than Microsoft 365 Copilot"},
+    {"segment": "Senders/advertisers", "who": "Brands sending newsletters, buying Promotions ads", "pain": "Need inbox placement and attention", "why": "Promotions tab ads, sender guidelines reward good senders"}
+  ],
+  "portfolio": [
+    {"group": "Gmail core",
+     "products": [
+       {"name": "Inbox and tabs", "desc": "Primary, Promotions, Social, Updates categorisation"},
+       {"name": "Spam and security", "desc": "AI filters blocking phishing and malware"},
+       {"name": "Search", "desc": "Fast full-mailbox search with filters"},
+       {"name": "Manage subscriptions", "desc": "One-tap unsubscribe from bulk senders"}
+     ],
+     "north_star": "Weekly users who reach inbox clarity (important mail handled)",
+     "key_metrics": "DAU, emails read and sent, spam catch rate, search success",
+     "guardrails": "False-positive spam rate, deliverability complaints, load time"},
+    {"group": "Gemini in Gmail",
+     "products": [
+       {"name": "AI Overviews", "desc": "Thread summaries free; inbox-wide Q&A for paid tiers"},
+       {"name": "AI Inbox", "desc": "Prioritised topics and suggested to-dos, limited rollout"},
+       {"name": "Help Me Write", "desc": "Drafts and polishes emails, now free for all"},
+       {"name": "Suggested Replies and Proofread", "desc": "Context-aware replies; Proofread for paid users"},
+       {"name": "Gemini side panel", "desc": "Chat assistant across Gmail, Drive, Calendar"}
+     ],
+     "north_star": "Weekly users completing an email task with AI help",
+     "key_metrics": "AI feature adoption, drafts accepted, summaries viewed, AI Pro conversions",
+     "guardrails": "Hallucination reports, privacy complaints, AI opt-out rate, latency"},
+    {"group": "Monetisation layer",
+     "products": [
+       {"name": "Google Workspace", "desc": "Paid business email, Docs, Meet, Gemini bundled"},
+       {"name": "Google One storage", "desc": "Paid storage beyond 15GB shared across Google"},
+       {"name": "Google AI Pro/Ultra", "desc": "Consumer AI plans unlocking advanced Gmail features"},
+       {"name": "Gmail ads", "desc": "Sponsored messages in Promotions and Social tabs"}
+     ],
+     "north_star": "Paid seats and subscribers retained month over month",
+     "key_metrics": "Workspace seats, ARPU, Google One subs, ad revenue per user",
+     "guardrails": "Churn after price rises, ad complaints, migration to Microsoft 365"}
+  ],
+  "business_model": {
+    "rows": [
+      {"line": "Workspace subscriptions", "who_uses": "Businesses, schools, governments", "who_pays": "Organisations per seat", "how": "Starter $7, Standard $14, Plus $22 per user/month, Gemini included"},
+      {"line": "Google One / AI plans", "who_uses": "Consumers needing storage or advanced AI", "who_pays": "Individual subscribers", "how": "Monthly storage tiers; AI Pro and Ultra unlock Gmail AI features"},
+      {"line": "Gmail ads", "who_uses": "Free Gmail users", "who_pays": "Advertisers via Google Ads", "how": "Auction-priced native ads in Promotions and Social tabs"},
+      {"line": "Ecosystem value", "who_uses": "All Google Account holders", "who_pays": "Indirect, via Search, Android, Play", "how": "Gmail anchors identity and retention across Google services"}
+    ],
+    "bullets": [
+      {"label": "Revenue mix", "text": "No Gmail figure; mostly Workspace seats and Google One subs, plus Gmail ads inside Google advertising."},
+      {"label": "Users vs payers", "text": "~1.8B users mostly free; 11M paying Workspace customers and Google One subscribers fund the product."},
+      {"label": "Unit economics", "text": "Storage and AI inference costs rise per user; Gemini bundling lifted Workspace prices 17–22% in 2025."},
+      {"label": "Growth levers", "text": "AI Pro upsell, Workspace price-to-value, AI Inbox global rollout, India and emerging-market SMBs."},
+      {"label": "Lesson", "text": "Bundle AI into the paid tier rather than sell an add-on: higher price, higher perceived value, less churn."}
+    ]
+  },
+  "friction": [
+    "Best AI features locked behind paid plans",
+    "AI Inbox only in US/English, limited rollout",
+    "Promotions clutter and newsletters overwhelm inbox",
+    "Privacy worries about Gemini reading emails",
+    "15GB free storage fills, forcing upgrades"
+  ],
+  "competitors": [
+    {"label": "Consumer email", "text": "Outlook.com, Apple iCloud Mail, Yahoo Mail, Proton Mail"},
+    {"label": "Business suites", "text": "Microsoft 365 with Copilot, Zoho Workplace, Zoho Mail"},
+    {"label": "AI email clients", "text": "Superhuman, Shortwave, Spark; ChatGPT and Claude connectors"},
+    {"label": "Edge", "text": "Google identity, spam filtering, Gemini integration, free tier scale"},
+    {"label": "Risk", "text": "AI agents bypass the inbox; Microsoft enterprise lock-in; privacy regulation"}
+  ],
+  "news": [
+    {"label": "Jul 2026", "text": "Google Cloud revenue $24.8B in Q2; Gemini app near 1B MAU"},
+    {"label": "Feb 2026", "text": "Workspace reported 11M paying customers, up from 8M a year earlier"},
+    {"label": "Jan 2026", "text": "Gmail enters 'Gemini era': AI Overviews, AI Inbox, free Help Me Write"},
+    {"label": "Watch", "text": "AI Inbox global rollout, India languages, agentic actions on email"}
+  ],
+  "sources": "Alphabet Q2 2026 results, Google Workspace blog, press coverage, third-party Gmail estimates. Metrics are PM estimates for interview prep. Prepared Oct 2026."
+}

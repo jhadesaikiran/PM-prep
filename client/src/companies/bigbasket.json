@@ -1,0 +1,94 @@
+{
+  "slug": "bigbasket",
+  "name": "BigBasket (BB Now)",
+  "tagline": "Tata-owned online grocer that pivoted fully to quick commerce",
+  "facts": [
+    ["Founded", "2011, Bengaluru; Hari Menon and co-founders"],
+    ["Owner/Listed", "Tata Digital ~64%; unlisted, IPO repeatedly delayed"],
+    ["Revenue", "FY26 B2C ₹8,223 cr (+7.7% YoY)"],
+    ["Net loss", "FY26 B2C ₹3,073 cr (+66% YoY)"],
+    ["Dark stores", "~800-900; trimming from 76 to ~40 cities"],
+    ["Mix", "~80% revenue via BB Now quick commerce"],
+    ["Parent", "Tata Digital FY26 loss ₹4,974 cr"],
+    ["CEO/Head", "Amit Nanda (ex-Amazon), since Jun 2026"]
+  ],
+  "strategy": [
+    {"label": "Mission", "text": "Give Indian households a trusted, convenient way to buy quality groceries at fair prices."},
+    {"label": "Vision", "text": "Be the Tata Group's everyday commerce engine, powering grocery inside the Tata Neu super-app."},
+    {"label": "Core strategy", "text": "Shift from scheduled delivery to BB Now in minutes (Aug 2024), keeping deep fresh and staples assortment."},
+    {"label": "Reset", "text": "New CEO exits ~half the cities to cluster in dense metros; profitability target in 12-15 months."},
+    {"label": "Lesson", "text": "Incumbent pivoting late into a speed war burns cash; losses rose 66% while revenue grew under 8%."},
+    {"label": "Your view", "text": "Should BigBasket win on speed, or retreat to planned big-basket grocery where Tata trust and fresh matter more?"}
+  ],
+  "customers": [
+    {"segment": "Monthly stock-up family", "who": "Metro households buying large staple baskets", "pain": "Heavy staples, need quality fresh produce and reliable slots", "why": "Deep assortment, fresh quality reputation, bbstar membership and Tata trust"},
+    {"segment": "Top-up shopper", "who": "Urban users needing items within minutes", "pain": "Small urgent needs; tired of kirana stock-outs", "why": "BB Now delivery with broader fresh range than rivals"},
+    {"segment": "Tata Neu loyalist", "who": "Users earning NeuCoins across Tata brands", "pain": "Want rewards across groceries, electronics, travel", "why": "NeuCoins earn and burn, Tata Neu HDFC card benefits"},
+    {"segment": "Brands/suppliers", "who": "FMCG brands, farmers via fresh supply chain", "pain": "Need reliable offtake and visibility online", "why": "Direct farm sourcing, ads and sampling, private label partnerships"},
+    {"segment": "Delivery staff", "who": "Riders and store pickers, largely on payroll", "pain": "Speed targets, shift stability", "why": "More employee-led model than gig rivals, steadier income"}
+  ],
+  "portfolio": [
+    {"group": "Grocery delivery",
+     "products": [
+       {"name": "BB Now", "desc": "Quick delivery of groceries and essentials from dark stores"},
+       {"name": "Slotted delivery", "desc": "Scheduled larger baskets, legacy BigBasket model"},
+       {"name": "bbstar", "desc": "Membership with free delivery and member prices"},
+       {"name": "Private labels", "desc": "Fresho, bb Royal, BB Popular own brands"}
+     ],
+     "north_star": "Weekly profitable baskets per household in core cities",
+     "key_metrics": "AOV, orders per store per day, fresh share, repeat rate",
+     "guardrails": "Freshness complaints, wastage, delivery SLA, store-level losses"},
+    {"group": "Food & adjacencies",
+     "products": [
+       {"name": "BB Now cafe/food", "desc": "Quick ready-to-eat meals and beverages from dark stores"},
+       {"name": "Electronics & lifestyle", "desc": "Expanded non-grocery categories to lift AOV"},
+       {"name": "Tata Neu integration", "desc": "Grocery tile inside Tata super-app with NeuCoins"}
+     ],
+     "north_star": "Incremental non-grocery orders per active user",
+     "key_metrics": "Attach rate, category gross margin, NeuCoin redemption",
+     "guardrails": "Food safety, cannibalisation, ops complexity in stores"},
+    {"group": "Supply chain & B2B",
+     "products": [
+       {"name": "Farm sourcing", "desc": "Collection centres buying direct from farmers"},
+       {"name": "BB B2B", "desc": "Supplies to retailers and HoReCa"}
+     ],
+     "north_star": "Fresh cost per kg vs mandi benchmark",
+     "key_metrics": "Farm-to-shelf time, fill rate, B2B margin",
+     "guardrails": "Farmer payment delays, spoilage, quality rejections"}
+  ],
+  "business_model": {
+    "rows": [
+      {"line": "Grocery retail margin", "who_uses": "Households ordering via app or Tata Neu", "who_pays": "Consumers", "how": "Inventory-led buy-sell margin, higher on fresh and private labels"},
+      {"line": "Fees & membership", "who_uses": "Frequent shoppers", "who_pays": "Consumers", "how": "Delivery and handling fees; bbstar subscription"},
+      {"line": "Brand advertising", "who_uses": "FMCG and D2C brands", "who_pays": "Brands", "how": "Sponsored listings, banners, sampling, trade promotions"},
+      {"line": "B2B supply", "who_uses": "Retailers, restaurants", "who_pays": "Businesses", "how": "Wholesale margin on staples and fresh"}
+    ],
+    "bullets": [
+      {"label": "Revenue mix", "text": "Mostly product sales; ~80% now via BB Now; ads and private label are margin levers."},
+      {"label": "Users vs payers", "text": "Consumers pay for goods; brands fund ads and discounts; Tata Digital funds losses."},
+      {"label": "Unit economics", "text": "Loss ₹3,073 cr on ₹8,223 cr revenue (FY26) implies ~37% negative net margin; city cuts aim to fix."},
+      {"label": "Growth levers", "text": "Store density in top cities, private label, ads, Tata Neu traffic, higher-AOV fresh baskets."}
+    ]
+  },
+  "friction": [
+    "Slower than Blinkit and Zepto in many pin codes",
+    "Service withdrawn in cities being exited",
+    "Inventory gaps after shrinking store network",
+    "Tata Neu and BigBasket apps feel duplicated",
+    "Fee changes and coupon rules confuse loyal users"
+  ],
+  "competitors": [
+    {"label": "Quick commerce", "text": "Blinkit (leader), Zepto, Swiggy Instamart"},
+    {"label": "E-commerce", "text": "Amazon Now and Fresh, Flipkart Minutes, JioMart"},
+    {"label": "Offline", "text": "DMart, Reliance Smart, kiranas, Star Bazaar"},
+    {"label": "Edge", "text": "Fresh supply chain, private labels and Tata balance sheet trust"},
+    {"label": "Risk", "text": "Sub-scale vs Blinkit's 2,443 stores; Tata patience with mounting losses"}
+  ],
+  "news": [
+    {"label": "Jul 2026", "text": "FY26 B2C loss widened 66% to ₹3,073 cr; revenue ₹8,223 cr"},
+    {"label": "Jul 2026", "text": "Plans to cut footprint from 76 to ~40 profitable cities"},
+    {"label": "Jun 2026", "text": "Amit Nanda replaces co-founder Hari Menon as CEO"},
+    {"label": "Watch", "text": "Profitability within 15 months, IPO revival, Tata capital infusion"}
+  ],
+  "sources": "RoC filings via YourStory, BW Retail, Inc42, Outlook Business coverage. Metrics are PM estimates for interview prep. Prepared Oct 2026."
+}

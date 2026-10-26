@@ -1,0 +1,98 @@
+{
+  "slug": "jiohotstar",
+  "name": "JioHotstar (formerly Disney+ Hotstar)",
+  "tagline": "India's largest streamer: cricket, Disney/HBO content, regional shows, microdramas",
+  "facts": [
+    ["Founded", "Hotstar 2015; JioHotstar launched 14 Feb 2025"],
+    ["Ownership", "JioStar JV: Reliance ~63%, Disney ~37% (Nov 2024)"],
+    ["Revenue", "JioStar FY26 ~₹35,000-36,000 cr (incl. TV)"],
+    ["Latest qtr", "Q1 FY27 ₹10,946 cr (+14%), EBITDA ₹933 cr"],
+    ["Users", "530M avg MAU (Q1 FY27); ~700M during IPL"],
+    ["Paid subs", "~300M claimed peak (2025); 100M in 5 weeks"],
+    ["Pricing", "Mobile ₹79/mo, Super ₹149/mo, Premium ₹2,199/yr"],
+    ["CEO/Head", "Kiran Mani, CEO Digital, JioStar"],
+    ["Rights", "IPL, ICC (to 2027), HBO Max, Disney, Peacock"]
+  ],
+  "strategy": [
+    {"label": "Mission", "text": "Bring every Indian premium sport and entertainment at a price as low as a cup of chai."},
+    {"label": "Vision", "text": "Be India's single default screen across mobile and connected TV, from cricket to microdrama."},
+    {"label": "Core strategy", "text": "Cricket as acquisition funnel; regional and global libraries retain; Jio telecom bundles convert free users to paid."},
+    {"label": "Moat", "text": "Near-monopoly on Indian cricket rights plus Jio distribution to ~500M telecom users and Star TV library."},
+    {"label": "Lesson", "text": "JioCinema's free IPL in 2023 forced the merger; free sports built reach but not profits, hence paywall return."},
+    {"label": "Your view", "text": "With cricket rights locked, is the real risk now regulatory (CCI dominance) or user fatigue with price hikes?"}
+  ],
+  "customers": [
+    {"segment": "Cricket fans", "who": "Mass India, mobile-first, all ages", "pain": "Need IPL and India matches live, cheaply, without lag", "why": "Exclusive IPL and ICC streaming, multi-cam, regional commentary, ₹79 mobile entry"},
+    {"segment": "Family CTV viewers", "who": "Urban households with smart TVs", "pain": "Paying for Netflix, Prime and others separately", "why": "Disney, HBO Max, Star serials, live sports in one Premium plan"},
+    {"segment": "Bharat/regional", "who": "Tier 2-3 viewers, regional languages", "pain": "Little affordable content in own language", "why": "Star regional channels, dubbed films, Tadka microdramas free with ads"},
+    {"segment": "Advertisers", "who": "FMCG, fantasy-alternatives, auto, D2C brands", "pain": "Need mass reach beyond TV with targeting", "why": "IPL scale (700M users), CTV growth, Jio data for targeting"},
+    {"segment": "Telcos/partners", "who": "Jio, other telcos, content studios", "pain": "Need sticky content to drive ARPU", "why": "Bundled prepaid packs boost recharge value and retention"}
+  ],
+  "portfolio": [
+    {"group": "Streaming subscriptions",
+     "products": [
+       {"name": "Mobile plan", "desc": "₹79/mo, one phone, ad-supported HD"},
+       {"name": "Super plan", "desc": "₹149/mo or ₹1,099/yr, two devices incl. TV"},
+       {"name": "Premium plan", "desc": "₹2,199/yr, ad-free (non-live), 4K, four devices"},
+       {"name": "Jio bundles", "desc": "Subscriptions packaged with Jio prepaid and JioFiber"}
+     ],
+     "north_star": "Paid subscribers retained 90 days after IPL ends",
+     "key_metrics": "Paid subs, post-IPL churn, ARPU, Premium mix",
+     "guardrails": "Price-hike churn, piracy share, payment failure rate"},
+    {"group": "Live sports",
+     "products": [
+       {"name": "IPL and WPL", "desc": "Exclusive digital and TV rights through 2027"},
+       {"name": "ICC cricket", "desc": "World Cups including T20 World Cup 2026"},
+       {"name": "Other sports", "desc": "Premier League, Wimbledon, kabaddi, regional leagues"}
+     ],
+     "north_star": "Peak concurrent viewers per marquee match",
+     "key_metrics": "Reach, watch time, CTV share, ad sell-through",
+     "guardrails": "Stream latency and buffering, ad load per over"},
+    {"group": "Entertainment and short-form",
+     "products": [
+       {"name": "Hotstar Specials", "desc": "Indian originals across Hindi and regional languages"},
+       {"name": "Global libraries", "desc": "Disney, Marvel, HBO Max exclusive, Peacock content"},
+       {"name": "Star serials", "desc": "Next-day TV shows, the daily habit driver"},
+       {"name": "Tadka", "desc": "Free vertical microdramas, 100M users in two months"}
+     ],
+     "north_star": "Weekly active non-sports viewers",
+     "key_metrics": "Non-sport watch time, D30 retention, Tadka sessions",
+     "guardrails": "Content cost per hour, CPM dilution from short-form"}
+  ],
+  "business_model": {
+    "rows": [
+      {"line": "Subscriptions", "who_uses": "Paid viewers, cricket-driven spikes", "who_pays": "Consumers, Jio via bundles", "how": "Tiered monthly/annual plans, IPL-season conversion"},
+      {"line": "Digital advertising", "who_uses": "All viewers, especially live cricket", "who_pays": "Brands and agencies", "how": "Per-over sponsorships, CPM ads, CTV and Tadka ads"},
+      {"line": "TV (Star network)", "who_uses": "Linear TV households", "who_pays": "Advertisers and DTH/cable distributors", "how": "TV ads plus subscription fees; declining but cash-rich"},
+      {"line": "Syndication/international", "who_uses": "Global diaspora", "who_pays": "Partners like STARZPLAY", "how": "Licensing content and sports rights abroad"}
+    ],
+    "bullets": [
+      {"label": "Revenue mix", "text": "JioStar spans TV and digital; digital subs and ads growing while TV ad income softens."},
+      {"label": "Users vs payers", "text": "530M MAU vs ~300M claimed paid peak; heavy non-paying, bundle-driven base."},
+      {"label": "Unit economics", "text": "IPL rights (₹48,390 cr cycle, shared TV/digital) need ads plus subs; low ARPU limits margins."},
+      {"label": "Growth levers", "text": "CTV upsell, price hikes, post-IPL retention via Tadka and serials, international licensing."}
+    ]
+  },
+  "friction": [
+    "Subscribers churn right after IPL ends",
+    "Frequent plan and price changes confuse users",
+    "Ads still shown on live sports in Premium",
+    "Device limits annoy shared family households",
+    "Clunky discovery across sports, serials and Tadka"
+  ],
+  "competitors": [
+    {"label": "Global SVOD", "text": "Netflix, Prime Video (with MX Player), Apple TV"},
+    {"label": "Indian OTT", "text": "ZEE5, SonyLIV, Sun NXT, Aha, ALTT"},
+    {"label": "Free/short-form", "text": "YouTube, Instagram Reels, microdrama apps like Kuku TV"},
+    {"label": "Piracy", "text": "Illegal cricket streams and Telegram channels"},
+    {"label": "Edge", "text": "Cricket monopoly, Jio distribution and the biggest Indian content library"},
+    {"label": "Risk", "text": "Rights renewal costs post-2027, CCI scrutiny, low ARPU, WBD ownership change"}
+  ],
+  "news": [
+    {"label": "Jul 2026", "text": "Q1 FY27 revenue ₹10,946 cr; IPL 2026 reached ~700M on JioHotstar"},
+    {"label": "Jun 2026", "text": "Tadka microdrama hub crosses 100M users within two months"},
+    {"label": "Jan 2026", "text": "Price hikes and new monthly plans from 28 Jan 2026"},
+    {"label": "Watch", "text": "Post-IPL retention, HBO deal after Paramount-WBD, IPL 2028 rights"}
+  ],
+  "sources": "JioStar quarterly results, Reliance AGM 2026, jiostar.com releases, exchange4media, press coverage. Metrics are PM estimates for interview prep. Prepared Oct 2026."
+}

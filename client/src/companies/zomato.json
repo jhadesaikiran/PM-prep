@@ -1,0 +1,95 @@
+{
+  "slug": "zomato",
+  "name": "Zomato",
+  "tagline": "India's #1 food delivery app, flagship of listed Eternal Ltd",
+  "facts": [
+    ["Founded", "2008 as Foodiebay, Deepinder Goyal and Pankaj Chaddah"],
+    ["HQ", "Gurugram, Haryana"],
+    ["Owner/Listed", "Eternal Ltd (renamed from Zomato Ltd, 2025); NSE/BSE"],
+    ["Revenue", "Group FY26 ₹54,364 cr (+169%); PAT ₹366 cr"],
+    ["Food delivery", "Q1 FY27 NOV ₹10,769 cr (+20%), 5.6% adj EBITDA"],
+    ["Users", "27.2M monthly transacting customers (Q1 FY27)"],
+    ["Supply", "328K restaurants, 638K delivery partners (Q1 FY27)"],
+    ["Market share", "~57% of food delivery GOV vs Swiggy ~43%"],
+    ["Leaders", "Eternal CEO Albinder Dhindsa; Food CEO Aditya Mangla"]
+  ],
+  "strategy": [
+    {"label": "Mission", "text": "Better food for more people: make food delivery cheaper, faster and more reliable across India."},
+    {"label": "Vision", "text": "Eternal as a multi-business consumer platform: Zomato (food), Blinkit (quick commerce), District (going out), Hyperpure (B2B supplies)."},
+    {"label": "Core strategy", "text": "Profitable growth: ~20% NOV growth with rising margins, funded by platform fees, ads and Gold, recycled into targeted discounts."},
+    {"label": "Moat", "text": "Largest restaurant selection and densest delivery fleet create liquidity; ad-tech and data let it monetise restaurants beyond commission."},
+    {"label": "Key bet", "text": "Bistro 10-minute kitchens and selective discounting to counter low-commission rivals like Rapido's Ownly and Swiggy's Toing without margin war."},
+    {"label": "Your view", "text": "Is food delivery now a cash cow funding Blinkit, and does that leave Zomato exposed to zero-commission disruptors?"}
+  ],
+  "customers": [
+    {"segment": "Urban habitual orderers", "who": "Metro professionals ordering 4+ times monthly", "pain": "Rising fees, inconsistent ETAs, cold food, opaque surge charges", "why": "Widest selection, reliable delivery, Gold free-delivery perks, trusted ratings and reviews"},
+    {"segment": "Value seekers / Tier-2", "who": "Students, young earners, smaller cities", "pain": "Menu markups plus platform, delivery and packaging fees make orders expensive", "why": "Targeted discounts, deals and broad restaurant coverage beyond metros"},
+    {"segment": "Restaurants", "who": "328K partners, cloud kitchens to QSR chains", "pain": "18-28% effective commissions, forced discounts, ad spend pressure, deductions", "why": "Access to India's largest demand pool; ads and analytics drive incremental orders"},
+    {"segment": "Delivery partners", "who": "638K gig riders, mostly two-wheeler", "pain": "Volatile per-order pay, heat and rain risk, limited social security", "why": "Flexible hours, high order density, insurance and instant payouts"},
+    {"segment": "Advertisers / brands", "who": "Restaurants and F&B brands buying visibility", "pain": "Hard to prove ROI on sponsored listings", "why": "Intent-rich placements at moment of ordering, measurable order lift"}
+  ],
+  "portfolio": [
+    {"group": "Food delivery",
+     "products": [
+       {"name": "Zomato app", "desc": "Restaurant discovery and on-demand food delivery across hundreds of Indian cities"},
+       {"name": "Zomato Gold", "desc": "Paid membership: free delivery and discounts above order thresholds"},
+       {"name": "Bistro", "desc": "10-minute food from own kitchens, standalone app"},
+       {"name": "Zomato for Enterprise", "desc": "Corporate meal allowances and office food ordering"},
+       {"name": "Zomato Ads", "desc": "Sponsored listings and banners sold to restaurants"}],
+     "north_star": "Weekly delivered orders arriving on time and as ordered",
+     "key_metrics": "NOV, MTC, order frequency, AOV, adj EBITDA % NOV, Gold penetration",
+     "guardrails": "Restaurant churn, delivery partner earnings/hour, complaint rate, cancellation rate"},
+    {"group": "Restaurant and supply tools",
+     "products": [
+       {"name": "Restaurant Partner app", "desc": "Menu, orders, payouts, promotions and ratings management"},
+       {"name": "Hyperpure", "desc": "B2B ingredient and kitchen supplies for restaurants (Eternal)"},
+       {"name": "Delivery Partner app", "desc": "Rider onboarding, order allocation, earnings and insurance"}],
+     "north_star": "Active restaurants growing profitable online sales on Zomato",
+     "key_metrics": "Active restaurants, ad revenue per restaurant, payout accuracy, rider utilisation",
+     "guardrails": "Commission disputes, forced-discount complaints, rider attrition"},
+    {"group": "Group context (Eternal)",
+     "products": [
+       {"name": "Blinkit", "desc": "Quick commerce; now Eternal's largest revenue line"},
+       {"name": "District", "desc": "Going-out: dining reservations, movies, events tickets"}],
+     "north_star": "Cross-app customers transacting across two or more Eternal services",
+     "key_metrics": "Cross-sell rate, shared rider fleet utilisation, group adj EBITDA",
+     "guardrails": "Food delivery margin not diluted to fund Blinkit"}
+  ],
+  "business_model": {
+    "rows": [
+      {"line": "Restaurant commissions", "who_uses": "Restaurants listed on Zomato", "who_pays": "Restaurants", "how": "Percentage of order value, typically ~18-25% plus payment gateway fees"},
+      {"line": "Customer fees", "who_uses": "Ordering customers", "who_pays": "Customers", "how": "Platform fee ₹14.90/order, delivery fees, ₹5-20 cash-on-delivery fee"},
+      {"line": "Advertising", "who_uses": "Restaurants and brands", "who_pays": "Restaurants, F&B brands", "how": "Cost-per-click sponsored listings and banner placements"},
+      {"line": "Zomato Gold", "who_uses": "Frequent orderers", "who_pays": "Members", "how": "Paid membership fee for free delivery and discounts"}
+    ],
+    "bullets": [
+      {"label": "Revenue mix", "text": "Food delivery revenue ~₹3,100 cr/quarter; commissions dominate, with ads and platform fees the fastest-growing high-margin lines."},
+      {"label": "Users vs payers", "text": "Customers pay food plus fees; restaurants pay commission and ads; riders paid per order from both pools."},
+      {"label": "Unit economics", "text": "Adj EBITDA 5.6% of NOV in Q1 FY27; ~₹600 cr quarterly profit, among world's most profitable food delivery businesses."},
+      {"label": "Growth levers", "text": "Tier-2 penetration, cheaper Bistro/value formats, Gold frequency, ad yield, enterprise ordering, faster delivery."},
+      {"label": "Reporting shift", "text": "From Q1 FY27 Eternal reports Net Order Value (after discounts) instead of GOV, complicating Swiggy comparisons."}
+    ]
+  },
+  "friction": [
+    "Stacked platform, delivery and COD fees feel hidden",
+    "Menu prices higher than restaurant dine-in prices",
+    "ETA promises missed during rain and peaks",
+    "Refund and missing-item disputes are slow",
+    "Restaurants resent forced discounts and deductions"
+  ],
+  "competitors": [
+    {"label": "Duopoly rival", "text": "Swiggy Food (~43% share), Swiggy Toing budget delivery"},
+    {"label": "Disruptors", "text": "Rapido Ownly zero-commission, Swish 10-min food, Flipkart food pilot, ONDC"},
+    {"label": "Restaurant direct", "text": "Domino's, McDonald's own apps; Thrive and WhatsApp ordering"},
+    {"label": "Quick food", "text": "Swiggy Bolt, Zepto Cafe, Blinkit-adjacent snacking"},
+    {"label": "Edge", "text": "Scale, ~5.6% margins, ad engine, Eternal cash to outlast price wars"},
+    {"label": "Risk", "text": "Commission backlash, gig-worker rules, GST on delivery, zero-commission entrants"}
+  ],
+  "news": [
+    {"label": "Oct 2026", "text": "GST Council proposes 5% GST on e-commerce delivery services, no input tax credit."},
+    {"label": "Sep 2026", "text": "Introduced ₹5-20 cash-on-delivery fee; Aug cut 250 support roles, shut Hyderabad centre."},
+    {"label": "Aug 2026", "text": "Bengaluru restaurants' boycott deferred after Zomato agreed opt-in, OTP-approved discount campaigns."},
+    {"label": "Watch", "text": "Can Zomato keep ~20% growth and margins as Ownly, Toing, Flipkart chase price-sensitive users?"}
+  ],
+  "sources": "Eternal Q1 FY27 and FY26 results, earnings call coverage (MediaNama, Kotak Neo), press reports 2025-26. Metrics are PM estimates for interview prep. Prepared Oct 2026."
+}

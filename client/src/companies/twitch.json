@@ -1,0 +1,99 @@
+{
+  "slug": "twitch",
+  "name": "Twitch",
+  "tagline": "Live-streaming community platform for gaming, IRL and creators",
+  "facts": [
+    ["Founded", "2011 as Justin.tv spin-off; Amazon bought 2014 ($970M)"],
+    ["HQ", "San Francisco, California, USA"],
+    ["Owner/Listed", "Amazon (NASDAQ: AMZN); not separately reported"],
+    ["Revenue", "~$1.75B est. annual; not disclosed by Amazon"],
+    ["Usage", "2025: ~19.2B hours watched (-10% YoY), est."],
+    ["Market share", "~54% of live-streaming hours watched, 2025 est."],
+    ["CEO/Head", "Dan Clancy (since Mar 2023)"],
+    ["Profit", "Long loss-making; 35% staff cut 2024 to chase profit"],
+    ["Korea exit", "Shut South Korea service Feb 2024 over costs"]
+  ],
+  "strategy": [
+    {"label": "Mission", "text": "Empower communities to create together, live; a place to hang out with people who share your interests."},
+    {"label": "Vision", "text": "The home of live: where creators build real-time communities, not passive audiences."},
+    {"label": "Core strategy", "text": "Monetise community, not views: subs, Bits, gifting and ads; extend reach via clips on TikTok, Shorts, Reels."},
+    {"label": "Moat", "text": "Live chat culture, emotes, raids, subscriber identity and gaming network effects built over 15 years."},
+    {"label": "Key bet", "text": "Vertical and dual-format streaming, clips and Recaps feed for mobile discovery; cost discipline under Amazon."},
+    {"label": "Your view", "text": "Should Twitch chase short-form discovery or double down on long, live community where it is uniquely strong?"}
+  ],
+  "customers": [
+    {"segment": "Viewers", "who": "Gamers, Gen Z, esports and IRL fans", "pain": "Want real-time interaction and belonging, not passive watching", "why": "Live chat, emotes, community rituals and favourite streamers live daily"},
+    {"segment": "Streamers", "who": "Partners, affiliates, aspiring creators", "pain": "Hard discovery, uneven income, competing revenue splits", "why": "Built-in monetisation: subs, Bits, ads, Partner Plus 60/40 and 70/30 splits"},
+    {"segment": "Advertisers", "who": "Game publishers, energy drinks, tech brands", "pain": "Reach hard-to-target young male gaming audience", "why": "Highly engaged live audience, sponsorship integrations, Amazon Ads stack"},
+    {"segment": "Prime members", "who": "Amazon Prime subscribers", "pain": "Want perks for games and streamers", "why": "Free monthly Prime Gaming sub to support a streamer"},
+    {"segment": "Publishers and esports", "who": "Game studios, leagues, event organisers", "pain": "Launch hype and event distribution", "why": "Drops, category pages and co-streaming rights drive game discovery"}
+  ],
+  "portfolio": [
+    {"group": "Viewer experience",
+     "products": [
+       {"name": "Live streams", "desc": "Gaming, Just Chatting, IRL, music and esports channels"},
+       {"name": "Chat, emotes, raids", "desc": "Real-time community layer that defines the platform"},
+       {"name": "Clips and Recaps feed", "desc": "Short highlight reels from streams for mobile discovery"},
+       {"name": "Vertical / dual-format live", "desc": "Stream portrait and landscape together, launched 2026"}
+     ],
+     "north_star": "Weekly hours watched by returning chatters",
+     "key_metrics": "Hours watched, concurrent viewers, chat participation, new viewer retention",
+     "guardrails": "Viewbotting, harassment reports, ad complaints, stream latency"},
+    {"group": "Creator monetisation",
+     "products": [
+       {"name": "Subscriptions and gift subs", "desc": "Tiered monthly fan support; Gift 'Em All tool"},
+       {"name": "Bits and Power-Ups", "desc": "Virtual currency cheers and Custom Power-Ups"},
+       {"name": "Partner Plus", "desc": "Path to 60/40 and 70/30 sub revenue splits"},
+       {"name": "Ads Incentive Program", "desc": "Pays streamers for running ad breaks"}
+     ],
+     "north_star": "Median monthly earnings of active mid-tier streamers",
+     "key_metrics": "Payouts, streamers earning, sub conversion, Bits per viewer",
+     "guardrails": "Creator defection to Kick/YouTube, platform take-rate erosion"},
+    {"group": "Ads and partnerships",
+     "products": [
+       {"name": "Pre-roll and mid-roll ads", "desc": "Video ads sold through Amazon Ads"},
+       {"name": "Drops", "desc": "In-game rewards for watching publisher streams"},
+       {"name": "Prime Gaming sub", "desc": "Free monthly sub bundled with Amazon Prime"}
+     ],
+     "north_star": "Ad revenue per hour watched without hurting retention",
+     "key_metrics": "Fill rate, CPM, ad minutes per hour, advertiser count",
+     "guardrails": "Viewer churn after ads, brand-safety incidents"}
+  ],
+  "business_model": {
+    "rows": [
+      {"line": "Subscriptions", "who_uses": "Fans supporting a streamer", "who_pays": "Viewers ($4.99+) or Amazon via Prime Gaming", "how": "Split 50/50 by default; 60/40 or 70/30 via Partner Plus"},
+      {"line": "Advertising", "who_uses": "Free viewers", "who_pays": "Brands via Amazon Ads", "how": "Pre/mid-rolls; streamers get share of ad revenue"},
+      {"line": "Bits and gifting", "who_uses": "Engaged chatters", "who_pays": "Viewers buying Bits", "how": "Twitch keeps margin on Bits purchase; streamer gets $0.01 per Bit"},
+      {"line": "Sponsorships and Drops", "who_uses": "Publishers and brands", "who_pays": "Game studios, marketers", "how": "Campaigns, Drops integrations, branded content deals"}
+    ],
+    "bullets": [
+      {"label": "Revenue mix", "text": "Estimated ~$1.75B/year split across subs, ads and Bits; Amazon does not disclose."},
+      {"label": "Users vs payers", "text": "Most viewers never pay; a small core of subscribers and gifters funds creators."},
+      {"label": "Unit economics", "text": "Live video bandwidth is costly; $1B+ paid to streamers yearly; high take on subs, thin ad CPMs."},
+      {"label": "Growth levers", "text": "Mobile vertical live, clips for off-platform discovery, better ad tech, mid-tier creator retention."},
+      {"label": "Lesson", "text": "Strong community does not equal profit: serving costs and creator splits squeeze margins under parent scrutiny."}
+    ]
+  },
+  "friction": [
+    "New streamers struggle to be discovered",
+    "Long, frequent mid-roll ads frustrate viewers",
+    "Mobile app weaker than TikTok or YouTube",
+    "Moderation controversies and inconsistent enforcement",
+    "Revenue split worse than Kick's 95/5"
+  ],
+  "competitors": [
+    {"label": "Live streaming", "text": "YouTube Live, Kick, TikTok Live, Facebook Gaming"},
+    {"label": "Short video", "text": "TikTok, Shorts, Reels capturing attention and clips"},
+    {"label": "India/Asia", "text": "Loco, Rooter, SOOP (AfreecaTV) in Korea"},
+    {"label": "Creator payouts", "text": "Kick 95/5 split and big streamer deals"},
+    {"label": "Edge", "text": "Unmatched live chat culture and gaming identity"},
+    {"label": "Risk", "text": "Hours-watched decline, creator defection, Amazon patience on profitability"}
+  ],
+  "news": [
+    {"label": "Sep 2026", "text": "Recaps feed turns creator-chosen clips into short stream highlight reels"},
+    {"label": "May 2026", "text": "TwitchCon: dual-format vertical streaming, Custom Power-Ups, Gift 'Em All"},
+    {"label": "May 2026", "text": "Viewbot crackdown caps concurrent viewers for repeat offenders"},
+    {"label": "Watch", "text": "Kick share gains, Amazon profitability push, clips-driven discovery results"}
+  ],
+  "sources": "Press coverage (GamesBeat, Tubefilter, TechCrunch), Streams Charts estimates. Revenue and hours are third-party estimates. Prepared Oct 2026."
+}

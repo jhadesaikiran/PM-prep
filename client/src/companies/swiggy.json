@@ -1,0 +1,275 @@
+{
+  "slug": "swiggy",
+  "name": "Swiggy",
+  "tagline": "India's No.2 food delivery app inside a multi-service convenience platform",
+  "facts": [
+    [
+      "Founded",
+      "2014, Bengaluru; Majety, Jaiminy, Reddy"
+    ],
+    [
+      "Owner/Listed",
+      "Swiggy Ltd, NSE/BSE listed Nov 2024"
+    ],
+    [
+      "Revenue",
+      "FY26 ₹23,053 cr (+51%); net loss ₹4,154 cr"
+    ],
+    [
+      "Food delivery",
+      "Q1 FY27 GOV ₹9,490 cr (+17.4%), 3.1% EBITDA"
+    ],
+    [
+      "Users",
+      "19.2M food MTUs; 27.5M platform MTUs (Q1 FY27)"
+    ],
+    [
+      "Supply",
+      "2.7 lakh restaurants, 6.5 lakh delivery partners"
+    ],
+    [
+      "Market share",
+      "~43% of food delivery vs Zomato ~57%"
+    ],
+    [
+      "Leaders",
+      "Sriharsha Majety MD & Group CEO; Rohit Kapoor, Food"
+    ],
+    [
+      "Cash",
+      "~₹14,400 cr, debt-free after Dec 2025 QIP"
+    ]
+  ],
+  "strategy": [
+    {
+      "label": "Mission",
+      "text": "Elevate the quality of life of the urban consumer by offering unparalleled convenience."
+    },
+    {
+      "label": "Vision",
+      "text": "One app, one membership (Swiggy One) for food, groceries and dining out, unlocking the next 100M food users."
+    },
+    {
+      "label": "Core strategy",
+      "text": "Value-led food growth: affordability formats like Toing and Bolt widen the funnel while profitable food funds Instamart."
+    },
+    {
+      "label": "FY31 targets",
+      "text": "₹2.5 lakh cr group GOV and ₹10,000 cr adj EBITDA; food ~₹5,000 cr EBITDA on 2.5-3.5x GOV."
+    },
+    {
+      "label": "Moat",
+      "text": "Swiggy One cross-category membership, deep Bengaluru/South density and a shared fleet across food, Instamart and Dineout."
+    },
+    {
+      "label": "Your view",
+      "text": "Should Swiggy fight Zomato for share in food, or accept No.2 and maximise cash for quick commerce?"
+    }
+  ],
+  "customers": [
+    {
+      "segment": "Urban regulars",
+      "who": "Metro professionals, frequent multi-category orderers",
+      "pain": "Fee stacking and app prices above restaurant menus",
+      "why": "Swiggy One benefits across food, Instamart and Dineout; strong South India coverage"
+    },
+    {
+      "segment": "Budget eaters",
+      "who": "Students, first-jobbers, Tier-2 users",
+      "pain": "Regular food delivery feels too expensive for everyday meals",
+      "why": "Toing budget app and value menus; two of three Toing users are new"
+    },
+    {
+      "segment": "Restaurants",
+      "who": "2.7 lakh partners, small eateries to chains",
+      "pain": "High commissions, unapproved discount campaigns, payout deductions",
+      "why": "Second large demand pool; dependence on one platform is risky"
+    },
+    {
+      "segment": "Delivery partners",
+      "who": "6.5 lakh gig riders",
+      "pain": "Unpredictable earnings, weather risk, delayed cash access",
+      "why": "Shared food and Instamart orders raise utilisation; Early Cashout instant payouts"
+    },
+    {
+      "segment": "Diners going out",
+      "who": "Couples and groups booking restaurants, events",
+      "pain": "Finding deals and tables at good restaurants",
+      "why": "Dineout discounts and Scenes events bundled with Swiggy One"
+    }
+  ],
+  "portfolio": [
+    {
+      "group": "Food delivery",
+      "products": [
+        {
+          "name": "Swiggy Food",
+          "desc": "Core restaurant delivery across 720+ cities"
+        },
+        {
+          "name": "Bolt",
+          "desc": "10-minute delivery from nearby restaurants for quick items"
+        },
+        {
+          "name": "Toing",
+          "desc": "Standalone budget food delivery app, live in 50 cities"
+        },
+        {
+          "name": "Food on Train",
+          "desc": "Meals delivered to train seats via IRCTC partnership"
+        },
+        {
+          "name": "Swiggy Ads",
+          "desc": "Sponsored listings and brand campaigns for restaurants"
+        }
+      ],
+      "north_star": "Weekly food orders per active user delivered on time",
+      "key_metrics": "Food GOV, MTUs, frequency, AOV, adj EBITDA % GOV, Toing new-user share",
+      "guardrails": "Restaurant churn, cancellations, rider earnings per hour, complaint rate"
+    },
+    {
+      "group": "Out-of-home and membership",
+      "products": [
+        {
+          "name": "Dineout",
+          "desc": "Table reservations and bill-payment discounts at restaurants"
+        },
+        {
+          "name": "Scenes",
+          "desc": "Curated events and experiences discovery"
+        },
+        {
+          "name": "Swiggy One",
+          "desc": "Paid membership across food, Instamart and dining out"
+        }
+      ],
+      "north_star": "Members transacting in two or more Swiggy services monthly",
+      "key_metrics": "OOH GOV (+44.8% YoY), membership penetration, cross-sell rate",
+      "guardrails": "Membership subsidy cost, restaurant discount fatigue"
+    },
+    {
+      "group": "Group context",
+      "products": [
+        {
+          "name": "Instamart",
+          "desc": "Quick commerce, 1,171 dark stores; covered in separate sheet"
+        },
+        {
+          "name": "Partner apps",
+          "desc": "Restaurant and delivery partner apps with payouts, analytics"
+        }
+      ],
+      "north_star": "Shared fleet utilisation across food and quick commerce",
+      "key_metrics": "Orders per rider-hour, group adj EBITDA, consolidated GOV",
+      "guardrails": "Food margins not sacrificed to subsidise Instamart losses"
+    }
+  ],
+  "business_model": {
+    "rows": [
+      {
+        "line": "Restaurant commissions",
+        "who_uses": "Partner restaurants",
+        "who_pays": "Restaurants",
+        "how": "Percentage of order value plus payment and campaign charges"
+      },
+      {
+        "line": "Customer fees",
+        "who_uses": "Ordering customers",
+        "who_pays": "Customers",
+        "how": "Platform fee (~₹14-15), delivery, packaging and surge fees"
+      },
+      {
+        "line": "Advertising",
+        "who_uses": "Restaurants and brands",
+        "who_pays": "Restaurants, FMCG brands",
+        "how": "Sponsored listings, banners, performance ads"
+      },
+      {
+        "line": "Swiggy One",
+        "who_uses": "Frequent multi-service users",
+        "who_pays": "Members",
+        "how": "Membership fee for free delivery and discounts"
+      },
+      {
+        "line": "Dineout / OOH",
+        "who_uses": "Diners and event-goers",
+        "who_pays": "Restaurants, event organisers",
+        "how": "Commission on discounted bills and ticket sales"
+      }
+    ],
+    "bullets": [
+      {
+        "label": "Revenue mix",
+        "text": "Group FY26 revenue ₹23,053 cr; Instamart now drives growth, food delivery drives profit."
+      },
+      {
+        "label": "Users vs payers",
+        "text": "Customers pay food and fees; restaurants pay commission and ads; riders paid per order from both."
+      },
+      {
+        "label": "Unit economics",
+        "text": "Food adj EBITDA ₹292 cr (3.1% of GOV) vs Zomato 5.6%; scale and ad gap explain difference."
+      },
+      {
+        "label": "Growth levers",
+        "text": "Toing affordability, Bolt speed, Swiggy One cross-sell, ad yield, Tier-2 expansion, Dineout profitability."
+      },
+      {
+        "label": "Capital",
+        "text": "₹10,000 cr QIP (Dec 2025) and Rapido stake exit gave ~₹14,400 cr cash runway."
+      }
+    ]
+  },
+  "friction": [
+    "Same meal costs noticeably more than offline menu",
+    "Multiple fees revealed late at checkout",
+    "Instamart promos clutter the food ordering experience",
+    "Order issues resolved via slow chatbot refunds",
+    "Restaurants complain of unapproved discount deductions"
+  ],
+  "competitors": [
+    {
+      "label": "Leader",
+      "text": "Zomato (~57% share), Bistro 10-minute kitchens"
+    },
+    {
+      "label": "Disruptors",
+      "text": "Rapido Ownly zero-commission, Swish and Swish Go, Flipkart food"
+    },
+    {
+      "label": "Quick food",
+      "text": "Zepto Cafe, Blinkit-adjacent snacking, Bistro"
+    },
+    {
+      "label": "Direct ordering",
+      "text": "QSR own apps, ONDC sellers, WhatsApp ordering"
+    },
+    {
+      "label": "Edge",
+      "text": "Multi-service app, Swiggy One bundle, strong South India base"
+    },
+    {
+      "label": "Risk",
+      "text": "Thin food margin, Instamart cash burn, restaurant revolt, gig regulation"
+    }
+  ],
+  "news": [
+    {
+      "label": "Sep 2026",
+      "text": "FSSAI action on Swiggy Instamart dark stores over food safety violations."
+    },
+    {
+      "label": "Aug 2026",
+      "text": "Bengaluru restaurant boycott deferred after Swiggy agreed consent-based campaigns and refunds."
+    },
+    {
+      "label": "Jul 2026",
+      "text": "Q1 FY27: loss narrows to ₹791 cr; food EBITDA up ₹100 cr YoY."
+    },
+    {
+      "label": "Watch",
+      "text": "Can Toing grow new users without cannibalising Swiggy Food margins and restaurant trust?"
+    }
+  ],
+  "sources": "Swiggy Q1 FY27 press release, FY26 results, FY31 targets coverage, press reports 2025-26. Metrics are PM estimates for interview prep. Prepared Oct 2026."
+}

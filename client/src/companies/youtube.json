@@ -1,0 +1,100 @@
+{
+  "slug": "youtube",
+  "name": "YouTube",
+  "tagline": "World's largest video platform: long-form, Shorts, TV, music and live",
+  "facts": [
+    ["Founded", "2005; acquired by Google 2006 for $1.65B"],
+    ["HQ", "San Bruno, California, USA"],
+    ["Owner/Listed", "Alphabet (NASDAQ: GOOGL), Google Services segment"],
+    ["Revenue", "2025: $60B+ total; ads $40.4B (+12% YoY)"],
+    ["Latest quarter", "Q2 2026 ads $11.06B (+13% YoY)"],
+    ["Subscriptions", "125M Music/Premium subs; YouTube TV ~10M"],
+    ["Shorts", "200B+ daily views; TV 1B+ hours/day"],
+    ["CEO/Head", "Neal Mohan (since Feb 2023)"],
+    ["India", "Largest user market; Shorts filled TikTok ban gap"]
+  ],
+  "strategy": [
+    {"label": "Mission", "text": "Give everyone a voice and show them the world."},
+    {"label": "Vision", "text": "Be the default screen for all video, from 15-second Shorts to living-room TV and live sports."},
+    {"label": "Core strategy", "text": "Two-sided flywheel: share ~55% of ad revenue with creators, attract more content, more watch time, more advertisers."},
+    {"label": "Moat", "text": "Largest creator library, Google ad stack, search intent data, recommendation engine and Content ID rights system."},
+    {"label": "Key bet", "text": "Connected TV plus subscriptions; Premium, Music and NFL Sunday Ticket now growing faster than ads."},
+    {"label": "Your view", "text": "Shorts monetises below long-form per hour; is Shorts cannibalising YouTube's most valuable watch time?"}
+  ],
+  "customers": [
+    {"segment": "Viewers", "who": "2.5B+ logged-in users, all ages", "pain": "Endless choice, need free entertainment, learning and music on any screen", "why": "Deepest catalogue anywhere, free with ads, great recommendations, works on phone and TV"},
+    {"segment": "Creators", "who": "Partners from hobbyists to media studios", "pain": "Need audience, predictable income and tools to grow", "why": "Partner Program revenue share, global reach, evergreen search traffic, multiple monetisation levers"},
+    {"segment": "Advertisers", "who": "Brands, performance marketers, SMBs, agencies", "pain": "Reach cord-cutters and Gen Z with measurable outcomes", "why": "Google Ads targeting, CTV reach rivalling TV networks, Demand Gen and shoppable ads"},
+    {"segment": "Subscribers", "who": "Heavy users, music fans, families", "pain": "Ads interrupt, need offline and background play", "why": "Premium removes ads and bundles YouTube Music; cheaper than separate services"},
+    {"segment": "Rights holders", "who": "Labels, sports leagues, TV networks", "pain": "Piracy and fragmented distribution of their content", "why": "Content ID monetises user uploads; huge reach for licensed and live content"}
+  ],
+  "portfolio": [
+    {"group": "Core video",
+     "products": [
+       {"name": "YouTube main app", "desc": "Long-form on-demand video, search and recommendations"},
+       {"name": "Shorts", "desc": "Vertical short-form feed competing with TikTok and Reels"},
+       {"name": "YouTube Live", "desc": "Livestreams, premieres, Super Chat and live shopping"},
+       {"name": "YouTube on TV", "desc": "Connected-TV app; living-room is fastest growing screen"}
+     ],
+     "north_star": "Daily engaged watch time per logged-in user across all formats",
+     "key_metrics": "DAU, watch hours, Shorts views, CTV share, session starts",
+     "guardrails": "Policy violations, misinformation reports, creator churn, user satisfaction surveys"},
+    {"group": "Subscriptions",
+     "products": [
+       {"name": "YouTube Premium", "desc": "Ad-free, background play, downloads; Lite tier cheaper"},
+       {"name": "YouTube Music", "desc": "Music streaming app competing with Spotify"},
+       {"name": "YouTube TV", "desc": "US virtual cable bundle, ~10M subscribers"},
+       {"name": "NFL Sunday Ticket / Channels", "desc": "Sports package and third-party channel subscriptions"}
+     ],
+     "north_star": "Paid subscribers retained beyond month three",
+     "key_metrics": "Paid subs, trial conversion, ARPU, churn, family plan adoption",
+     "guardrails": "Price-hike churn, carriage disputes, ad-tier engagement not collapsing"},
+    {"group": "Creator and ad platform",
+     "products": [
+       {"name": "YouTube Partner Program", "desc": "Ad and Shorts revenue sharing with creators"},
+       {"name": "YouTube Studio + AI tools", "desc": "Analytics, Dream Screen, auto-dubbing, inspiration tab"},
+       {"name": "YouTube Shopping", "desc": "Product tagging and affiliate commissions inside videos"},
+       {"name": "Google Ads video formats", "desc": "Skippable, bumper, Demand Gen and CTV ads"}
+     ],
+     "north_star": "Creator earnings per active monetising channel",
+     "key_metrics": "Monetising channels, RPM, ad load, advertiser count, ROAS",
+     "guardrails": "Ads per hour, skip rates, brand-safety incidents, demonetisation appeals"}
+  ],
+  "business_model": {
+    "rows": [
+      {"line": "Advertising", "who_uses": "All free viewers on mobile, web and TV", "who_pays": "Advertisers via Google Ads and DV360", "how": "CPM/CPV auctions; creators get ~55% long-form, 45% Shorts pool"},
+      {"line": "Premium and Music", "who_uses": "Heavy viewers and music listeners", "who_pays": "Consumers, monthly or family plans", "how": "Subscription fee; share paid to creators and labels by watch time"},
+      {"line": "YouTube TV and Sunday Ticket", "who_uses": "US cord-cutters and NFL fans", "who_pays": "Households paying ~$80+/month", "how": "Resells network channels; thin margins due to carriage fees"},
+      {"line": "Channels, Super Chat, memberships", "who_uses": "Fans of specific creators or networks", "who_pays": "Fans and channel subscribers", "how": "YouTube takes a platform cut, typically ~30%"}
+    ],
+    "bullets": [
+      {"label": "Revenue mix", "text": "2025: ~$40B ads (67%) and ~$20B subscriptions (33%); subscriptions growing faster than ads in 2026."},
+      {"label": "Users vs payers", "text": "Billions watch free; ~125M pay for Music/Premium, so most users monetised through ads only."},
+      {"label": "Unit economics", "text": "No content production cost; creators paid revenue share, so margins scale; TV bundle is low-margin."},
+      {"label": "Growth levers", "text": "Shorts monetisation, CTV ad pricing, Premium price/Lite tier, shopping, sports rights, AI dubbing for global reach."},
+      {"label": "Lesson", "text": "Revenue-share model turns creators into an unpaid-upfront content studio; ad business funds the flywheel."}
+    ]
+  },
+  "friction": [
+    "Rising ad load and unskippable ads frustrate free users",
+    "Shorts feed interrupts long-form intent on home page",
+    "Creator demonetisation and opaque policy strikes",
+    "Premium price hikes feel steep in emerging markets",
+    "Low-quality AI-generated content cluttering recommendations"
+  ],
+  "competitors": [
+    {"label": "Short video", "text": "TikTok, Instagram Reels, Moj, Josh"},
+    {"label": "Streaming TV", "text": "Netflix, Disney+, Prime Video, JioHotstar for living-room time"},
+    {"label": "Music", "text": "Spotify, Apple Music, JioSaavn"},
+    {"label": "Live", "text": "Twitch, Kick for gaming and live creators"},
+    {"label": "Edge", "text": "Only platform spanning short, long, live, music, TV plus Google ads"},
+    {"label": "Risk", "text": "TikTok attention share, AI slop, regulation on minors and content moderation"}
+  ],
+  "news": [
+    {"label": "Jul 2026", "text": "Q2 ads $11.06B, +13%; subscriptions growing faster than ads per Alphabet"},
+    {"label": "Feb 2026", "text": "Alphabet discloses YouTube 2025 revenue above $60B, surpassing Netflix"},
+    {"label": "Mar 2025", "text": "Music and Premium reach 125M subscribers including trials"},
+    {"label": "Watch", "text": "Shorts monetisation gap, CTV ad growth, AI content policy, Premium Lite expansion"}
+  ],
+  "sources": "Alphabet Q4 2025 and Q2 2026 earnings, YouTube blog, MBW and press coverage. Metrics are PM estimates for interview prep. Prepared Oct 2026."
+}

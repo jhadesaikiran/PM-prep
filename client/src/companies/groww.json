@@ -1,0 +1,101 @@
+{
+  "slug": "groww",
+  "name": "Groww",
+  "tagline": "India's largest retail broker: stocks, F&O, mutual funds, credit, one app",
+  "facts": [
+    ["Founded", "2016, Bengaluru; Lalit Keshre and three ex-Flipkart cofounders"],
+    ["Owner/Listed", "Billionbrains Garage Ventures; NSE/BSE listed Nov 2025"],
+    ["IPO", "₹6,632 cr at ₹100; 17.6x subscribed"],
+    ["Revenue", "FY26 ₹4,645 cr (+19%); PAT ₹2,083 cr"],
+    ["Latest quarter", "Q1 FY27 rev ₹1,501 cr (+66%), PAT ₹735 cr"],
+    ["Active clients", "1.34 cr NSE active, Sep 2026 (#1)"],
+    ["Market share", "29.2% of NSE active clients (Zerodha 14.7%)"],
+    ["Customer assets", "₹3.6 lakh cr, Q1 FY27 (+38% YoY)"],
+    ["CEO", "Lalit Keshre (cofounder, MD and CEO)"]
+  ],
+  "strategy": [
+    {"label": "Mission", "text": "Make financial services simple, transparent and accessible so every Indian can invest, trade and borrow from one app."},
+    {"label": "Vision", "text": "Become the default full-stack money app for India's next 100 million investors, from first SIP to wealth management."},
+    {"label": "Core strategy", "text": "Win acquisition with simple UX and Tier 2-3 reach, then cross-sell MTF, F&O, credit, AMC and wealth to raise ARPU."},
+    {"label": "Moat", "text": "Largest active base (29% NSE share) and low-cost organic acquisition; brand trusted by first-time investors."},
+    {"label": "Key bet", "text": "De-risk from SEBI F&O curbs: grow MTF, loans against securities, commodities, Groww AMC and Fisdom-led affluent wealth."},
+    {"label": "Your view", "text": "Is Groww a broker priced like a platform? Can it earn wealth-style margins without leaning on derivatives?"}
+  ],
+  "customers": [
+    {"segment": "First-time investors", "who": "Young, Tier 2-3 salaried, starting SIPs", "pain": "Finance feels complex, jargon-heavy and untrustworthy for small amounts", "why": "Clean onboarding, zero-commission direct mutual funds, simple language and mass brand recall"},
+    {"segment": "Active traders", "who": "Retail F&O, intraday and commodity traders", "pain": "Need fast execution, charts, margin and low costs during volatile sessions", "why": "Integrated F&O, MTF and commodity trading in the same app they already use"},
+    {"segment": "Affluent investors", "who": "HNI and mass-affluent with larger portfolios", "pain": "Fragmented holdings, little advice, liquidity locked in investments", "why": "Fisdom wealth, loans against securities and MTF, without leaving the app"},
+    {"segment": "Borrowers", "who": "Existing users needing personal or secured credit", "pain": "Slow bank loans, need liquidity without selling investments", "why": "Pre-approved personal loans and LAS from the in-house NBFC, fully digital"},
+    {"segment": "Fund partners (supply)", "who": "AMCs, exchanges, Groww AMC itself", "pain": "Need cheap distribution to millions of new retail investors", "why": "Biggest retail funnel; strong SIP flows; own AMC captures fund economics"}
+  ],
+  "portfolio": [
+    {"group": "Broking and trading",
+     "products": [
+       {"name": "Stocks and ETFs", "desc": "Cash-market equity investing and intraday trading"},
+       {"name": "F&O", "desc": "Equity index and stock derivatives; largest revenue line today"},
+       {"name": "Commodities", "desc": "MCX commodity derivatives, a fast-growing new segment"},
+       {"name": "MTF", "desc": "Margin trading facility, interest-earning leveraged delivery buys"},
+       {"name": "915 / Terminal", "desc": "Pro trading tools for active traders"}
+     ],
+     "north_star": "Monthly active traders placing 3+ orders",
+     "key_metrics": "Orders per user, F&O share, MTF book, ARPU, active-client share",
+     "guardrails": "Retail F&O loss rates, outages during peak, complaints per lakh clients"},
+    {"group": "Wealth and asset management",
+     "products": [
+       {"name": "Mutual funds and SIPs", "desc": "Direct plans, zero commission; core acquisition hook"},
+       {"name": "Groww AMC", "desc": "Own mutual fund house (ex-Indiabulls AMC), AUM ~2.4x YoY"},
+       {"name": "Fisdom / Groww Wealth", "desc": "Acquired ~$150M; advisory and PMS for affluent users"},
+       {"name": "Groww Pay / UPI", "desc": "UPI payments to stay in daily habit loop"}
+     ],
+     "north_star": "Customer assets on Groww growing via net inflows",
+     "key_metrics": "SIP book, AUM, affluent users, assets per user, AMC market share",
+     "guardrails": "Redemption rate, mis-selling complaints, AMC/wealth losses before FY28 breakeven"},
+    {"group": "Credit",
+     "products": [
+       {"name": "Personal loans", "desc": "Digital unsecured loans from Groww's NBFC"},
+       {"name": "Loan against securities", "desc": "Borrow against shares and mutual funds without selling"},
+       {"name": "Credit marketplace", "desc": "Partner loans and cards for broader reach"}
+     ],
+     "north_star": "Healthy disbursements to existing investors",
+     "key_metrics": "Disbursements (₹388 cr Q4 FY26), yield, cross-sell rate",
+     "guardrails": "GNPA, delinquency by cohort, collections complaints"}
+  ],
+  "business_model": {
+    "rows": [
+      {"line": "Broking (F&O, stocks, commodities)", "who_uses": "Retail traders and investors", "who_pays": "Traders, per order", "how": "Flat ~₹20 or 0.1% per order; F&O ~55% of Q4 FY26 revenue"},
+      {"line": "Interest income (MTF, float, LAS)", "who_uses": "Leveraged traders, borrowers", "who_pays": "Borrowing users", "how": "Interest on margin book, client float and secured loans; ~22% of revenue"},
+      {"line": "Asset management (Groww AMC)", "who_uses": "Mutual fund investors", "who_pays": "Fund investors via expense ratio", "how": "Total expense ratio on AUM; still loss-making but scaling fast"},
+      {"line": "Wealth (Fisdom)", "who_uses": "Affluent and HNI users", "who_pays": "Clients and product manufacturers", "how": "Advisory fees, PMS/AIF distribution commissions"},
+      {"line": "Consumer credit", "who_uses": "Existing Groww users", "who_pays": "Borrowers", "how": "Net interest margin and processing fees from in-house NBFC"}
+    ],
+    "bullets": [
+      {"label": "Revenue mix", "text": "Q4 FY26: equity derivatives 55%, stocks 16%, float 8%, PL+LAS 7%, MTF 5%, commodities 4%; derivatives share falling."},
+      {"label": "Users vs payers", "text": "Most MF investors pay nothing; a minority of F&O and MTF users generate the bulk of revenue."},
+      {"label": "Unit economics", "text": "Q1 FY27 EBITDA margin ~68%; organic acquisition keeps CAC low; operating leverage drives profit growth."},
+      {"label": "Growth levers", "text": "MTF and commodities, affluent wealth via Fisdom, AMC scale, secured credit; reduce dependence on F&O."},
+      {"label": "Regulation", "text": "SEBI F&O curbs since Nov 2024 cut retail derivative traders ~20% in FY26; Groww hurt less than peers."}
+    ]
+  },
+  "friction": [
+    "App outages during market open hurt trader trust",
+    "Easy F&O access nudges novices into loss-making trades",
+    "Advanced charting weaker than Zerodha Kite for pros",
+    "Customer support slow during disputes and failed orders",
+    "Too many cross-sell prompts clutter a simple app"
+  ],
+  "competitors": [
+    {"label": "Discount brokers", "text": "Zerodha, Angel One, Upstox, Dhan, INDmoney"},
+    {"label": "Bank brokers", "text": "ICICI Direct, HDFC Sky, Kotak Neo, SBI Securities"},
+    {"label": "MF / wealth", "text": "PhonePe Wealth, Paytm Money, ET Money, Kuvera"},
+    {"label": "Credit", "text": "Bajaj Finserv, banks, fintech lenders, LAMF players"},
+    {"label": "Edge", "text": "Top active base, low CAC, fastest net adds, listed currency for M&A"},
+    {"label": "Risk", "text": "Further SEBI curbs, market downturn, rich valuation, credit losses"}
+  ],
+  "news": [
+    {"label": "Sep 2026", "text": "Added ~1.01 lakh NSE active clients, ~63% of industry net adds; 29.2% share"},
+    {"label": "Jul 2026", "text": "Q1 FY27: revenue ₹1,501 cr (+66%), PAT ₹735 cr (+94%), MTF and commodities lead"},
+    {"label": "Nov 2025", "text": "IPO lists at 12-14% premium; market cap briefly tops ₹1 lakh cr"},
+    {"label": "Watch", "text": "Fisdom integration, AMC breakeven, credit quality, F&O share, next SEBI derivatives moves"}
+  ],
+  "sources": "Billionbrains (Groww) results FY26 and Q1 FY27, NSE active-client data Sep 2026, SEBI FY26 F&O study, Inc42/Business Standard. Metrics are PM estimates for interview prep. Prepared Oct 2026."
+}

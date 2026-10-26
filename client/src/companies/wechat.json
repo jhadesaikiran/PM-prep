@@ -1,0 +1,289 @@
+{
+  "slug": "wechat",
+  "name": "WeChat (Weixin)",
+  "tagline": "Tencent's messaging super-app: chat, pay, mini-programs, content, commerce",
+  "facts": [
+    [
+      "Founded",
+      "Jan 2011 by Allen Zhang's team at Tencent"
+    ],
+    [
+      "Owner/Listed",
+      "Tencent Holdings, HKEX: 0700"
+    ],
+    [
+      "Users",
+      "1.439B Weixin+WeChat MAU, Q2 2026 (+2%)"
+    ],
+    [
+      "Tencent revenue",
+      "FY25 RMB751.8B (+14%); profit RMB267B"
+    ],
+    [
+      "Latest quarter",
+      "Q2 2026 RMB204.8B (+11%); ads +22%"
+    ],
+    [
+      "FinTech",
+      "FinTech and Business Services RMB60.3B, Q2 2026 (+9%)"
+    ],
+    [
+      "Mini-programs",
+      "~945M MAU, ~764M DAU, 2025 (est.)"
+    ],
+    [
+      "Leaders",
+      "Pony Ma (Tencent CEO); Allen Zhang (Weixin head)"
+    ]
+  ],
+  "strategy": [
+    {
+      "label": "Mission",
+      "text": "Tencent: Value for users, tech for good. Weixin: connect people to people, services and information."
+    },
+    {
+      "label": "Philosophy",
+      "text": "Allen Zhang's restraint: use and leave, minimal pushy ads, tools serve users; platform over owning every service."
+    },
+    {
+      "label": "Core strategy",
+      "text": "Daily messaging habit plus wallet identity, then open platform: Official Accounts, mini-programs, Channels, Mini Shops."
+    },
+    {
+      "label": "Moat",
+      "text": "Social graph of 1.4B, payments built into chat, 4M+ mini-programs; switching means losing your social life."
+    },
+    {
+      "label": "Key bet",
+      "text": "AI agents (Yuanbao, Xiaowei) that complete tasks across mini-programs; AI ad targeting; Channels commerce."
+    },
+    {
+      "label": "Your view",
+      "text": "Is the super-app a China-specific accident of timing, or can X, Grab or Paytm replicate it?"
+    }
+  ],
+  "customers": [
+    {
+      "segment": "Consumers",
+      "who": "Nearly every smartphone user in China",
+      "pain": "Juggling many apps for chat, payments and daily services",
+      "why": "One trusted app with friends, wallet and services; no new downloads"
+    },
+    {
+      "segment": "Merchants",
+      "who": "SMBs, retailers, restaurants, offline shops",
+      "pain": "Need cheap payments, customer reach and repeat-visit tools",
+      "why": "QR payments, mini-program storefronts, private-domain groups and Official Accounts"
+    },
+    {
+      "segment": "Developers / brands",
+      "who": "Mini-program, mini-game and service builders",
+      "pain": "App-store fees and costly app installs",
+      "why": "Instant distribution via chats, search, QR codes; lightweight build"
+    },
+    {
+      "segment": "Advertisers",
+      "who": "Brands, game studios, e-commerce sellers",
+      "pain": "Need targeted reach and closed-loop conversion",
+      "why": "Moments, Channels, search ads linked to mini-program checkout"
+    },
+    {
+      "segment": "Creators",
+      "who": "Official Account writers and Channels creators",
+      "pain": "Monetising audience beyond Douyin's algorithmic feed",
+      "why": "Social-graph distribution, tipping, live commerce, ad revenue share"
+    }
+  ],
+  "portfolio": [
+    {
+      "group": "Communication and social",
+      "products": [
+        {
+          "name": "Chats and Groups",
+          "desc": "Messaging, voice, video; the daily habit anchor"
+        },
+        {
+          "name": "Moments",
+          "desc": "Friends-only feed; key ad surface"
+        },
+        {
+          "name": "Channels",
+          "desc": "Short video and live-streaming with commerce"
+        },
+        {
+          "name": "Official Accounts",
+          "desc": "Publisher and brand content subscriptions"
+        }
+      ],
+      "north_star": "Daily active users sending messages",
+      "key_metrics": "MAU, time spent, Channels watch time, ad load",
+      "guardrails": "Ad fatigue, spam, censorship and privacy trust"
+    },
+    {
+      "group": "Payments and fintech",
+      "products": [
+        {
+          "name": "Weixin Pay",
+          "desc": "QR, P2P transfers, red packets; foreign cards supported"
+        },
+        {
+          "name": "Licaitong",
+          "desc": "Wealth management products marketplace"
+        },
+        {
+          "name": "WeLoan / credit",
+          "desc": "Consumer loans via WeBank partnership"
+        }
+      ],
+      "north_star": "Monthly payment transactions per active user",
+      "key_metrics": "Commercial payment volume, take rate, wealth AUM, loan balance",
+      "guardrails": "Fraud rate, PBOC compliance, credit losses"
+    },
+    {
+      "group": "Mini-programs and commerce",
+      "products": [
+        {
+          "name": "Mini Programs",
+          "desc": "Lightweight in-app apps for any service, no install"
+        },
+        {
+          "name": "Mini Games",
+          "desc": "Casual games; China mini-games market ~RMB53.5B 2025"
+        },
+        {
+          "name": "Mini Shops",
+          "desc": "Native e-commerce storefronts with gifting and group-buy"
+        },
+        {
+          "name": "Weixin Search",
+          "desc": "Search across chats, articles, services and mini-programs"
+        }
+      ],
+      "north_star": "Weekly services completed via mini-programs",
+      "key_metrics": "Mini-program DAU, GMV, mini-game revenue, developer count",
+      "guardrails": "Developer take-rate disputes, low-quality spam programs"
+    },
+    {
+      "group": "AI",
+      "products": [
+        {
+          "name": "Yuanbao",
+          "desc": "Tencent AI assistant inside Weixin, Hunyuan plus DeepSeek"
+        },
+        {
+          "name": "Xiaowei agent",
+          "desc": "Task agent calling mini-programs; beta from Jun 2026"
+        },
+        {
+          "name": "AI ad engine",
+          "desc": "AI recommendation models raising ad conversion across Moments and Channels"
+        }
+      ],
+      "north_star": "Tasks completed end-to-end by AI agents",
+      "key_metrics": "Agent DAU, task success rate, payments initiated via agent",
+      "guardrails": "Wrong actions, privacy leaks, compute cost per task"
+    }
+  ],
+  "business_model": {
+    "rows": [
+      {
+        "line": "Marketing services",
+        "who_uses": "Users see Moments, Channels, search ads",
+        "who_pays": "Advertisers and merchants",
+        "how": "Performance ads, AI-targeted; RMB43.6B Q2 2026 (+22%)"
+      },
+      {
+        "line": "FinTech (Weixin Pay)",
+        "who_uses": "Consumers and merchants",
+        "who_pays": "Merchants; wealth and loan partners",
+        "how": "~0.6% merchant fee, withdrawal fees, wealth and loan commissions (est.)"
+      },
+      {
+        "line": "Mini-games and VAS",
+        "who_uses": "Gamers, users buying stickers",
+        "who_pays": "Players, developers via revenue share",
+        "how": "In-game purchases, platform fees and ad revenue share"
+      },
+      {
+        "line": "Mini Shops / Channels commerce",
+        "who_uses": "Shoppers and sellers",
+        "who_pays": "Sellers",
+        "how": "Technical service fees on GMV plus ads"
+      }
+    ],
+    "bullets": [
+      {
+        "label": "Revenue mix",
+        "text": "Weixin is not reported alone; it powers Tencent ads, fintech and mini-games across RMB204.8B quarterly revenue."
+      },
+      {
+        "label": "Users vs payers",
+        "text": "Chat is free for 1.4B users; merchants, advertisers and game players fund the ecosystem."
+      },
+      {
+        "label": "Unit economics",
+        "text": "Low ad load versus peers leaves headroom; payments thin-margin but feeds data and ads."
+      },
+      {
+        "label": "Growth levers",
+        "text": "AI ad targeting, Channels and Mini Shops commerce, mini-games, AI agents booking services."
+      },
+      {
+        "label": "Why not abroad",
+        "text": "Outside China, Apple/Google, cards, entrenched apps and antitrust block bundling; WeChat itself stayed China-centric."
+      }
+    ]
+  },
+  "friction": [
+    "Bloated app; services buried under many menus",
+    "Outsiders struggle with China ID and bank linking",
+    "Censorship and surveillance concerns limit global trust",
+    "Mini-program quality inconsistent, many low-value spam programs",
+    "Group chat overload and notification fatigue for users"
+  ],
+  "competitors": [
+    {
+      "label": "China payments",
+      "text": "Alipay (Ant Group), UnionPay QuickPass, Douyin Pay, Meituan Pay"
+    },
+    {
+      "label": "Content / commerce",
+      "text": "Douyin, Kuaishou, Xiaohongshu, Alibaba Taobao, PDD"
+    },
+    {
+      "label": "Global super-apps",
+      "text": "X Money, Grab, Gojek, Paytm, Tata Neu, LINE, Kakao"
+    },
+    {
+      "label": "AI assistants",
+      "text": "Doubao (ByteDance), Qwen (Alibaba), DeepSeek"
+    },
+    {
+      "label": "Edge",
+      "text": "Messaging first: every service rides a daily social habit"
+    },
+    {
+      "label": "Risk",
+      "text": "Regulation, Douyin's attention share, US app bans, AI disruption of app entry"
+    }
+  ],
+  "news": [
+    {
+      "label": "Aug 2026",
+      "text": "Q2: revenue RMB204.8B (+11%), ads +22% from AI targeting; MAU 1.439B"
+    },
+    {
+      "label": "Aug 2026",
+      "text": "Contrast: X Money goes live for all US Premium users; WeChat-style bet"
+    },
+    {
+      "label": "Jun 2026",
+      "text": "Weixin begins testing Xiaowei AI agent that operates mini-programs"
+    },
+    {
+      "label": "Watch",
+      "text": "Agent commerce in Weixin, AI capex returns, whether X Money drives daily use"
+    }
+  ],
+  "sources": "Tencent FY2025 and Q2 2026 results, Tencent IR, 36Kr, industry mini-program estimates, CNBC/KrAsia super-app analysis. Metrics are PM estimates for interview prep. Prepared Oct 2026."
+}

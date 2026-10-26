@@ -1,0 +1,99 @@
+{
+  "slug": "aws",
+  "name": "AWS (Amazon Web Services)",
+  "tagline": "World's largest cloud: compute, storage, databases, custom chips and Bedrock AI",
+  "facts": [
+    ["Founded", "2006 (S3, EC2), Amazon subsidiary"],
+    ["HQ / Listed", "Seattle; part of Amazon (NASDAQ: AMZN)"],
+    ["Latest quarter", "Q2 2026 $42.2B (+37% YoY, 18-qtr high)"],
+    ["Profit", "Q2 2026 op inc $16.6B, ~39% margin"],
+    ["Backlog", "$496B end-Q2 2026 (vs $364B in Q1)"],
+    ["Run-rate / Capex", "~$169B ARR; Amazon 2026 capex ~$220B"],
+    ["Market share", "~28% Q2 2026 (Synergy), down 2 pts YoY"],
+    ["CEO", "Matt Garman (since Jun 2024)"],
+    ["India", "Mumbai + Hyderabad regions; $21B+ pledged 2026-30"]
+  ],
+  "strategy": [
+    {"label": "Mission", "text": "Be Earth's most customer-centric cloud: give builders of every size the broadest, deepest set of on-demand IT primitives."},
+    {"label": "Vision", "text": "Every application and AI agent runs on AWS; Jassy calls it a potential $1 trillion revenue business."},
+    {"label": "Core strategy", "text": "Primitives over solutions: 200+ services, pay-as-you-go, relentless price cuts, then layer Bedrock and agents on top."},
+    {"label": "Moat", "text": "Largest installed base and partner ecosystem, operational reliability record, Graviton and Trainium silicon lowering cost per workload."},
+    {"label": "Key bet", "text": "Trainium plus model choice: Anthropic up to 5 GW, OpenAI ~2 GW from 2027; OpenAI models on Bedrock since Apr 2026."},
+    {"label": "Your view", "text": "AWS grew 37% but lost share to Google: is being model-neutral a moat, or proof it lacks a frontier model?"}
+  ],
+  "customers": [
+    {"segment": "Enterprises", "who": "Banks, retailers, telcos migrating from data centres", "pain": "Legacy data centres slow, costly; need security, compliance, global reach", "why": "Broadest services, mature security certifications, migration programs and largest SI partner network"},
+    {"segment": "Startups / digital natives", "who": "SaaS, consumer apps, Indian unicorns", "pain": "Need to scale fast without upfront hardware capex", "why": "Credits via Activate, pay-as-you-go, default choice of most engineers"},
+    {"segment": "AI labs and builders", "who": "Anthropic, OpenAI, model and agent startups", "pain": "GPU scarcity and soaring training and inference cost", "why": "Trainium price-performance, gigawatt-scale capacity, Bedrock distribution to enterprise buyers"},
+    {"segment": "Public sector", "who": "Governments, defence, regulated Indian PSUs", "pain": "Data sovereignty, classified workloads, strict residency rules", "why": "GovCloud, sovereign cloud offerings, local regions in India and EU"},
+    {"segment": "Partners / ISVs", "who": "SIs, Marketplace sellers, MSPs", "pain": "Need a channel to reach cloud budgets", "why": "AWS Marketplace lets customers burn committed spend on partner software"}
+  ],
+  "portfolio": [
+    {"group": "Core infrastructure",
+     "products": [
+       {"name": "EC2", "desc": "Virtual servers incl. Graviton CPUs and Nvidia GPU instances"},
+       {"name": "S3", "desc": "Object storage, backbone of data lakes"},
+       {"name": "Lambda / EKS", "desc": "Serverless functions and managed Kubernetes"},
+       {"name": "RDS / Aurora / DynamoDB", "desc": "Managed relational and NoSQL databases"}
+     ],
+     "north_star": "Compute hours consumed by active production workloads",
+     "key_metrics": "Revenue growth, backlog, net revenue retention, utilisation, cost per instance-hour",
+     "guardrails": "Availability SLAs, major outage count, security incidents, customer bill shock"},
+    {"group": "AI and silicon",
+     "products": [
+       {"name": "Amazon Bedrock", "desc": "Managed access to Claude, GPT, Nova, Llama and more"},
+       {"name": "Trainium / Inferentia", "desc": "Custom AI chips; Trainium sold out through 2027"},
+       {"name": "SageMaker", "desc": "Build, train and deploy ML models"},
+       {"name": "Bedrock AgentCore", "desc": "Runtime, memory and identity for production AI agents"}
+     ],
+     "north_star": "Inference tokens served on AWS for paying production workloads",
+     "key_metrics": "AI run-rate (~$25B), Trainium share of capacity, Bedrock active customers",
+     "guardrails": "Model latency, capacity wait times, gross margin per GW deployed"},
+    {"group": "Apps and developer tools",
+     "products": [
+       {"name": "Amazon Quick", "desc": "AI assistant for work with desktop app and agents"},
+       {"name": "Kiro", "desc": "Agentic IDE for spec-driven coding"},
+       {"name": "Amazon Connect", "desc": "AI contact centre, now hiring and supply-chain agents"},
+       {"name": "AWS Marketplace", "desc": "Buy third-party software against AWS commits"}
+     ],
+     "north_star": "Weekly active business users completing tasks with AWS apps",
+     "key_metrics": "Seats, WAU, Connect minutes, Marketplace GMV, attach to infra",
+     "guardrails": "Partner conflict, data privacy complaints, churn after free trials"}
+  ],
+  "business_model": {
+    "rows": [
+      {"line": "Usage-based compute and storage", "who_uses": "Developers, IT teams, data engineers", "who_pays": "Enterprise and startup cloud budgets", "how": "Per second, per GB; discounts via Savings Plans and reserved instances"},
+      {"line": "Committed spend contracts", "who_uses": "Large enterprises and AI labs", "who_pays": "CIOs, AI labs (multi-year)", "how": "Multi-year commits for discounts; builds $496B backlog"},
+      {"line": "AI services (Bedrock, chips)", "who_uses": "App builders, agent developers", "who_pays": "Enterprises, model labs", "how": "Per token, per accelerator hour, or provisioned throughput"},
+      {"line": "Marketplace and support", "who_uses": "Customers buying partner software", "who_pays": "ISVs (fee) and customers (support tiers)", "how": "Listing fee share; support priced as percentage of spend"}
+    ],
+    "bullets": [
+      {"label": "Revenue mix", "text": "~17-18% of Amazon revenue but well over half of operating income; AI run-rate ~$25B within $169B ARR."},
+      {"label": "Users vs payers", "text": "Engineers choose services; CIOs and CFOs sign commits; AI labs are now a few huge payers."},
+      {"label": "Unit economics", "text": "Op margin ~39% Q2 2026; depreciation from $220B capex and memory price spikes pressure future margins."},
+      {"label": "Growth levers", "text": "Convert $496B backlog as capacity lands, Trainium cost advantage, OpenAI on Bedrock, agents, sovereign regions."},
+      {"label": "Constraint", "text": "Power and chip supply, not demand, caps growth; capacity added faster is revenue recognised sooner."}
+    ]
+  },
+  "friction": [
+    "Complex, unpredictable bills; hard to forecast spend",
+    "200+ services with overlapping names confuse newcomers",
+    "Console UX dated versus newer developer platforms",
+    "GPU and Trainium capacity waitlists for AI workloads",
+    "High egress fees discourage multicloud architectures"
+  ],
+  "competitors": [
+    {"label": "Hyperscale", "text": "Microsoft Azure (~20%), Google Cloud (~15%), Oracle OCI"},
+    {"label": "AI infra", "text": "CoreWeave, Nebius, Oracle for GPU capacity"},
+    {"label": "India", "text": "Azure, Google Cloud, Jio-led cloud, Yotta, CtrlS sovereign clouds"},
+    {"label": "Edge", "text": "Scale, reliability, custom silicon economics, and widest model choice"},
+    {"label": "Risk", "text": "Share loss to rivals with own frontier models; concentration in Anthropic"}
+  ],
+  "news": [
+    {"label": "Sep 2026", "text": "OpenAI GPT-6 Astra GA on Bedrock; Amazon Quick desktop app launched"},
+    {"label": "Jul 2026", "text": "Q2: $42.2B, +37%; backlog $496B; Amazon capex raised to ~$220B"},
+    {"label": "Apr 2026", "text": "Azure exclusivity ends; OpenAI models, Codex arrive on Amazon Bedrock"},
+    {"label": "Watch", "text": "Can capacity build keep pace? Trainium sales outside AWS; share versus Google"}
+  ],
+  "sources": "Amazon Q1-Q2 2026 results, Synergy Research Q2 2026, AWS announcements, press coverage. North star/metrics are PM judgement for interview prep. Prepared Oct 2026."
+}

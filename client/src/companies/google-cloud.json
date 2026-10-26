@@ -1,0 +1,98 @@
+{
+  "slug": "google-cloud",
+  "name": "Google Cloud",
+  "tagline": "Alphabet's cloud: AI-first infrastructure, TPUs, Gemini, data analytics and Workspace",
+  "facts": [
+    ["Founded", "2008 (App Engine); GCP brand 2011"],
+    ["HQ / Listed", "Sunnyvale; Alphabet segment (NASDAQ: GOOGL)"],
+    ["Latest quarter", "Q2 2026 $24.8B (+82% YoY)"],
+    ["Profit", "Q2 2026 op inc $8.8B, ~35.6% margin"],
+    ["Backlog", "$514B end-Q2 2026 (>$460B in Q1)"],
+    ["Capex", "Alphabet 2026 guide $195-205B (raised Jul)"],
+    ["Market share", "~15% Q2 2026 (Synergy), up 2 pts YoY"],
+    ["CEO", "Thomas Kurian (since Jan 2019)"],
+    ["India", "Mumbai, Delhi regions; $15B Vizag 1 GW AI hub"]
+  ],
+  "strategy": [
+    {"label": "Mission", "text": "Accelerate every organisation's ability to digitally transform and reimagine its business through data and AI."},
+    {"label": "Vision", "text": "The full-stack AI cloud: own chips, models, data platform, security and agent apps, sold as one."},
+    {"label": "Core strategy", "text": "Lead with Gemini and TPUs to win AI workloads, then pull in BigQuery, security and Workspace."},
+    {"label": "Moat", "text": "Only hyperscaler with in-house frontier model plus decade of TPUs; DeepMind research and Google-scale infrastructure."},
+    {"label": "Key bet", "text": "Selling TPUs beyond Google Cloud (Blackstone JV), Wiz multicloud security, Gemini Enterprise agents."},
+    {"label": "Your view", "text": "Backlog is ~5 years of revenue: is Google Cloud now a TPU wholesaler with lab concentration risk?"}
+  ],
+  "customers": [
+    {"segment": "AI labs and model builders", "who": "Anthropic, frontier labs, AI startups", "pain": "Nvidia GPU scarcity and inference cost at scale", "why": "TPU price-performance, gigawatt capacity, Gemini and Vertex tooling"},
+    {"segment": "Data-led enterprises", "who": "Retail, media, banks running analytics", "pain": "Siloed data, slow analytics, hard to apply AI", "why": "BigQuery plus Gemini on unified data; Agentic Data Cloud"},
+    {"segment": "Digital natives", "who": "Consumer internet, gaming, Indian startups", "pain": "Need scalable Kubernetes and low-cost AI APIs", "why": "GKE heritage, generous credits, Gemini API pricing"},
+    {"segment": "Security buyers", "who": "CISOs on multicloud estates", "pain": "Fragmented visibility across AWS, Azure, GCP risks", "why": "Wiz plus Mandiant plus Security Operations across clouds"},
+    {"segment": "Workspace users", "who": "SMBs, schools, frontline enterprises", "pain": "Want affordable productivity with built-in AI", "why": "Gmail, Docs, Meet bundled with Gemini at lower price than Microsoft"}
+  ],
+  "portfolio": [
+    {"group": "AI infrastructure",
+     "products": [
+       {"name": "TPUs (Ironwood)", "desc": "Seventh-gen custom AI accelerators, now sold to select external customers"},
+       {"name": "Compute Engine / GKE", "desc": "VMs with Nvidia GPUs and managed Kubernetes"},
+       {"name": "Cloud Storage / Spanner", "desc": "Object storage and globally distributed database"}
+     ],
+     "north_star": "Accelerator hours sold under paying multi-year contracts",
+     "key_metrics": "Backlog conversion, TPU utilisation, capacity online (GW), revenue per chip",
+     "guardrails": "Outage minutes, single-customer revenue concentration, delivery delays"},
+    {"group": "AI platform and agents",
+     "products": [
+       {"name": "Gemini Enterprise", "desc": "Agent platform and AI workspace for every employee"},
+       {"name": "Vertex AI", "desc": "Model garden, tuning and deployment incl. Gemini, Claude"},
+       {"name": "Gemini API", "desc": "Developer access to Gemini models by token"},
+       {"name": "Customer Engagement Suite", "desc": "AI agents for contact centres"}
+     ],
+     "north_star": "Enterprise agents running weekly in production on Gemini",
+     "key_metrics": "Tokens processed, paid seats, agent deployments, API revenue growth",
+     "guardrails": "Hallucination incidents, data leakage, cost per token versus price"},
+    {"group": "Data, security, productivity",
+     "products": [
+       {"name": "BigQuery", "desc": "Serverless data warehouse with built-in AI"},
+       {"name": "Wiz", "desc": "Multicloud security, acquired for $32B (closed Mar 2026)"},
+       {"name": "Mandiant / SecOps", "desc": "Threat intelligence, incident response and SIEM"},
+       {"name": "Google Workspace", "desc": "Gmail, Docs, Meet with Gemini built in"}
+     ],
+     "north_star": "Customers using three or more Google Cloud product families",
+     "key_metrics": "Cross-sell rate, Wiz ARR growth, Workspace paid seats, NRR",
+     "guardrails": "Wiz neutrality perception on AWS/Azure, seat churn, price-hike backlash"}
+  ],
+  "business_model": {
+    "rows": [
+      {"line": "Infrastructure (GCP)", "who_uses": "Developers, AI labs, IT teams", "who_pays": "Enterprises, startups, labs", "how": "Usage-based compute, storage; multi-year committed contracts"},
+      {"line": "TPU capacity deals", "who_uses": "Frontier labs, Blackstone JV customers", "who_pays": "AI labs, neoclouds", "how": "Multi-GW reserved capacity; external chip sales ramping through 2026"},
+      {"line": "AI platform", "who_uses": "App and agent builders", "who_pays": "Enterprises, ISVs", "how": "Per token, per agent, per seat for Gemini Enterprise"},
+      {"line": "Workspace and security", "who_uses": "Employees, security teams", "who_pays": "IT and CISO budgets", "how": "Per-user subscriptions; Wiz priced by workloads protected"}
+    ],
+    "bullets": [
+      {"label": "Revenue mix", "text": "~$99B annualised; GCP infra and AI now the bulk; Workspace a steady, slower-growing base."},
+      {"label": "Users vs payers", "text": "Developers and data teams adopt; CIOs sign; a few AI labs drive outsized backlog."},
+      {"label": "Unit economics", "text": "Margin up from 20.7% to 35.6% in a year; TPUs avoid Nvidia margin, but depreciation is rising."},
+      {"label": "Growth levers", "text": "Convert $514B backlog, external TPU sales, Gemini Enterprise seats, Wiz cross-sell, new regions."},
+      {"label": "History", "text": "Lost money until 2023; AI turned Google Cloud from distant third into fastest-growing hyperscaler."}
+    ]
+  },
+  "friction": [
+    "Smaller enterprise sales and partner network than rivals",
+    "Reputation for killing products hurts enterprise trust",
+    "Capacity constraints delay large AI deployments",
+    "Fewer regions and services than AWS in some markets",
+    "TPU software stack less familiar than Nvidia CUDA"
+  ],
+  "competitors": [
+    {"label": "Hyperscale", "text": "AWS (~28%), Microsoft Azure (~20%), Oracle OCI"},
+    {"label": "AI chips", "text": "Nvidia, AWS Trainium, Microsoft Maia, AMD"},
+    {"label": "Productivity", "text": "Microsoft 365 Copilot dominates enterprise suites"},
+    {"label": "Edge", "text": "Only full stack: own model, own chips, data platform, security"},
+    {"label": "Risk", "text": "Backlog concentrated in few labs; capex drag if AI demand cools"}
+  ],
+  "news": [
+    {"label": "Jul 2026", "text": "Q2: $24.8B, +82%; backlog $514B; Alphabet capex raised to $195-205B"},
+    {"label": "Apr 2026", "text": "Next 2026: new TPUs, Gemini Enterprise Agent Platform; Vizag AI hub groundbreaking"},
+    {"label": "Mar 2026", "text": "Closes $32B Wiz acquisition, largest in Google history"},
+    {"label": "Watch", "text": "External TPU sales ramp, margin as depreciation grows, share gains versus Azure"}
+  ],
+  "sources": "Alphabet Q1-Q2 2026 results, Synergy Research Q2 2026, Google Cloud Next 2026, press coverage. North star/metrics are PM judgement for interview prep. Prepared Oct 2026."
+}

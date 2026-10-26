@@ -1,0 +1,95 @@
+{
+  "slug": "x-twitter",
+  "name": "X (formerly Twitter)",
+  "tagline": "Real-time public conversation app, now part of SpaceX's xAI unit",
+  "facts": [
+    ["Founded", "2006 as Twitter; renamed X in Jul 2023"],
+    ["Ownership", "Musk bought 2022 ($44B); merged into xAI Mar 2025"],
+    ["Parent now", "SpaceX acquired xAI Feb 2026; SPCX listed Jun 2026"],
+    ["Leader", "Musk; no CEO since Yaccarino quit Jul 2025"],
+    ["Product head", "Nikita Bier"],
+    ["Users", "~550M MAU incl. Grok (Mar 2026 claim)"],
+    ["Revenue", "X ads + subs ~$3.3B 2025 (Sacra est.)"],
+    ["Ads", "Q2'26 ads ~$367M vs $1.08B Q2'22 (est.)"]
+  ],
+  "strategy": [
+    {"label": "Mission", "text": "Be the global town square and, per Musk, the 'everything app' for content, payments and AI."},
+    {"label": "Vision", "text": "Super-app combining posts, video, Grok AI, X Money payments and trading via Smart Cashtags."},
+    {"label": "Core strategy", "text": "Less dependence on brand ads; subscriptions (Premium), creator payouts, data and distribution for Grok."},
+    {"label": "AI flywheel", "text": "X posts train and ground Grok; Grok lives inside X, driving engagement and Premium upsell."},
+    {"label": "Lesson", "text": "Mass layoffs and moderation cuts kept product alive but brand-safety exodus halved ad revenue."},
+    {"label": "Your view", "text": "Is X now a data asset for xAI rather than a standalone social product, and does that matter?"}
+  ],
+  "customers": [
+    {"segment": "News and power users", "who": "Journalists, politicians, investors, sports fans", "pain": "Need real-time information and direct audience reach", "why": "Fastest breaking news, open graph, Community Notes"},
+    {"segment": "Creators", "who": "Commentators, tech and crypto influencers", "pain": "Want monetisation and long-form reach", "why": "Revenue sharing for Premium creators, subscriptions, long posts and video"},
+    {"segment": "Premium subscribers", "who": "Heavy users wanting verification and Grok", "pain": "Want reach boost, fewer ads, AI tools", "why": "Checkmark, reply prioritisation, Grok access, edit and longer posts"},
+    {"segment": "Advertisers", "who": "Performance advertisers, some returning brands", "pain": "Brand safety concerns and weaker measurement", "why": "Cheap CPMs, unique live-event audience, Grok-powered ad tools"}
+  ],
+  "portfolio": [
+    {"group": "Social core",
+     "products": [
+       {"name": "Timeline (For You / Following)", "desc": "Algorithmic and chronological post feeds"},
+       {"name": "Community Notes", "desc": "Crowd-sourced fact-check context on posts"},
+       {"name": "Communities and Spaces", "desc": "Topic groups and live audio rooms"},
+       {"name": "Video and XChat", "desc": "Video tab, encrypted DMs and calls"}
+     ],
+     "north_star": "Daily users engaging with real-time conversations",
+     "key_metrics": "mDAU, posts and replies per user, time spent, retention",
+     "guardrails": "Hate and spam prevalence, bot share, advertiser brand-safety incidents"},
+    {"group": "Subscriptions and AI",
+     "products": [
+       {"name": "X Premium / Premium+", "desc": "Paid tiers: verification, fewer ads, Grok access"},
+       {"name": "Grok in X", "desc": "xAI chatbot embedded; ~117M Grok users"},
+       {"name": "Creator subscriptions", "desc": "Fans pay creators monthly for exclusive posts"}
+     ],
+     "north_star": "Paying subscribers retained month over month",
+     "key_metrics": "Subs count, churn, Grok queries per user, ARPPU",
+     "guardrails": "Pay-to-win reply spam, Grok misinformation incidents"},
+    {"group": "Payments and ads",
+     "products": [
+       {"name": "X Money", "desc": "P2P payments, Visa debit card; beta from Jun 2026"},
+       {"name": "Smart Cashtags", "desc": "Live prices and trading of stocks and crypto"},
+       {"name": "X Ads", "desc": "Promoted posts, video ads, Grok-assisted targeting"}
+     ],
+     "north_star": "Monthly users completing a transaction on X",
+     "key_metrics": "Payment volume, active wallets, ad revenue, CPM",
+     "guardrails": "Fraud rate, regulatory licences, chargebacks"}
+  ],
+  "business_model": {
+    "rows": [
+      {"line": "Advertising", "who_uses": "All free users", "who_pays": "Advertisers, mainly performance and SMB", "how": "Promoted posts and video ads, auction CPM"},
+      {"line": "Subscriptions", "who_uses": "Premium and Premium+ users", "who_pays": "Users, monthly or annual", "how": "Tiered fees via app stores and web"},
+      {"line": "Data licensing / API", "who_uses": "Developers, researchers, AI firms", "who_pays": "Enterprises; xAI internally", "how": "Paid API tiers; data feeds Grok training"},
+      {"line": "X Money (emerging)", "who_uses": "US users sending and spending money", "who_pays": "Merchants and card network fees", "how": "Interchange, transaction fees, cashback-led adoption"}
+    ],
+    "bullets": [
+      {"label": "Revenue mix", "text": "2025 est. ~$3.3B from ads and subs (Sacra); ads now well below $4.5B 2021 peak."},
+      {"label": "Users vs payers", "text": "~550M claimed MAU; small paying Premium base; advertisers concentrated in performance budgets."},
+      {"label": "Unit economics", "text": "~80% headcount cut lowered costs; but xAI lost $6.4B on $3.2B revenue in 2025."},
+      {"label": "Growth levers", "text": "Grok bundling, X Money, Smart Cashtag trading, video, winning back brand advertisers."}
+    ]
+  },
+  "friction": [
+    "Bots, spam and reply-guy Premium accounts in replies",
+    "Brand-safety concerns keep major advertisers away",
+    "Paid verification makes checkmarks less trustworthy",
+    "Frequent rule and feature changes confuse users",
+    "Perceived political bias pushes users to Threads, Bluesky"
+  ],
+  "competitors": [
+    {"label": "Text social", "text": "Threads (500M+ MAU), Bluesky, Mastodon, LinkedIn"},
+    {"label": "Video / news", "text": "YouTube, TikTok, Reddit, Substack"},
+    {"label": "AI assistants", "text": "ChatGPT, Gemini, Meta AI vs Grok"},
+    {"label": "Payments", "text": "Venmo, Cash App, PayPal, Robinhood for trading"},
+    {"label": "Edge", "text": "Unmatched real-time news graph plus Musk reach plus xAI compute"},
+    {"label": "Risk", "text": "Ad decline, EU DSA fines, Grok content controversies, key-person risk"}
+  ],
+  "news": [
+    {"label": "Jun 2026", "text": "SpaceX lists on Nasdaq (SPCX), bundling xAI, Grok and X"},
+    {"label": "Jun 2026", "text": "X Money expands to more US Premium users"},
+    {"label": "Feb 2026", "text": "SpaceX acquires xAI (incl. X) at ~$1.25T combined value"},
+    {"label": "Watch", "text": "X Money scale, ad revenue trend, X disclosure inside SpaceX filings"}
+  ],
+  "sources": "SpaceX/xAI merger coverage, Sacra estimates, SpaceX IPO filings coverage, Bloomberg and press reports. X metrics are company claims or third-party estimates. Prepared Oct 2026."
+}
